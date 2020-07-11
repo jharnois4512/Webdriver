@@ -8,6 +8,7 @@ The purpose of this project is to be able to set up an enviornment to allow for 
 ## To run:
 
 ```
+npm i
 npm start
 ```
 
