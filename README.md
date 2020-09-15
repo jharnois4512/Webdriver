@@ -25,3 +25,7 @@ Next, navigate over to the ```Options``` tab. Here you will find the Edit the ``
 Lastly, make sure that you check the ```running``` box to start the proxy.
 
 When you are done with these steps, navigate to the ```HTTP history``` tab and run the program. 
+
+## Version Usages
+
+To be able to run the Chrome driver, you must use Chrome version 85. 

@@ -1,10 +1,35 @@
 const webdriver = require('selenium-webdriver')
+const chrome = require('selenium-webdriver/chrome')
+const fire = require('selenium-webdriver/firefox')
 const proxy = require('selenium-webdriver/proxy')
-const again = require('chromedriver');
-const proxyAddr = "0.0.0.0:8080"
+const proxyAddr = "127.0.0.1:8888"
+
+/* used for encoding crx files for Chrome extensions */
+function encode(file) {
+  var stream = require('fs').readFileSync(file);
+  return new Buffer.from(stream).toString('base64');
+}
 
 async function webDrive() {
-  var driver = new webdriver.Builder().withCapabilities(webdriver.Capabilities.chrome()).setProxy(proxy.manual({https: proxyAddr})).build()
+  /* Chrome driver */
+  // var opts = new chrome.Options()
+  // opts.addExtensions(encode("adblock.crx"), encode("ublock.crx"))
+  // var driver = new webdriver.Builder()
+  //             .withCapabilities(webdriver.Capabilities.chrome())
+  //             .setChromeOptions(opts)
+  //             .setProxy(proxy.manual({https: proxyAddr}))
+  //             .build()
+
+  /* Firefox driver */
+  var fireCap = new webdriver.Capabilities()
+  fireCap.setAcceptInsecureCerts(true)
+  var driver = new webdriver.Builder()
+              .withCapabilities(fireCap)
+              .forBrowser("firefox")
+              // .setFirefoxOptions(fireOpts)
+              .build()
+   
+  /* sites to start driving along with cookies */
   await driver.get('https://www.google.com');
   driver.manage().getCookies().then(function (cookies) {
     console.log("############GOOGLE COOKIES############");
@@ -20,8 +45,8 @@ async function webDrive() {
     console.log("############YAHOO COOKIES############");
     console.log(cookies);
   });
-  (await driver).close
-  (await driver).quit
+  // (await driver).close
+  // (await driver).quit
 }
 
 webDrive()
