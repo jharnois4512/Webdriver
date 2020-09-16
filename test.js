@@ -22,12 +22,23 @@ async function webDrive() {
 
   /* Firefox driver */
   var fireCap = new webdriver.Capabilities()
+  var fireOpts = new fire.Options()
+  fireOpts.addExtensions("adblock.xpi")
   fireCap.setAcceptInsecureCerts(true)
   var driver = new webdriver.Builder()
               .withCapabilities(fireCap)
+              .setFirefoxOptions(fireOpts)
               .forBrowser("firefox")
+              .setProxy(proxy.manual({https: proxyAddr}))
               // .setFirefoxOptions(fireOpts)
               .build()
+
+  /* Internet Explorer driver */
+  // var driver = new webdriver.Builder()
+  //             .forBrowser("internet explorer")
+  //             .build()
+
+  /* Opera Driver */
    
   /* sites to start driving along with cookies */
   await driver.get('https://www.google.com');
