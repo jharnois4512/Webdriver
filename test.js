@@ -18,17 +18,19 @@ function readIn(file){
 async function webDrive() {
   /* Chrome driver */
   try{
-    var opts = new chrome.Options()
-    opts.addExtensions(encode("adblock.crx"), encode("ublock.crx"), encode("privBadger.crx"), encode("ghostery.crx"))
-    var driver = new webdriver.Builder()
-                .withCapabilities(webdriver.Capabilities.chrome())
-                // .setChromeOptions(opts)
-                .setProxy(proxy.manual({https: proxyAddr}))
-                .build()
+    // var opts = new chrome.Options()
+    // opts.addExtensions(encode("adblock.crx"), encode("ublock.crx"), encode("privBadger.crx"), encode("ghostery.crx"), encode("adblockPlus.crx"), encode("disconnect.crx"), encode("duckduckgoEss.crx"))
+    // var driver = new webdriver.Builder()
+    //             .withCapabilities(webdriver.Capabilities.chrome())
+    //             .setChromeOptions(opts)
+    //             .setProxy(proxy.manual({https: proxyAddr}))
+    //             .build();
+    // driver.findElement({css:"body"}).sendKeys('{CTRL}t')
+    // await driver.sendKeys('{CTRL} + t')
     /* Firefox driver */
     // var fireCap = new webdriver.Capabilities()
     // var fireOpts = new fire.Options()
-    // fireOpts.addExtensions("adblock.xpi", "ublock.xpi", "privBadger.xpi", "ghostery.xpi")
+    // fireOpts.addExtensions("adblock.xpi", "ublock.xpi", "privBadger.xpi", "ghostery.xpi", "adblockPlus.xpi", "duckduckgoEss.xpi")
     // fireCap.setAcceptInsecureCerts(true)
     // var driver = new webdriver.Builder()
     //             .withCapabilities(fireCap)
@@ -39,17 +41,19 @@ async function webDrive() {
     //             .build()
 
     /* Internet Explorer driver */
-    // var driver = new webdriver.Builder()
-    //             .forBrowser("internet explorer")
-    //             .build()
+    var driver = new webdriver.Builder()
+                .forBrowser("MicrosoftEdge")
+                .setProxy(proxy.manual({https: proxyAddr}))
+                .build()
 
+    ;(await driver).get("https://www.google.com")
     /* Opera Driver */
     
     /* sites to start */
-    var sites = readIn("topSites.txt")
-    for(var i = 0; i < sites.length; i++){
-      await driver.get(sites[i])
-    }
+    // var sites = readIn("topSites.txt")
+    // for(var i = 0; i < sites.length; i++){
+    //   await driver.get(sites[i])
+    // }
   }
   catch(e){
     console.log(e)
