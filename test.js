@@ -1,6 +1,7 @@
 const webdriver = require('selenium-webdriver')
 const chrome = require('selenium-webdriver/chrome')
 const fire = require('selenium-webdriver/firefox')
+const edge = require('selenium-webdriver/edge')
 const proxy = require('selenium-webdriver/proxy')
 const proxyAddr = "127.0.0.1:8888"
 const fs = require('fs')
@@ -40,9 +41,12 @@ async function webDrive() {
     //             // .setFirefoxOptions(fireOpts)
     //             .build()
 
-    /* Internet Explorer driver */
+    /* Edge driver */
+    var edgeOptions = new edge.Options()
+    edgeOptions.addExtensions(encode("adblock.crx"), encode("ublock.crx"), encode("privBadger.crx"), encode("ghostery.crx"), encode("adblockPlus.crx"), encode("disconnect.crx"), encode("duckduckgoEss.crx"))
     var driver = new webdriver.Builder()
                 .forBrowser("MicrosoftEdge")
+                .setEdgeOptions(edgeOptions)
                 .setProxy(proxy.manual({https: proxyAddr}))
                 .build()
 
