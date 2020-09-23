@@ -1,0 +1,278 @@
+1600863872652	geckodriver	INFO	Listening on 127.0.0.1:56274
+1600863875872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileSKVRfj"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600863894486	Marionette	INFO	Listening on port 56287
+1600863895942	Marionette	INFO	Stopped listening on port 56287
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600864019743	geckodriver	INFO	Listening on 127.0.0.1:56632
+1600864022754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileDnbaIU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600864030990	Marionette	INFO	Listening on port 56640
+1600864031137	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600864035357	Marionette	INFO	Stopped listening on port 56640
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600866397217	geckodriver	INFO	Listening on 127.0.0.1:62039
+1600866400266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilemcPtq5"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600866409772	Marionette	INFO	Listening on port 62050
+1600866410192	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600866413489	Marionette	INFO	Stopped listening on port 62050
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600866519203	geckodriver	INFO	Listening on 127.0.0.1:62175
+1600866522251	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileA9vwKj"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600866530949	Marionette	INFO	Listening on port 62184
+1600866531179	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10196, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 10196, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1600866535014	Marionette	INFO	Stopped listening on port 62184
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600866613110	geckodriver	INFO	Listening on 127.0.0.1:62467
+1600866616140	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileu5EIcm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600866625192	Marionette	INFO	Listening on port 62481
+1600866625569	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600866629233	Marionette	INFO	Stopped listening on port 62481
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600866745101	geckodriver	INFO	Listening on 127.0.0.1:62623
+1600866748136	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilexizw5g"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600866756864	Marionette	INFO	Listening on port 62631
+1600866757059	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://8d62625e-c017-4cb5-97b3-a37a9fc8105e/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+1600866759430	Marionette	INFO	Stopped listening on port 62631
+JavaScript error: resource:///modules/UrlbarProviderSearchTips.jsm, line 382: TypeError: window is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600868148065	geckodriver	INFO	Listening on 127.0.0.1:61228
+1600868151077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilenVbAS7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600868164901	Marionette	INFO	Listening on port 61236
+[Parent 16984, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1600868320657	Marionette	INFO	Stopped listening on port 61236
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600868193831	Marionette	INFO	Listening on port 61345
+1600868194130	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://17e406b0-0336-45d8-935a-ad850cc0e90b/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 568: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+JavaScript warning: moz-extension://17e406b0-0336-45d8-935a-ad850cc0e90b/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:287:19
+handleRequest@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:287:19
+handleRequest@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:287:19
+handleRequest@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:287:19
+handleRequest@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:287:19
+handleRequest@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:287:19
+handleRequest@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:287:19
+handleRequest@moz-extension://01220275-28a0-4f0c-bdab-d0b8f2e5b792/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+JavaScript warning: https://duckduckgo.com/d2850.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2850.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2850.js, line 1: unreachable code after return statement
+JavaScript error: moz-extension://1563b950-484e-4920-b65e-06a4efa88e24/dist/content_script_bundle.js, line 110: TypeError: t.app is undefined
+JavaScript error: moz-extension://1563b950-484e-4920-b65e-06a4efa88e24/dist/content_script_bundle.js, line 110: TypeError: t.app is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 568: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: https://www.amazon.com/, line 2978: NS_ERROR_NOT_INITIALIZED: 
+1600868218946	Marionette	INFO	Stopped listening on port 61345
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600868249455	geckodriver	INFO	Listening on 127.0.0.1:61961
+1600868252471	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileftwVLR"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600868260102	Marionette	INFO	Listening on port 61970
+1600868260292	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://4af7792c-91b2-451c-968f-0f07e8bcf9ec/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+1600868261029	Marionette	INFO	Stopped listening on port 61970
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+[Parent 4740, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600868275206	geckodriver	INFO	Listening on 127.0.0.1:62042
+1600868278233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileTvqJXy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600868287050	Marionette	INFO	Listening on port 62054
+1600868287160	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://7cbeab27-1134-4143-b6d4-b82e413845ce/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 568: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94076/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94076/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94076/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94076/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript error: https://www.zoom.us/ line 3199 > injectedScript, line 1: TypeError: document.querySelectorAll(...)[0] is undefined
+1600868306981	Marionette	INFO	Stopped listening on port 62054
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
