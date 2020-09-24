@@ -276,3 +276,20 @@ JavaScript error: https://www.zoom.us/ line 3199 > injectedScript, line 1: TypeE
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1600905852398	geckodriver	INFO	Listening on 127.0.0.1:59831
+1600905856083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileUjg5Cv"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600905872975	Marionette	INFO	Listening on port 59839
+1600905873464	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://eb0f8f12-b578-4583-9725-7e3b4c60ce86/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+1600905874623	Marionette	INFO	Stopped listening on port 59839
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
