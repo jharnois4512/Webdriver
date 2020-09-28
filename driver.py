@@ -27,10 +27,10 @@ def openTopSites():
 
 # main driving function
 def __main__(input):
-    from selenium.webdriver.chrome.options import Options
     print("Starting process: " + str(os.getpid()))
     sites = openTopSites()
     if("c" in input):
+        from selenium.webdriver.chrome.options import Options
         opts = Options()
         if(1 in input):
             opts.add_extension("adblock.crx")
@@ -137,7 +137,34 @@ def __main__(input):
         driver.get("https://www.cnn.com")
         # for site in sites:
         #     driver.get(site)
-
-__main__(["o"])
+    elif("b" in input):
+        from selenium.webdriver.chrome.options import Options
+        braveOpts = Options()
+        bravePath = 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\Brave.exe'
+        braveOpts.binary_location = bravePath
+        driverPath = 'chromedriver.exe'
+        if(1 in input):
+            braveOpts.add_extension("adblock.crx")
+        if(2 in input):
+            braveOpts.add_extension("adblockPlus.crx")
+        if(3 in input):
+            braveOpts.add_extension("disconnect.crx")
+        if(4 in input):
+            braveOpts.add_extension("duckduckgoEss.crx")
+        if(5 in input):
+            braveOpts.add_extension("ghostery.crx")
+        if(6 in input):
+            braveOpts.add_extension("privBadger.crx")
+        if(7 in input):
+            braveOpts.add_extension("ublock.crx") 
+        driver = webdriver.Chrome(options=braveOpts, executable_path=driverPath)
+        p = psutil.Process(driver.service.process.pid)
+        print(p.children(recursive=True)[3])
+        driver.get("https://www.yahoo.com") 
+        driver.get("https://www.cnn.com")
+        # for site in sites:
+        #     driver.get(site
+# TODO get the rest of the extensions 
+__main__(["b", 4, 5])
 # __main__(["e", 1])
 # __main__(["f", 3,4])
