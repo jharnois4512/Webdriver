@@ -293,3 +293,2461 @@ JavaScript error: undefined, line 0: Error: frame.state is undefined
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1600966108868	geckodriver	INFO	Listening on 127.0.0.1:53438
+1600966111961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile8X3PDx"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600966127627	Marionette	INFO	Listening on port 53446
+1600966127708	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://c7dfc62a-7de5-43f6-abac-d4e0ec20c97b/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+1600966128529	Marionette	INFO	Stopped listening on port 53446
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600966170008	geckodriver	INFO	Listening on 127.0.0.1:53547
+1600966173028	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileWBmhOf"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600966180609	Marionette	INFO	Listening on port 53563
+1600966180860	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://2d06cfbc-b3e4-475f-940f-d90def0019b0/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+1600966188808	Marionette	ERROR	[48] No reply from Marionette:Register
+1600966192111	Marionette	INFO	Stopped listening on port 53563
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600966517943	geckodriver	INFO	Listening on 127.0.0.1:57183
+1600966520926	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileDk5uih"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600966530449	Marionette	INFO	Listening on port 57377
+1600966530856	Marionette	WARN	TLS certificate errors will be ignored for this session
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:287:19
+handleRequest@moz-extension://50204134-802a-4317-a39e-73a4217cb65b/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+JavaScript warning: https://duckduckgo.com/d2850.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2850.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2850.js, line 1: unreachable code after return statement
+1600966545402	Marionette	ERROR	[53] No reply from Marionette:Register
+1600966545458	Marionette	INFO	Stopped listening on port 57377
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+JavaScript error: https://www.cnn.com/.a/bundles/header.36108c4db5db1946ce46.bundle.js, line 25: TypeError: n is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600971469916	geckodriver	INFO	Listening on 127.0.0.1:51996
+1600971472942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile2jwk3B"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1600971487769	Marionette	INFO	Listening on port 52004
+1600971488233	Marionette	WARN	TLS certificate errors will be ignored for this session
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+Extension error: Error: tried to detect trackers before rules were loaded moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js 287
+[[Exception stack
+getTrackerData@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:287:19
+handleRequest@moz-extension://0e7f3268-0789-4e98-9890-bc22b7fff485/public/js/background.js:19137:32
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+JavaScript warning: https://duckduckgo.com/d2850.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2850.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2850.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1600971507517	Marionette	INFO	Stopped listening on port 52004
+JavaScript error: https://www.cnn.com/.a/bundles/header.36108c4db5db1946ce46.bundle.js, line 25: TypeError: n is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601260619757	geckodriver	INFO	Listening on 127.0.0.1:64416
+1601260622804	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile3MvO69"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1601260639343	Marionette	INFO	Listening on port 64425
+1601260639602	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1601260646224	Marionette	INFO	Stopped listening on port 64425
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601260655598	geckodriver	INFO	Listening on 127.0.0.1:64874
+1601260658636	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileS82k2M"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+[Parent 6276, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1601260667019	Marionette	INFO	Listening on port 64884
+1601260667068	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/turner763610601596/moatad.js#moatClientLevel1=38386957&moatClientLevel2=2710892590&moatClientLevel3=5405270813&moatClientLevel4=138324155957&moatClientSlicer1=/8663477/CNN/homepage&moatClientSlicer2=52063237&zMoatTEAM=&zMoatPS=nfs_btf_01&zMoatWD=300&zMoatHT=100&zMoatPG=&zMoatST=&zMoatAPP=homepage&zMoatISAPP=&zMoatBUZ=&zMoatSOC=&zMoatMGV=&zMoatMMV=&zMoatMData=&zMoatMSafety=, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 9820: unreachable code after return statement
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 11861: unreachable code after return statement
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 11875: unreachable code after return statement
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 13130: unreachable code after return statement
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 15171: unreachable code after return statement
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 15185: unreachable code after return statement
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 16440: unreachable code after return statement
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 18481: unreachable code after return statement
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 18495: unreachable code after return statement
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 19750: unreachable code after return statement
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 21791: unreachable code after return statement
+JavaScript warning: https://ads.jetpackdigital.com/lineitems/48958/0/jpdli.js?u=https://adclick.g.doubleclick.net/pcs/click%253Fxai%253DAKAOjsus7p5gUgNVJWo88LDzxouxnOx_4pihN9z-wiUuxlDwl75g0_nr94tolKQyeL6o_cciMTz7Ai8NJ6VwA1YIVdjprrYfdBPz_1xXfot31ZMzp1EF2vT2jYrmcRV_fOE_gYMtrv10ReCEd0oLqwAYAKy7p1lcDv3BTNO4swDz1o3VLTTfYbwknsBjk9V4Uf7wLwQjZm9pqjb18N9m3NPP2iQOYZroSqQWPj5bWval9N9hGQtNEm-L0-dNr3M%2526sig%253DCg0ArKJSzDAysHEethgKEAE%2526urlfix%253D1%2526adurl%253Dhttps://www.cnncreativemarketing.com/project/johnlewis/&sid=1006, line 21805: unreachable code after return statement
+JavaScript error: https://z.moatads.com/turner763610601596/moatad.js#moatClientLevel1=38386957&moatClientLevel2=2643514761&moatClientLevel3=5485355422&moatClientLevel4=138324355533&moatClientSlicer1=/8663477/CNN/homepage&moatClientSlicer2=52063237&zMoatTEAM=&zMoatPS=bnr_atf_01&zMoatWD=1&zMoatHT=1&zMoatPG=&zMoatST=&zMoatAPP=homepage&zMoatISAPP=&zMoatBUZ=&zMoatSOC=&zMoatMGV=&zMoatMMV=&zMoatMData=&zMoatMSafety=, line 1: SyntaxError: expected expression, got '<'
+1601260694917	Marionette	INFO	Stopped listening on port 64884
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601260716183	geckodriver	INFO	Listening on 127.0.0.1:59003
+1601260719205	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilea4I6oV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1601260727098	Marionette	INFO	Listening on port 59012
+1601260727552	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1601260732754	Marionette	INFO	Stopped listening on port 59012
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601260745849	geckodriver	INFO	Listening on 127.0.0.1:59732
+1601260748879	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileOXH6hi"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1601260756830	Marionette	INFO	Listening on port 59740
+1601260757241	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+1601260762924	Marionette	INFO	Stopped listening on port 59740
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601260788931	geckodriver	INFO	Listening on 127.0.0.1:60438
+1601260791949	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilewveHUc"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1601260800170	Marionette	INFO	Listening on port 60446
+1601260800272	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: https://s0.2mdn.net/9080429/1589458432468/index.html, line 369: TypeError: studio.Enabler is undefined
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200923/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 568: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 568: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1601260808286	Marionette	INFO	Stopped listening on port 60446
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601260812223	geckodriver	INFO	Listening on 127.0.0.1:61309
+1601260815260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilet2Tkaw"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1601260823015	Marionette	INFO	Listening on port 61317
+1601260823104	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1601260829057	Marionette	INFO	Stopped listening on port 61317
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601260847373	geckodriver	INFO	Listening on 127.0.0.1:61904
+1601260850401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile5MAqDz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1601260858608	Marionette	INFO	Listening on port 61915
+1601260858735	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoplayParent.jsm, line 13: TypeError: browser is null
+JavaScript error: resource://gre/actors/AutoplayParent.jsm, line 13: TypeError: browser is null
+JavaScript error: resource://gre/actors/AutoplayParent.jsm, line 13: TypeError: browser is null
+JavaScript error: resource://gre/actors/AutoplayParent.jsm, line 13: TypeError: browser is null
+JavaScript error: resource://gre/actors/AutoplayParent.jsm, line 13: TypeError: browser is null
+JavaScript error: https://s.yimg.com/rx/builds/7.86.909.1590008200/en-us/videoplayer-nextgen-desktop-min.js, line 6: TypeError: document.location is null
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1601260863021	Marionette	INFO	Stopped listening on port 61915
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
