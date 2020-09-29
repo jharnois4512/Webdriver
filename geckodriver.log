@@ -2751,3 +2751,66 @@ JavaScript error: , line 0: NotAllowedError: The play method is not allowed by t
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1601349696103	geckodriver	INFO	Listening on 127.0.0.1:62486
+1601349699146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilePylOOZ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601349717618	Marionette	INFO	Listening on port 62496
+1601349718017	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601349731323	Marionette	INFO	Stopped listening on port 62496
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601380270295	geckodriver	INFO	Listening on 127.0.0.1:63589
+1601380273338	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile0K1qhm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 11312, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1601380296875	Marionette	INFO	Listening on port 63598
+1601380297196	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601380305420	Marionette	ERROR	[60] No reply from Marionette:Register
+1601380305478	Marionette	ERROR	[62] No reply from Marionette:Register
+1601380305485	Marionette	ERROR	[64] No reply from Marionette:Register
+1601380305569	Marionette	ERROR	[66] No reply from Marionette:Register
+1601380305575	Marionette	ERROR	[68] No reply from Marionette:Register
+1601380306380	Marionette	ERROR	[74] No reply from Marionette:Register
+1601380306425	Marionette	ERROR	[76] No reply from Marionette:Register
+1601380311179	Marionette	ERROR	[78] No reply from Marionette:Register
+1601380311749	Marionette	ERROR	[82] No reply from Marionette:Register
+1601380313724	Marionette	ERROR	[84] No reply from Marionette:Register
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1601380318852	Marionette	INFO	Stopped listening on port 63598
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit adguardadblocker@adguard.com.412316860478
+JavaScript error: , line 0: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: , line 0: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601380333421	geckodriver	INFO	Listening on 127.0.0.1:63694
+1601380336453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilegPFEa8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1601380345227	Marionette	INFO	Listening on port 63702
+1601380345409	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+1601380357367	Marionette	INFO	Stopped listening on port 63702
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit adguardadblocker@adguard.com.412316860459
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 169: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 169: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 169: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 169: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 613: TypeError: context.contentWindow is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

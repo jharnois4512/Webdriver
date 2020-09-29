@@ -37,15 +37,25 @@ def __main__(input):
         if(2 in input):
             opts.add_extension("adblockPlus.crx")
         if(3 in input):
-            opts.add_extension("disconnect.crx")
+            opts.add_extension("adGuard.crx")
         if(4 in input):
-            opts.add_extension("duckduckgoEss.crx")
+            opts.add_extension("disconnect.crx")
         if(5 in input):
-            opts.add_extension("ghostery.crx")
+            opts.add_extension("duckduckgoEss.crx")
         if(6 in input):
-            opts.add_extension("privBadger.crx")
+            opts.add_extension("ghostery.crx")
         if(7 in input):
+            opts.add_extension("httpsEverywhere.crx")
+        if(8 in input):
+            opts.add_extension("myTrackingChoices.crx")
+        if(9 in input):
+            opts.add_extension("noScript.crx")
+        if(10 in input):
+            opts.add_extension("privBadger.crx")
+        if(11 in input):
             opts.add_extension("ublock.crx")  
+        if(12 in input):
+            opts.add_extension("uBlockOrigin.crx")   
         driver = webdriver.Chrome(options=opts)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
@@ -74,6 +84,14 @@ def __main__(input):
              driver.install_addon(absPath + "privBadger.xpi")
         if(7 in input):
              driver.install_addon(absPath + "ublock.xpi")
+        if(8 in input):
+             driver.install_addon(absPath + "adGuard.xpi")
+        if(9 in input):
+             driver.install_addon(absPath + "noScript.xpi")
+        if(10 in input):
+             driver.install_addon(absPath + "httpsEverywhere.xpi")
+        if(11 in input):
+             driver.install_addon(absPath + "uBlockOrigin.xpi")
         # driver.close()
         # driver.switch_to_window(driver.window_handles[0])
         p = psutil.Process(driver.service.process.pid)
@@ -95,15 +113,25 @@ def __main__(input):
         if(2 in input):
             opts.add_extension("adblockPlus.crx")
         if(3 in input):
-            opts.add_extension("disconnect.crx")
+            opts.add_extension("adGuard.crx")
         if(4 in input):
-            opts.add_extension("duckduckgoEss.crx")
+            opts.add_extension("disconnect.crx")
         if(5 in input):
-            opts.add_extension("ghostery.crx")
+            opts.add_extension("duckduckgoEss.crx")
         if(6 in input):
-            opts.add_extension("privBadger.crx")
+            opts.add_extension("ghostery.crx")
         if(7 in input):
-            opts.add_extension("ublock.crx")
+            opts.add_extension("httpsEverywhere.crx")
+        if(8 in input):
+            opts.add_extension("myTrackingChoices.crx")
+        if(9 in input):
+            opts.add_extension("noScript.crx")
+        if(10 in input):
+            opts.add_extension("privBadger.crx")
+        if(11 in input):
+            opts.add_extension("ublock.crx")  
+        if(12 in input):
+            opts.add_extension("uBlockOrigin.crx") 
         driver = Edge(options=opts)
         # for site in sites:
         #     driver.get(site)
@@ -121,15 +149,25 @@ def __main__(input):
         if(2 in input):
             Oopts.add_extension("adblockPlus.crx")
         if(3 in input):
-            Oopts.add_extension("disconnect.crx")
+            Oopts.add_extension("adGuard.crx")
         if(4 in input):
-            Oopts.add_extension("duckduckgoEss.crx")
+            Oopts.add_extension("disconnect.crx")
         if(5 in input):
-            Oopts.add_extension("ghostery.crx")
+            Oopts.add_extension("duckduckgoEss.crx")
         if(6 in input):
-            Oopts.add_extension("privBadger.crx")
+            Oopts.add_extension("ghostery.crx")
         if(7 in input):
-            Oopts.add_extension("ublock.crx") 
+            Oopts.add_extension("httpsEverywhere.crx")
+        if(8 in input):
+            Oopts.add_extension("myTrackingChoices.crx")
+        if(9 in input):
+            Oopts.add_extension("noScript.crx")
+        if(10 in input):
+            Oopts.add_extension("privBadger.crx")
+        if(11 in input):
+            Oopts.add_extension("ublock.crx")  
+        if(12 in input):
+            Oopts.add_extension("uBlockOrigin.crx") 
         driver = webdriver.Opera(options=Oopts)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
@@ -148,15 +186,25 @@ def __main__(input):
         if(2 in input):
             braveOpts.add_extension("adblockPlus.crx")
         if(3 in input):
-            braveOpts.add_extension("disconnect.crx")
+            braveOpts.add_extension("adGuard.crx")
         if(4 in input):
-            braveOpts.add_extension("duckduckgoEss.crx")
+            braveOpts.add_extension("disconnect.crx")
         if(5 in input):
-            braveOpts.add_extension("ghostery.crx")
+            braveOpts.add_extension("duckduckgoEss.crx")
         if(6 in input):
-            braveOpts.add_extension("privBadger.crx")
+            braveOpts.add_extension("ghostery.crx")
         if(7 in input):
-            braveOpts.add_extension("ublock.crx") 
+            braveOpts.add_extension("httpsEverywhere.crx")
+        if(8 in input):
+            braveOpts.add_extension("myTrackingChoices.crx")
+        if(9 in input):
+            braveOpts.add_extension("noScript.crx")
+        if(10 in input):
+            braveOpts.add_extension("privBadger.crx")
+        if(11 in input):
+            braveOpts.add_extension("ublock.crx")  
+        if(12 in input):
+            braveOpts.add_extension("uBlockOrigin.crx")   
         driver = webdriver.Chrome(options=braveOpts, executable_path=driverPath)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
@@ -165,6 +213,6 @@ def __main__(input):
         # for site in sites:
         #     driver.get(site
 # TODO get the rest of the extensions 
-__main__(["b", 4, 5])
+__main__(["f", 8])
 # __main__(["e", 1])
 # __main__(["f", 3,4])
