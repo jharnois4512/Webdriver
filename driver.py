@@ -1,5 +1,7 @@
 import os
 import psutil
+import csv
+import json
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.proxy import *
@@ -213,6 +215,32 @@ def __main__(input):
         # for site in sites:
         #     driver.get(site
 # TODO get the rest of the extensions 
-__main__(["f", 8])
+
+def getStats():
+    f = open('MQP.csv', 'r')
+    q = open('newMQP.csv', 'w')
+    lines = f.readlines()
+    for line in lines:
+        if("Tunnel to" not in line):
+            q.write(line)
+    q.close()
+    with open('trackingList.json') as r:
+        trackingLists = json.loads(r.read())
+    with open('newMQP.csv') as j:
+        reader = csv.DictReader(j)
+        for things in trackingLists['categories']:
+            for moreThings in trackingLists['categories'][things]:
+                print(moreThings)
+                for row in reader:
+                    part = str(row['Host'].split('.')[-2])
+            #     if(part in things):
+            #         print(things)
+                        
+                    
+
+           
+
+# __main__(["f", 8])
 # __main__(["e", 1])
 # __main__(["f", 3,4])
+getStats()
