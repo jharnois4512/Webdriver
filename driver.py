@@ -224,22 +224,30 @@ def getStats():
         if("Tunnel to" not in line):
             q.write(line)
     q.close()
-    with open('trackingList.json') as r:
-        trackingLists = json.loads(r.read())
+    with open('ghostery_json.json') as r:
+        trackingList = json.loads(r.read())
     with open('newMQP.csv') as j:
         reader = csv.DictReader(j)
-        for things in trackingLists['categories']:
-            for moreThings in trackingLists['categories'][things]:
-                print(moreThings)
-                for row in reader:
-                    part = str(row['Host'].split('.')[-2])
-            #     if(part in things):
+        for row in reader:
+            print(row['Host'])
+    for things in trackingList:
+        for items in trackingList[things]:
+            if("Link" in items):
+                print(items)
+                print(things)
+    
+    # with open('trackingList.json') as r:
+    #     trackingLists = json.loads(r.read())
+    # with open('newMQP.csv') as j:
+    #     reader = csv.DictReader(j)
+    #     for things in trackingLists['categories']:
+    #         for moreThings in trackingLists['categories'][things]:
+    #             print(moreThings)
+    #             for row in reader:
+    #                 part = str(row['Host'].split('.')[-2])
+    #         #     if(part in things):
             #         print(things)
                         
-                    
-
-           
-
 # __main__(["f", 8])
 # __main__(["e", 1])
 # __main__(["f", 3,4])
