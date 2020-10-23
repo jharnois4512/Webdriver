@@ -63,12 +63,12 @@ def __main__(input):
         print(p.children(recursive=True)[3])
         # driver.close()
         # driver.switch_to_window(driver.window_handles[0])
-        # for site in sites:
-        #     driver.get(site)
-        driver.get("https://www.google.com")
-        driver.find_element_by_name("q").send_keys("test")
-        driver.find_elements_by_name("btnK")[1].click()
-        # driver.quit()
+        for site in sites:
+            driver.get(site)
+        # driver.get("https://www.google.com")
+        # driver.find_element_by_name("q").send_keys("test")
+        # driver.find_elements_by_name("btnK")[1].click()
+        driver.quit()
 
     elif("f" in input):
         driver = webdriver.Firefox()
@@ -98,10 +98,10 @@ def __main__(input):
         # driver.switch_to_window(driver.window_handles[0])
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[1])
-        driver.get("https://www.yahoo.com") 
-        driver.get("https://www.cnn.com")
-        # for site in sites:
-        #     driver.get(site)        
+        # driver.get("https://www.yahoo.com") 
+        # driver.get("https://www.cnn.com")
+        for site in sites:
+            driver.get(site)        
         driver.quit()
 
     elif("e" in input):
@@ -135,13 +135,14 @@ def __main__(input):
         if(12 in input):
             opts.add_extension("uBlockOrigin.crx") 
         driver = Edge(options=opts)
-        # for site in sites:
-        #     driver.get(site)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
-        driver.get("https://www.yahoo.com") 
-        driver.get("https://www.cnn.com")
+        for site in sites:
+            driver.get(site)
+        # driver.get("https://www.yahoo.com") 
+        # driver.get("https://www.cnn.com")
         driver.quit()
+
     elif("o" in input):
         from selenium.webdriver.opera import options
         Oopts = options.ChromeOptions()
@@ -173,10 +174,12 @@ def __main__(input):
         driver = webdriver.Opera(options=Oopts)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
-        driver.get("https://www.yahoo.com") 
-        driver.get("https://www.cnn.com")
-        # for site in sites:
-        #     driver.get(site)
+        # driver.get("https://www.yahoo.com") 
+        # driver.get("https://www.cnn.com")
+        for site in sites:
+            driver.get(site)
+        driver.quit()
+
     elif("b" in input):
         from selenium.webdriver.chrome.options import Options
         braveOpts = Options()
@@ -210,31 +213,37 @@ def __main__(input):
         driver = webdriver.Chrome(options=braveOpts, executable_path=driverPath)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
-        driver.get("https://www.yahoo.com") 
-        driver.get("https://www.cnn.com")
-        # for site in sites:
-        #     driver.get(site
-# TODO get the rest of the extensions 
+        # driver.get("https://www.yahoo.com") 
+        # driver.get("https://www.cnn.com")
+        for site in sites:
+            driver.get(site) 
+        driver.quit()
 
 def getStats():
-    f = open('MQP.csv', 'r')
-    q = open('newMQP.csv', 'w')
-    lines = f.readlines()
-    for line in lines:
-        if("Tunnel to" not in line):
-            q.write(line)
-    q.close()
-    with open('ghostery_json.json') as r:
-        trackingList = json.loads(r.read())
-    with open('newMQP.csv') as j:
+    count = 0 
+    # f = open('braveTest.csv', 'r')
+    # q = open('newBraveTest.csv', 'w')
+    # lines = f.readlines()
+    # for line in lines:
+    #     if("Tunnel to" not in line):
+    #         q.write(line)
+    # q.close()
+    # with open('ghostery_json.json') as r:
+    #     trackingList = json.loads(r.read())
+    with open('newEdgeTest.csv') as j:
         reader = csv.DictReader(j)
         for row in reader:
-            print(row['Host'])
-    for things in trackingList:
-        for items in trackingList[things]:
-            if("Link" in items):
-                print(items)
-                print(things)
+            # print(row['Host'])
+            if(row['Privacy Info'] != ""):
+                count = count + 1
+        print(count)
+    # for things in trackingList:
+    #     for items in trackingList[things]:
+    #         count = count + 1
+    #         if("Ztomy" in items):
+    #             print(items)
+    #             print(things)
+    # print(count)
     
     # with open('trackingList.json') as r:
     #     trackingLists = json.loads(r.read())
@@ -248,7 +257,10 @@ def getStats():
     #         #     if(part in things):
             #         print(things)
                         
-# __main__(["f", 8])
-# __main__(["e", 1])
-# __main__(["f", 3,4])
+# __main__(["f"])
+# __main__(["e"])
+# __main__(["c"])
+# __main__(["o"])
+# __main__(["b"])
+
 getStats()

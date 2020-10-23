@@ -779,3 +779,8 @@
 [0924/141830.372:ERROR:file_io_win.cc(162)] CreateFile C:\Users\Owner\AppData\Local\Temp\scoped_dir1700_982383244\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
 [0924/141830.372:ERROR:file_io_win.cc(171)] CreateFile C:\Users\Owner\AppData\Local\Temp\scoped_dir1700_982383244\Crashpad\reports\c86187dc-a8fd-463f-8e10-8d8592e16e6b.dmp: The system cannot find the path specified. (0x3)
 [0924/141830.372:ERROR:crash_report_exception_handler.cc(120)] PrepareNewCrashReport failed
+[1022/165824.323:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1022/165824.761:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1022/165824.761:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1022/165824.762:ERROR:exception_snapshot_win.cc(99)] thread ID 17932 not found in process
+[1022/172004.174:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

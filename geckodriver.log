@@ -2814,3 +2814,131 @@ JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 613: TypeErr
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1603400192988	geckodriver	INFO	Listening on 127.0.0.1:57729
+1603400196171	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileRvtTwG"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1603400209313	Marionette	INFO	Listening on port 57740
+1603400209818	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/turner763610601596/moatad.js#moatClientLevel1=38386957&moatClientLevel2=2745833990&moatClientLevel3=5477410696&moatClientLevel4=138327266833&moatClientSlicer1=/8663477/CNN/homepage&moatClientSlicer2=52063237&zMoatTEAM=&zMoatPS=nfs_btf_01&zMoatWD=300&zMoatHT=100&zMoatPG=&zMoatST=&zMoatAPP=homepage&zMoatISAPP=&zMoatBUZ=&zMoatSOC=&zMoatMGV=&zMoatMMV=&zMoatMData=&zMoatMSafety=, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/turner763610601596/moatad.js#moatClientLevel1=48910117&moatClientLevel2=2758779784&moatClientLevel3=5502329459&moatClientLevel4=138326671604&moatClientSlicer1=/8663477/CNN/homepage&moatClientSlicer2=52063237&zMoatTEAM=&zMoatPS=bnr_atf_01&zMoatWD=1&zMoatHT=1&zMoatPG=&zMoatST=&zMoatAPP=homepage&zMoatISAPP=&zMoatBUZ=&zMoatSOC=&zMoatMGV=&zMoatMMV=&zMoatMData=&zMoatMSafety=, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/turner763610601596/moatad.js#moatClientLevel1=48910117&moatClientLevel2=2758779784&moatClientLevel3=5502329459&moatClientLevel4=138327086842&moatClientSlicer1=/8663477/CNN/homepage&moatClientSlicer2=52063237&zMoatTEAM=&zMoatPS=rect_atf_01&zMoatWD=300&zMoatHT=250&zMoatPG=&zMoatST=&zMoatAPP=homepage&zMoatISAPP=&zMoatBUZ=&zMoatSOC=&zMoatMGV=&zMoatMMV=&zMoatMData=&zMoatMSafety=, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://sb.scorecardresearch.com/rs/vce_st.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/turnerceltradisplay283259868569/moatad.js#moatClientLevel1=0b207c1e&moatClientLevel2=-&moatClientLevel3=8d64459b&moatClientLevel4=53f260b7&zMoatAC=1635c534&zMoatFT=CrossScreenBanner&zMoatBR=a76f5e7f&zMoatMA=-&zMoatAS=DFP&zMoatCV=&zMoatDFPST=7663597&zMoatDFPCP=2758779784&zMoatDFPPL=52063237&zMoatDFPCR=138326671604&zMoatDFPAD=48910117&zMoatDFPLI=5502329459, line 1: SyntaxError: expected expression, got '<'
+1603400236644	Marionette	INFO	Stopped listening on port 57740
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1603400441830	geckodriver	INFO	Listening on 127.0.0.1:60308
+1603400444867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileev5vxF"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1603400454515	Marionette	INFO	Listening on port 60316
+1603400454817	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://s0.2mdn.net/9080429/1589458486121/index.html, line 369: TypeError: studio.Enabler is undefined
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20201020/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94101/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94101/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94101/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94101/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript error: https://www.zoom.us/ line 3253 > injectedScript, line 1: TypeError: document.querySelectorAll(...)[0] is undefined
+JavaScript error: https://www.zoom.us/ line 3253 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.redditstatic.com/desktop2x/runtime~Reddit.acd5764ff85b5498b68d.js, line 1: ChunkLoadError: Loading chunk PushNotifications failed.
+(error: https://www.redditstatic.com/desktop2x/PushNotifications.8cb929fcd04799e5f506.js)
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: https://outlook.live.com/owa/prefetch.aspx, line 18: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 9: Error: Livechat is turned off for this URL
+JavaScript error: https://www.microsoft.com/en-us/, line 63: Error: Script error for "https://cdnssl.clicktale.net/www32/ptc/755cc4ab-c4bf-46d8-a608-d3c5d66fabac.js"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.microsoft.com/en-us/, line 63: Error: Script error for "//www.microsoft.com/onerfstatics/marketingsites-eus-prod/_h/9ae23327/mscom.statics/externalscripts/mscomhp/audiencemanager.js"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.microsoft.com/en-us/, line 63: Error: Script error for "https://www.microsoft.com/library/svy/broker.js"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.4.0/otBannerSdk.js, line 1: TypeError: t is undefined
+JavaScript error: https://geo.moatads.com/n.js?e=35&qn=%604%7BZEYwoqI%24%5BK%2BdLLU)%2CMm~ts!90vv9L%24%2FoDb%2Fz(lKm3GFlNUU%2Cu%5Bh_GcS%25%5BHvLU%5B4(K%2B%7BgeFWl_%3DNqUXR%3A%3D%2BAxMn%3Ch%2CyenA8p%2FHm%24%60%233P%3Am~U3%2B%7C%3CI%24%3CRV%3B%2FAwJ_%5BM_7jPP%5EIc%2CeemDR3%3FjqU6%2F4J%2C%7BJTVGX%5E8Y.N22CD%3Amqo13%24(%25B)Lp%22KC&th=4025745893&tf=nMzjG---CSa7H-URgmS-RmQ59C-bW7W9B-nMzjG-&vi=111111&rc=0%2C0%2C0%2C0%2C%2C1%2C0%2C0%2Cprobably%2Cprobably&os=&qp=01000&is=BBBBB2BBEY4vGl2BBCBBtBBE1RmsqBBB8BsrBu0rCBE48CRBeeBS2hWTBBBQeQBOn2soYggyUig0CBlWZ0BNpKzisfZBBBBBiOfnBBBkg7OxibBBBBBBBHCBBBBBBhIcb9BBoBXcBXBR7BBUUsJBCBBBBBBBBJWBBBj3BBBZeGB2BB05MCBBHBBCgEBBBBBB94UMgTdJMtEcpMBBBQBBBniBccypwswB47kNBBBBBBBBBBBBBhcjG6BBJM2L4Bk9BwHBQmIBRBBCzmz1BBCTClBBrbBBC4ehueB57NG9aJBBBBBBBBBBBBBB&iv=8&qt=0&gz=0&hh=0&hn=0&tw=null&qc=4&qd=4&qf=1284&qe=904&qh=1296&qg=984&qm=240&qa=1920&qb=1080&qi=1920&qj=1050&to=000&po=1-0020002000002120&vy=ot%24b%5Bh%40%22oDgO%3DLlE6%3AZ_aSyt5.o%5Db%2F0U%3B%23%258YCUUaF%3EaSI03%26(5N%5EjoLef%60YJ5%40QJ0m9lNM%22%254(r%24J)%2C4i8ocS!%5BFZKU37B%2BMm%24C&qr=0&url=https%3A%2F%2Fwww.espn.com%2F&pcode=espnprebidheader738072710622&ql=&qo=0&i=ESPN_PREBID_HEADER1&hp=1&wf=1&vb=6&kq=1&hq=0&hs=0&hu=0&hr=1&ht=0&dnt=0&bq=11&f=0&j=&t=1603400552288&de=778499259606&rx=994793579029&m=0&ar=2bf682d-clean&iw=ef0d4c6&q=1&cb=0&cu=1603400552288&ll=21&lm=0&ln=0&em=0&en=0&d=undefined%3Aundefined%3Aundefined%3Aundefined&zGSRS=1&zGSRC=1&gu=https%3A%2F%2Fwww.espn.com%2F&id=1&ii=4&bo=undefined&bd=undefined&gw=espnprebidheader738072710622&fd=1&ac=1&it=500&pe=1%3A-%3A-%3A0%3A2713&fs=183336&na=1173035945&cs=0&callback=MoatDataJsonpRequest_92013526, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://mb.moatads.com/yi/v2?qn=%604%7BZEYwoqI%24%5BK%2BdLLU)%2CMm~ts!90vv9L%24%2FoDb%2Fz(lKm3GFlNUU%2Cu%5Bh_GcS%25%5BHvLU%5B4(K%2B%7BgeFWl_%3DNqUXR%3A%3D%2BAxMn%3Ch%2CyenA8p%2FHm%24%60%233P%3Am~U3%2B%7C%3CI%24%3CRV%3B%2FAwJ_%5BM_7jPP%5EIc%2CeemDR3%3FjqU6%2F4J%2C%7BJTVGX%5E8Y.N22CD%3Amqo13%24(%25B)Lp%22KC&th=4025745893&tf=nMzjG---CSa7H-URgmS-RmQ59C-bW7W9B-nMzjG-&vi=111111&rc=0%2C0%2C0%2C0%2C%2C1%2C0%2C0%2Cprobably%2Cprobably&os=&qp=01000&is=BBBBB2BBEY4vGl2BBCBBtBBE1RmsqBBB8BsrBu0rCBE48CRBeeBS2hWTBBBQeQBOn2soYggyUig0CBlWZ0BNpKzisfZBBBBBiOfnBBBkg7OxibBBBBBBBHCBBBBBBhIcb9BBoBXcBXBR7BBUUsJBCBBBBBBBBJWBBBj3BBBZeGB2BB05MCBBHBBCgEBBBBBB94UMgTdJMtEcpMBBBQBBBniBccypwswB47kNBBBBBBBBBBBBBhcjG6BBJM2L4Bk9BwHBQmIBRBBCzmz1BBCTClBBrbBBC4ehueB57NG9aJBBBBBBBBBBBBBB&iv=8&qt=0&gz=0&hh=0&hn=0&tw=null&qc=4&qd=4&qf=1284&qe=904&qh=1296&qg=984&qm=240&qa=1920&qb=1080&qi=1920&qj=1050&to=000&po=1-0020002000002120&vy=ot%24b%5Bh%40%22oDgO%3DLlE6%3AZ_aSyt5.o%5Db%2F0U%3B%23%258YCUUaF%3EaSI03%26(5N%5EjoLef%60YJ5%40QJ0m9lNM%22%254(r%24J)%2C4i8ocS!%5BFZKU37B%2BMm%24C&qr=0&url=https%3A%2F%2Fwww.espn.com%2F&pcode=espnprebidheader738072710622&callback=MoatNadoAllJsonpRequest_92013526, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/espndfp832188684382/moatad.js#moatClientLevel1=4741246681&moatClientLevel2=2754386855&moatClientLevel3=5514772470&moatClientLevel4=138328024294&moatClientSlicer1=21782482296&moatClientSlicer2=21792505907&zMoatPS=wallpaper&zMoatSW=79DFA0D2-D93F-482D-C854-418AC952179B&zMoatAdUnitPath=/21783347309/espn.com/frontpage/index&zMoatMData=waiting&zMoatSZ=1280x455&zMoatMGV=waiting&zMoatMSafety=waiting&zMoatMMV=waiting&zMoatMIVR=&refresh=1, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/espndfp832188684382/moatad.js#moatClientLevel1=4741246681&moatClientLevel2=2754386855&moatClientLevel3=5514772470&moatClientLevel4=138326583457&moatClientSlicer1=21782482296&moatClientSlicer2=21792505907&zMoatPS=banner&zMoatSW=79DFA0D2-D93F-482D-C854-418AC952179B&zMoatAdUnitPath=/21783347309/espn.com/frontpage/index&zMoatMData=waiting&zMoatSZ=970x66&zMoatMGV=waiting&zMoatMSafety=waiting&zMoatMMV=waiting&zMoatMIVR=&refresh=1, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/espndfp832188684382/moatad.js#moatClientLevel1=4741246681&moatClientLevel2=2754386855&moatClientLevel3=5514772470&moatClientLevel4=138326163876&moatClientSlicer1=21782482296&moatClientSlicer2=21792505907&zMoatPS=incontent&zMoatSW=79DFA0D2-D93F-482D-C854-418AC952179B&zMoatAdUnitPath=/21783347309/espn.com/frontpage/index&zMoatMData=waiting&zMoatSZ=300x250&zMoatMGV=waiting&zMoatMSafety=waiting&zMoatMMV=waiting&zMoatMIVR=&refresh=1, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=22, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.0/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript error: , line 0: uncaught exception: maincontext_394ff.min
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.1/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: https://oa.openxcdn.net/oa.js, line 6: TypeError: t is null
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://m.media-amazon.com/images/I/31827uXCh4L.js, line 8: Error: Request aborted
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://confiant.msn.com/jRl1DZsisNuFn8JGi3LVRod2F9U/msn/config.js, line 68: Error: Confiant integration is broken. No supported ad SDKs are found on the page. Contact our support support@confiant.com
+JavaScript error: https://www.msn.com/, line 1: SecurityError: Permission denied to access property "adsDevilObj" on cross-origin object
+JavaScript error: https://www.msn.com/ line 1 > injectedScript, line 2: SecurityError: Permission denied to access property "atwUAC" on cross-origin object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/fxnwsv2L3592D3FC21/moatad.js#moatClientLevel1=4795197336&moatClientLevel2=2765325336&moatClientLevel3=5513900854&moatClientLevel4=138327230312&moatClientSlicer1=62413456&moatClientSlicer2=21918912485&zMoatPS=&zMoatMData=&zMoatAU=/4145/fnc/desk/hp/ban1&zMoatMMV=%%PATTERN:m_mv%&zMoatMSafety=&zMoatMGV=, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/fxnwsv2L3592D3FC21/moatad.js#moatClientLevel1=39391816&moatClientLevel2=2754114451&moatClientLevel3=5492877107&moatClientLevel4=138325327862&moatClientSlicer1=62413456&moatClientSlicer2=21918911792&zMoatPS=&zMoatMData=&zMoatAU=/4145/fnc/desk/hp/mktupdte&zMoatMMV=%%PATTERN:m_mv%&zMoatMSafety=&zMoatMGV=, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/fxnwsv2L3592D3FC21/moatad.js#moatClientLevel1=4795197336&moatClientLevel2=2762717902&moatClientLevel3=5509530888&moatClientLevel4=138326946008&moatClientSlicer1=62413456&moatClientSlicer2=21918912743&zMoatPS=&zMoatMData=&zMoatAU=/4145/fnc/desk/hp/lb1&zMoatMMV=%%PATTERN:m_mv%&zMoatMSafety=&zMoatMGV=, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://my.foxnews.com/js/modulr.min.js, line 7: Error: [Modulr] error loading script: https://my.foxnews.com/js/app/components/segment.js
+JavaScript error: https://my.foxnews.com/js/modulr.min.js, line 7: Error: [Modulr] error loading script: https://my.foxnews.com/js/app/controllers/xd-channel.js
+JavaScript error: https://79423.analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js, line 14: TypeError: _0x26acx1d2 is null
+JavaScript error: https://79423.analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js, line 14: TypeError: _0x26acx1d2 is null
+JavaScript error: https://79423.analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js, line 14: TypeError: _0x26acx1d2 is null
+1603400760688	Marionette	INFO	Stopped listening on port 60316
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
