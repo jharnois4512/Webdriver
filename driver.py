@@ -2,6 +2,7 @@ import os
 import psutil
 import csv
 import json
+import numpy as np
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.proxy import *
@@ -221,6 +222,12 @@ def __main__(input):
 
 def getStats():
     count = 0 
+    domainTrackers = ['adv', 'siteAna', 'custInt', 'social', 'ess', 'audio', 'adultAdv', 'comments']
+    itemsArr = []
+    domains = []
+    domTypes = []
+    currList = []
+    returnList = []
     # f = open('braveTest.csv', 'r')
     # q = open('newBraveTest.csv', 'w')
     # lines = f.readlines()
@@ -228,22 +235,33 @@ def getStats():
     #     if("Tunnel to" not in line):
     #         q.write(line)
     # q.close()
-    # with open('ghostery_json.json') as r:
-    #     trackingList = json.loads(r.read())
-    with open('newEdgeTest.csv') as j:
+    with open('ghostery_json.json') as r:
+        trackingList = json.loads(r.read())
+    with open('newChromeTest.csv') as j:
         reader = csv.DictReader(j)
         for row in reader:
-            # print(row['Host'])
             if(row['Privacy Info'] != ""):
-                count = count + 1
-        print(count)
-    # for things in trackingList:
+                # print(os.system('whois ' + row['Host'] + ' | findstr "%Domain Name:"'))
+                # print('whois ' + row['Host'] + ' | findstr "%Domain Name:"')
+                domains.append(row['Host'].split(".")[-2])
+    for keys in list(dict.fromkeys(domains)):
+        returnList.append(keys)
+    for doms in returnList:
+        for cats in domainTrackers:
+            for items in trackingList[cats]:
+                if(doms in items.replace(" ", "").lower()):
+                    print(doms, cats)
+                    break
+                
+
     #     for items in trackingList[things]:
-    #         count = count + 1
-    #         if("Ztomy" in items):
-    #             print(items)
-    #             print(things)
-    # print(count)
+        
+    # for doms in domains:
+    #     print(domains)
+        # if(domains[doms] in (items.replace(" ", "")).lower()):
+        #     print((items.replace(" ", "")).lower())
+        #     print(things)
+    # print(itemsArr)
     
     # with open('trackingList.json') as r:
     #     trackingLists = json.loads(r.read())
@@ -264,3 +282,17 @@ def getStats():
 # __main__(["b"])
 
 getStats()
+
+# Stats description - 
+# Brave - 6999, 3470
+# Chrome - 13277, 6558
+# Edge - 11192, 5492
+# FireFox - 12052, 5857
+# Opera - 14720, 7292
+
+# cookies - 
+# Brave - 406
+# Chrome - 1775
+# Edge - 1261
+# FireFox - 1415
+# Opera - 1834
