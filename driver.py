@@ -223,13 +223,19 @@ def __main__(input):
 def getStats():
     count = 0 
     domainTrackers = ['adv', 'siteAna', 'custInt', 'social', 'ess', 'audio', 'adultAdv', 'comments']
+    domainNumbers = [0,0,0,0,0,0,0,0]
+    interactions = ['html', 'gif', 'css', 'png', 'plain', 'json', 'jpeg', 'javascript', 'webm', 'x-mpegURL', 'webp', 'octet-stream', 'x-m4v' ,'binary', 'x-javascript', 'xml', 'svg+xml', 'mp4', 'js', 'x-icon', 'MP2T', 'wasm']
+    interactionsTracking = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     itemsArr = []
     domains = []
     domTypes = []
     currList = []
     returnList = []
-    # f = open('braveTest.csv', 'r')
-    # q = open('newBraveTest.csv', 'w')
+    test = []
+    dummy = []
+    # For elimination of tunneling 
+    # f = open('adEdge.csv', 'r')
+    # q = open('newAdEdge.csv', 'w')
     # lines = f.readlines()
     # for line in lines:
     #     if("Tunnel to" not in line):
@@ -237,22 +243,64 @@ def getStats():
     # q.close()
     with open('ghostery_json.json') as r:
         trackingList = json.loads(r.read())
-    with open('newChromeTest.csv') as j:
+    with open('newBraveTest.csv') as j:
         reader = csv.DictReader(j)
         for row in reader:
+            #For number of requests and narrowing down their domains
             if(row['Privacy Info'] != ""):
-                # print(os.system('whois ' + row['Host'] + ' | findstr "%Domain Name:"'))
-                # print('whois ' + row['Host'] + ' | findstr "%Domain Name:"')
-                domains.append(row['Host'].split(".")[-2])
+                # count = count + 1 
+                # loopVar = os.system('whois ' + row['Host'] + ' | findstr /C:"Domain Name:"')
+                # if(not loopVar):
+                #     print(loopVar)
+                # else:
+                #     print(os.system('whois ' + row['Host'] + ' | findstr "Domain Name:"'))
+                # print('whois ' + row['Host'] + ' | findstr /C:"Domain Name:"')
+                domains.append(row['Host'].split(".")[-2]) #<---------------
+                test.append(row['Host'].split(".")[-1])
+                if(len(row['Host'].split(".")) > 2):
+                    dummy.append(row['Host'].split(".")[-3])
+                # print(row['Host'])
+                # domains.append(row['Host'])
+
+                # For Content Type 
+                # if(row['Content-Type']):
+                #     if(";" in row['Content-Type'].split("/")[1]):
+                #         if(row['Content-Type'].split("/")[1].split(";")[0] in interactions):
+                #             # print(interactions.index(row['Content-Type'].split("/")[1].split(";")[0]))
+                #             interactionsTracking[interactions.index(row['Content-Type'].split("/")[1].split(";")[0])] = interactionsTracking[interactions.index(row['Content-Type'].split("/")[1].split(";")[0])] + 1
+                #     else:
+                #         if(row['Content-Type'].split("/")[1] in interactions):
+                #             # print(interactions.index(row['Content-Type'].split("/")[1]))
+                #             interactionsTracking[interactions.index(row['Content-Type'].split("/")[1])] = interactionsTracking[interactions.index(row['Content-Type'].split("/")[1])] + 1
+                # print(interactionsTracking)
+    # print(count)
+
+
+    # for i in test:
+    #     for j in domains:
+    #         for k in trackingList:
+    #             for l in dummy:
+    #                 if(j in k):
+    #                     # print(j, i)
+    #                     print(l)
+                        
+
+
+    # For getting the categories of the domains found from each browser; uncomment the arrow!
     for keys in list(dict.fromkeys(domains)):
         returnList.append(keys)
+    # print(returnList)
     for doms in returnList:
         for cats in domainTrackers:
             for items in trackingList[cats]:
-                if(doms in items.replace(" ", "").lower()):
-                    print(doms, cats)
-                    break
-                
+                if(doms not in test):
+                    if(doms in items.replace(" ", "").lower()):
+                        # print(doms, cats)
+                        domainNumbers[domainTrackers.index(cats)] = domainNumbers[domainTrackers.index(cats)] + 1
+    print(domainNumbers)    
+
+
+
 
     #     for items in trackingList[things]:
         
@@ -275,15 +323,14 @@ def getStats():
     #         #     if(part in things):
             #         print(things)
                         
-# __main__(["f"])
-# __main__(["e"])
-# __main__(["c"])
-# __main__(["o"])
-# __main__(["b"])
-
+# __main__(["f", 1])
+# __main__(["e", 1])
+# __main__(["c", 1])
+# __main__(["o", 1])
+# __main__(["b", 1])
 getStats()
 
-# Stats description - 
+######## Stats description - 
 # Brave - 6999, 3470
 # Chrome - 13277, 6558
 # Edge - 11192, 5492
@@ -296,3 +343,26 @@ getStats()
 # Edge - 1261
 # FireFox - 1415
 # Opera - 1834
+
+# Number of Categories - Needs more work
+# Brave - [76, 17, 23, 14, 7, 1, 1, 2]
+# Chrome - [304, 37, 39, 20, 17, 8, 4, 2]
+# Edge - [285, 36, 39, 20, 16, 8, 4, 2]
+# Firefox - [285, 33, 29, 20, 16, 8, 3, 2]
+# Opera - [303, 38, 38, 20, 17, 8, 4, 2]
+
+
+######## With AdBlock
+# Brave - 5536, 2728
+# Chrome - 9782, 4829
+# Edge - 9892, 4852
+# Firefox - 8620, 4255
+# Opera - 7673, 3788
+
+# cookies - 
+# Brave - 457
+# Chrome - 975
+# Edge - 916
+# Firefox - 830
+# Opera - 688
+

@@ -2942,3 +2942,106 @@ JavaScript error: https://79423.analytics.edgekey.net/ma_library/javascript/java
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1603743363713	geckodriver	INFO	Listening on 127.0.0.1:50999
+1603743366969	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile14guz5"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1603743383370	Marionette	INFO	Listening on port 51010
+1603743383393	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://8fec04d3-8399-4d1f-8727-017cf7f76100/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94105/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94105/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94105/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94105/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript error: https://www.zoom.us/ line 3275 > injectedScript, line 1: TypeError: document.querySelectorAll(...)[0] is undefined
+JavaScript error: https://www.zoom.us/ line 3275 > injectedScript, line 1: ReferenceError: hj is not defined
+JavaScript error: https://www.redditstatic.com/desktop2x/runtime~Reddit.bb91a4f0a0dfe4dec90d.js, line 1: ChunkLoadError: Loading chunk PushNotifications failed.
+(error: https://www.redditstatic.com/desktop2x/PushNotifications.8cb929fcd04799e5f506.js)
+JavaScript error: https://secure.quantserve.com/aquant.js?a=p-xLEyC0FLYFXAH, line 2: NS_ERROR_UNEXPECTED: 
+JavaScript error: https://outlook.live.com/owa/prefetch.aspx, line 18: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 9: Error: Livechat is turned off for this URL
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://adservice.google.com/adsid/integrator.js?domain=www.cnn.com&upapi=true, line 1: ReferenceError: processGoogleToken is not defined
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://static-exp3.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp3.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp3.licdn.com/sc/h/et6rotg4cb3i11cgzpc39e7iw, line 1: Error: Could not lazy load JS with src https://static-exp3.licdn.com/sc/h/b045gzzgfxgfysptabriery88
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 58: Error: Error: not allowed
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=26, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.1/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/??page/home.js,source/pages/global.js, line 1: Error: Loading CSS chunk 15 failed.
+(//assets.alicdn.com/g/ae-fe/home-ui/0.0.49/vendors~components-5ZrkD.css)
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/??page/home.js,source/pages/global.js, line 1: ChunkLoadError: Loading chunk 16 failed.
+(error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/vendors~index-TbYbF.js)
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/??page/home.js,source/pages/global.js, line 1: ChunkLoadError: Loading chunk 14 failed.
+(error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/vendors~aem-hJVLi.js)
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.1/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://s.imgur.com/desktop-assets/js/main.bb0f59b5d7ce0977e27f.js, line 1: ChunkLoadError: Loading chunk 39 failed.
+(error: https://s.imgur.com/desktop-assets/js/floaty_rotator.ebd7f03a0feb8d71c0e4.bundle.js)
+JavaScript error: https://s.imgur.com/desktop-assets/js/main.bb0f59b5d7ce0977e27f.js, line 1: ChunkLoadError: Loading chunk 48 failed.
+(error: https://s.imgur.com/desktop-assets/js/prebid.bd8518768572c1fff850.bundle.js)
+JavaScript error: https://oa.openxcdn.net/oa.js, line 6: TypeError: t is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://s.go-mpulse.net/boomerang/NCPYV-VGJPP-N4J93-8HN3B-8B6S3, line 10: SecurityError: Permission denied to access property "requestIdleCallback" on cross-origin object
+JavaScript error: https://confiant.msn.com/jRl1DZsisNuFn8JGi3LVRod2F9U/msn/config.js, line 68: Error: Confiant integration is broken. No supported ad SDKs are found on the page. Contact our support support@confiant.com
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://static.foxnews.com/static/orion/scripts/core/ag.core.js, line 158: Error: [Modulr] error loading script: https://static.foxnews.com/static/orion/scripts/core/base/app/modules/elections.2020.js
+JavaScript error: https://static.foxnews.com/static/orion/scripts/core/ag.core.js, line 158: Error: [Modulr] error loading script: https://static.foxnews.com/static/orion/scripts/core/base/app/modules/referral.js
+JavaScript error: https://static.foxnews.com/static/orion/scripts/core/ag.core.js?cb=20201026183226, line 158: Error: [Modulr] error loading script: https://static.foxnews.com/static/orion/scripts/core/utils/modernizr.js
+JavaScript error: https://my.foxnews.com/js/modulr.min.js, line 7: Error: [Modulr] error loading script: https://my.foxnews.com/js/app/components/token.js
+JavaScript error: https://static.foxnews.com/static/orion/scripts/core/video/ag.app.js?v=20201026183226, line 6: Error: Error loading script: //foxnewsplayer-a.akamaihd.net/player/9.0.12/akamai/amp/core/amp.js?cb=202010261610
+1603743679527	Marionette	INFO	Stopped listening on port 51010
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
