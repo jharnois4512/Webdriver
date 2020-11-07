@@ -395,7 +395,6 @@ def getStats():
     returnList = []
     test = []
     dummy = []
-    # For elimination of tunneling
     r = open("writing_host.txt", "w")
     with open('hosts_combind.txt', 'r') as f:
         lines = f.readlines()
@@ -409,13 +408,11 @@ def getStats():
             count = count + 1
             print(count)
             print(join)
-            r.write(line.split('\n')[0] + "," + join + '\n')
+            r.write(join + "," + line.split('\n')[0] + '\n')
             join = ""
-        # print(lines)
-            
-            
+        print(lines)
 
-        
+    # For elimination of tunneling    
     # f = open('ff10.csv', 'r')
     # q = open('ff10New.csv', 'w')
     # lines = f.readlines()
