@@ -214,10 +214,172 @@ def __main__(input):
         driver = webdriver.Chrome(options=braveOpts, executable_path=driverPath)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
+        print('here')
         # driver.get("https://www.yahoo.com") 
         # driver.get("https://www.cnn.com")
         for site in sites:
             driver.get(site) 
+        driver.quit()
+
+    elif("v" in input):
+        from selenium.webdriver.chrome.options import Options
+        vivOpts = Options()
+        vivOpts.add_argument('--no-sandbox')
+        vivOpts.add_argument('--disable-web-security')
+        vivPath = 'C:\\Users\\Owner\\AppData\\Local\\Vivaldi\\Application\\vivaldi.exe'
+        vivOpts.binary_location = vivPath
+        driverPath = 'chromedriver.exe'
+        if(1 in input):
+            vivOpts.add_extension("adblock.crx")
+        # if(2 in input):
+        #     vivOpts.add_extension("adblockPlus.crx")
+        # if(3 in input):
+        #     vivOpts.add_extension("adGuard.crx")
+        # if(4 in input):
+        #     vivOpts.add_extension("disconnect.crx")
+        # if(5 in input):
+        #     vivOpts.add_extension("duckduckgoEss.crx")
+        # if(6 in input):
+        #     vivOpts.add_extension("ghostery.crx")
+        # if(7 in input):
+        #     vivOpts.add_extension("httpsEverywhere.crx")
+        # if(8 in input):
+        #     vivOpts.add_extension("myTrackingChoices.crx")
+        # if(9 in input):
+        #     vivOpts.add_extension("noScript.crx")
+        # if(10 in input):
+        #     vivOpts.add_extension("privBadger.crx")
+        # if(11 in input):
+        #     vivOpts.add_extension("ublock.crx")  
+        # if(12 in input):
+        #     vivOpts.add_extension("uBlockOrigin.crx")   
+        print('here')
+        driver = webdriver.Chrome(options=vivOpts, executable_path=driverPath)
+        print('here')
+        # p = psutil.Process(driver.service.process.pid)
+        # print(p.children(recursive=True))
+        print('here')
+        driver.get("https://www.yahoo.com") 
+        driver.get("https://www.cnn.com")
+        # for site in sites:
+        #     driver.get(site) 
+        driver.quit()
+
+    elif("i" in input):
+        from selenium.webdriver.chrome.options import Options
+        iriOpts = Options()
+        iriPath = 'C:\\Program Files\\Iridium\\iridium.exe'
+        iriOpts.binary_location = iriPath
+        driverPath = 'CD_80.exe'
+        if(1 in input):
+            iriOpts.add_extension("adblock.crx")
+        # if(2 in input):
+        #     iriOpts.add_extension("adblockPlus.crx")
+        # if(3 in input):
+        #     iriOpts.add_extension("adGuard.crx")
+        # if(4 in input):
+        #     iriOpts.add_extension("disconnect.crx")
+        # if(5 in input):
+        #     iriOpts.add_extension("duckduckgoEss.crx")
+        # if(6 in input):
+        #     iriOpts.add_extension("ghostery.crx")
+        # if(7 in input):
+        #     iriOpts.add_extension("httpsEverywhere.crx")
+        # if(8 in input):
+        #     iriOpts.add_extension("myTrackingChoices.crx")
+        # if(9 in input):
+        #     iriOpts.add_extension("noScript.crx")
+        # if(10 in input):
+        #     iriOpts.add_extension("privBadger.crx")
+        # if(11 in input):
+        #     iriOpts.add_extension("ublock.crx")  
+        # if(12 in input):
+        #     iriOpts.add_extension("uBlockOrigin.crx")   
+        driver = webdriver.Chrome(options=iriOpts, executable_path=driverPath)
+        p = psutil.Process(driver.service.process.pid)
+        print(p.children(recursive=True)[3])
+        driver.get("https://www.yahoo.com") 
+        driver.get("https://www.cnn.com")
+        # for site in sites:
+        #     driver.get(site) 
+        driver.quit()
+
+    elif("u" in input):
+        from selenium.webdriver.chrome.options import Options
+        unOpts = Options()
+        unPath = 'C:\\Users\\Owner\\AppData\\Local\\Chromium\\Application\\chrome.exe'
+        unOpts.binary_location = unPath
+        driverPath = 'chromedriver.exe'
+        if(1 in input):
+            unOpts.add_extension("adblock.crx")
+        if(2 in input):
+            unOpts.add_extension("adblockPlus.crx")
+        if(3 in input):
+            unOpts.add_extension("adGuard.crx")
+        if(4 in input):
+            unOpts.add_extension("disconnect.crx")
+        if(5 in input):
+            unOpts.add_extension("duckduckgoEss.crx")
+        if(6 in input):
+            unOpts.add_extension("ghostery.crx")
+        if(7 in input):
+            unOpts.add_extension("httpsEverywhere.crx")
+        if(8 in input):
+            unOpts.add_extension("myTrackingChoices.crx")
+        if(9 in input):
+            unOpts.add_extension("noScript.crx")
+        if(10 in input):
+            unOpts.add_extension("privBadger.crx")
+        if(11 in input):
+            unOpts.add_extension("ublock.crx")  
+        if(12 in input):
+            unOpts.add_extension("uBlockOrigin.crx")   
+        driver = webdriver.Chrome(options=unOpts, executable_path=driverPath)
+        p = psutil.Process(driver.service.process.pid)
+        print(p.children(recursive=True)[3])
+        # driver.get("https://www.yahoo.com") 
+        # driver.get("https://www.cnn.com")
+        for site in sites:
+            driver.get(site) 
+        driver.quit()
+
+    elif("p" in input):
+        from selenium.webdriver.chrome.options import Options
+        epicOpts = Options()
+        epicPath = 'C:\\Users\\Owner\\AppData\\Local\\Epic Privacy Browser\\Application\\epic.exe'
+        epicOpts.binary_location = epicPath
+        driverPath = 'CD_84.exe'
+        if(1 in input):
+            epicOpts.add_extension("adblock.crx")
+        if(2 in input):
+            epicOpts.add_extension("adblockPlus.crx")
+        if(3 in input):
+            epicOpts.add_extension("adGuard.crx")
+        if(4 in input):
+            epicOpts.add_extension("disconnect.crx")
+        if(5 in input):
+            epicOpts.add_extension("duckduckgoEss.crx")
+        if(6 in input):
+            epicOpts.add_extension("ghostery.crx")
+        if(7 in input):
+            epicOpts.add_extension("httpsEverywhere.crx")
+        if(8 in input):
+            epicOpts.add_extension("myTrackingChoices.crx")
+        if(9 in input):
+            epicOpts.add_extension("noScript.crx")
+        if(10 in input):
+            epicOpts.add_extension("privBadger.crx")
+        if(11 in input):
+            epicOpts.add_extension("ublock.crx")  
+        if(12 in input):
+            epicOpts.add_extension("uBlockOrigin.crx")   
+        driver = webdriver.Chrome(options=epicOpts, executable_path=driverPath)
+        p = psutil.Process(driver.service.process.pid)
+        print(p.children(recursive=True)[3])
+        driver.get("https://www.yahoo.com") 
+        driver.get("https://www.cnn.com")
+        # for site in sites:
+        #     driver.get(site) 
         driver.quit()
 
 def getStats():
@@ -345,7 +507,7 @@ def getStats():
 
 # __main__(["o", 1])
 # __main__(["b", 1])
-getStats()
+__main__(["i", 1])
 
 ######## Stats description - 
 # Brave - 6999, 3470
