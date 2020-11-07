@@ -395,14 +395,34 @@ def getStats():
     returnList = []
     test = []
     dummy = []
-    # For elimination of tunneling 
-    f = open('ff10.csv', 'r')
-    q = open('ff10New.csv', 'w')
-    lines = f.readlines()
-    for line in lines:
-        if("Tunnel to" not in line):
-            q.write(line)
-    q.close()
+    # For elimination of tunneling
+    r = open("writing_host.txt", "w")
+    with open('hosts_combind.txt', 'r') as f:
+        lines = f.readlines()
+        join = ""
+        count = 0
+        for line in lines:
+            line = line.split('\n')[0]
+            print(line)
+            join = join + line.split('\n')[0].split(".")[-2]
+            join = join + '.' + line.split('\n')[0].split(".")[-1]
+            count = count + 1
+            print(count)
+            print(join)
+            r.write(line.split('\n')[0] + "," + join + '\n')
+            join = ""
+        # print(lines)
+            
+            
+
+        
+    # f = open('ff10.csv', 'r')
+    # q = open('ff10New.csv', 'w')
+    # lines = f.readlines()
+    # for line in lines:
+    #     if("Tunnel to" not in line):
+    #         q.write(line)
+    # q.close()
     # with open('ghostery_json.json') as r:
     #     trackingList = json.loads(r.read())
     # with open('newBraveTest.csv') as j:
@@ -507,7 +527,8 @@ def getStats():
 
 # __main__(["o", 1])
 # __main__(["b", 1])
-__main__(["i", 1])
+# __main__(["i", 1])
+getStats()
 
 ######## Stats description - 
 # Brave - 6999, 3470
