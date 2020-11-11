@@ -59,6 +59,8 @@ def __main__(input):
             opts.add_extension("ublock.crx")  
         if(12 in input):
             opts.add_extension("uBlockOrigin.crx")   
+        if(13 in input):
+            opts.add_extension("blur.crx") 
         driver = webdriver.Chrome(options=opts)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
@@ -95,6 +97,8 @@ def __main__(input):
              driver.install_addon(absPath + "httpsEverywhere.xpi")
         if(11 in input):
              driver.install_addon(absPath + "uBlockOrigin.xpi")
+        if(12 in input):
+            driver.install_addon(absPath + "blur.xpi")
         # driver.close()
         # driver.switch_to_window(driver.window_handles[0])
         p = psutil.Process(driver.service.process.pid)
@@ -384,8 +388,8 @@ def __main__(input):
 
 def getStats():
     count = 0 
-    domainTrackers = ['adv', 'siteAna', 'custInt', 'social', 'ess', 'audio', 'adultAdv', 'comments']
-    domainNumbers = [0,0,0,0,0,0,0,0]
+    domainTrackers = ['Advertising', 'Site Analytics', 'Customer Interaction', 'Social', 'Essential', 'Audio/Video Player', 'Adult Advertising', 'Comments', 'First Party', 'Extension', 'Unknown']
+    domainNumbers = [0,0,0,0,0,0,0,0,0,0,0]
     interactions = ['html', 'gif', 'css', 'png', 'plain', 'json', 'jpeg', 'javascript', 'webm', 'x-mpegURL', 'webp', 'octet-stream', 'x-m4v' ,'binary', 'x-javascript', 'xml', 'svg+xml', 'mp4', 'js', 'x-icon', 'MP2T', 'wasm']
     interactionsTracking = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     itemsArr = []
@@ -395,26 +399,78 @@ def getStats():
     returnList = []
     test = []
     dummy = []
-    r = open("writing_host.txt", "w")
-    with open('hosts_combind.txt', 'r') as f:
-        lines = f.readlines()
-        join = ""
-        count = 0
-        for line in lines:
-            line = line.split('\n')[0]
-            print(line)
-            join = join + line.split('\n')[0].split(".")[-2]
-            join = join + '.' + line.split('\n')[0].split(".")[-1]
-            count = count + 1
-            print(count)
-            print(join)
-            r.write(join + "," + line.split('\n')[0] + '\n')
-            join = ""
-        print(lines)
+    catList = []
+
+
+    # Real stats 
+    # TODO: add counter to see if it returns all false for extra testing in the future to account for the falses in the for loops - for unknowns, not in database
+    # 
+    r = open('manualDatabase.csv', 'r')
+    t = open('newUngoogledTest.csv', 'r')
+    readerTwo = csv.reader(r)
+    reader = csv.reader(t)
+    for row in reader:
+        if(row[11] != ""): # for cookies
+            if(row[3] != 'Host'):
+                if(row[3] not in dummy):
+                    dummy.append(row[3])
+    for line in readerTwo:
+        if(line[1] != 'Full Host with Comma'):
+            test.append([line[1], line[2]])
+    for one in test:
+        for two in dummy:
+            # print(two, one[0])
+            if(two == one[0]):
+                # if(one[1] == "Extension"):
+                #     print(two, one[0])
+                # print(two, one[0])
+                domainNumbers[domainTrackers.index(one[1])] = domainNumbers[domainTrackers.index(one[1])] + 1
+                break
+    print(domainNumbers)
+           
+            # if(row[3] == line[1]):
+            #     print(row, line)
+    #     test.append(row[3])
+    # print(test)
+    # for lines in readerTwo:
+    #     dummy.append(lines['Full Host with Comma'])
+    # for things in test:
+    #     for moreThings in dummy:
+    #         if(things == moreThings):
+    #             catList.append(things)
+    # for hosts in catList:
+
+                # for row in readerTwo:
+                #     print(row['Full Host with Comma'], things)
+                    # if(row['Full Host with Comma'] == things):
+                    #     print(row['Category'])
+            
+            # print(lines['Full Host with Comma'] , "...In Database")
+        #     if(lines['Full Host with Comma'] != row['Host']):
+        #         # print(row['Host'], lines['Full Host with Comma'])
+
+                
+
+    # r = open("writing_host.txt", "w")
+    # with open('hosts_combind.txt', 'r') as f:
+        # lines = f.readlines()
+        # join = ""
+        # count = 0
+        # for line in lines:
+        #     line = line.split('\n')[0]
+        #     print(line)
+        #     join = join + line.split('\n')[0].split(".")[-2]
+        #     join = join + '.' + line.split('\n')[0].split(".")[-1]
+        #     count = count + 1
+        #     print(count)
+        #     print(join)
+        #     r.write(join + "," + line.split('\n')[0] + '\n')
+        #     join = ""
+        # print(lines)
 
     # For elimination of tunneling    
-    # f = open('ff10.csv', 'r')
-    # q = open('ff10New.csv', 'w')
+    # f = open('ungoogled.csv', 'r')
+    # q = open('newUngoogledTest.csv', 'w')
     # lines = f.readlines()
     # for line in lines:
     #     if("Tunnel to" not in line):
@@ -459,7 +515,6 @@ def getStats():
                 # print(interactionsTracking)
     # print(count)
 
-
     # for i in test:
     #     for j in domains:
     #         for k in trackingList:
@@ -467,8 +522,6 @@ def getStats():
     #                 if(j in k):
     #                     # print(j, i)
     #                     print(l)
-                        
-
 
     # For getting the categories of the domains found from each browser; uncomment the arrow!
     # for keys in list(dict.fromkeys(domains)):
@@ -482,9 +535,6 @@ def getStats():
     #                     # print(doms, cats)
     #                     domainNumbers[domainTrackers.index(cats)] = domainNumbers[domainTrackers.index(cats)] + 1
     # print(domainNumbers)    
-
-
-
 
     #     for items in trackingList[things]:
         
@@ -519,12 +569,12 @@ def getStats():
 # __main__(["f", 9])
 # __main__(["f", 10])
 # __main__(["f", 11])
+# __main__(["f", 12])
 
 
-
-# __main__(["o", 1])
-# __main__(["b", 1])
-# __main__(["i", 1])
+# __main__(["u"])
+# __main__(["p"])
+# __main__(["i"])
 getStats()
 
 ######## Stats description - 

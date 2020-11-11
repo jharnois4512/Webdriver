@@ -5412,3 +5412,44 @@ JavaScript error: https://fast.wistia.com/assets/external/E-v1.js, line 1: uncau
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1605052786411	geckodriver	INFO	Listening on 127.0.0.1:52770
+1605052789487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile1Ad6yy"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605052803452	Marionette	INFO	Listening on port 52779
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605052804153	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: moz-extension://177044e4-a33d-466c-9799-492e9d925087/background.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+JavaScript warning: moz-extension://177044e4-a33d-466c-9799-492e9d925087/background.js, line 0: Successfully compiled asm.js code (total compilation time 36ms)
+JavaScript warning: moz-extension://177044e4-a33d-466c-9799-492e9d925087/background.js, line 0: Successfully compiled asm.js code (total compilation time 10ms)
+JavaScript warning: moz-extension://177044e4-a33d-466c-9799-492e9d925087/background.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+Marionette threw an error: TypeError: this.curBrowser.messageManager is null
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:361:5
+send/<@chrome://marionette/content/proxy.js:190:12
+send@chrome://marionette/content/proxy.js:124:12
+get/<@chrome://marionette/content/proxy.js:37:29
+GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:1196:23
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000E,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605052810839	Marionette	INFO	Stopped listening on port 52779
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
