@@ -405,28 +405,28 @@ def getStats():
     # Real stats 
     # TODO: add counter to see if it returns all false for extra testing in the future to account for the falses in the for loops - for unknowns, not in database
     # 
-    r = open('manualDatabase.csv', 'r')
-    t = open('newUngoogledTest.csv', 'r')
-    readerTwo = csv.reader(r)
-    reader = csv.reader(t)
-    for row in reader:
-        if(row[11] != ""): # for cookies
-            if(row[3] != 'Host'):
-                if(row[3] not in dummy):
-                    dummy.append(row[3])
-    for line in readerTwo:
-        if(line[1] != 'Full Host with Comma'):
-            test.append([line[1], line[2]])
-    for one in test:
-        for two in dummy:
-            # print(two, one[0])
-            if(two == one[0]):
-                # if(one[1] == "Extension"):
-                #     print(two, one[0])
-                # print(two, one[0])
-                domainNumbers[domainTrackers.index(one[1])] = domainNumbers[domainTrackers.index(one[1])] + 1
-                break
-    print(domainNumbers)
+    # r = open('manualDatabase.csv', 'r')
+    # t = open('newUngoogledTest.csv', 'r')
+    # readerTwo = csv.reader(r)
+    # reader = csv.reader(t)
+    # for row in reader:
+    #     if(row[11] != ""): # for cookies
+    #         if(row[3] != 'Host'):
+    #             if(row[3] not in dummy):
+    #                 dummy.append(row[3])
+    # for line in readerTwo:
+    #     if(line[1] != 'Full Host with Comma'):
+    #         test.append([line[1], line[2]])
+    # for one in test:
+    #     for two in dummy:
+    #         # print(two, one[0])
+    #         if(two == one[0]):
+    #             # if(one[1] == "Extension"):
+    #             #     print(two, one[0])
+    #             # print(two, one[0])
+    #             domainNumbers[domainTrackers.index(one[1])] = domainNumbers[domainTrackers.index(one[1])] + 1
+    #             break
+    # print(domainNumbers)
            
             # if(row[3] == line[1]):
             #     print(row, line)
@@ -469,8 +469,12 @@ def getStats():
         # print(lines)
 
     # For elimination of tunneling    
-    # f = open('ungoogled.csv', 'r')
-    # q = open('newUngoogledTest.csv', 'w')
+    f = open('manualDatabase.csv', 'r')
+    q = open('uniqueDomains.csv', 'w+')
+    reader = csv.DictReader(f)
+    for lines in reader:
+        if(lines['Short Host'] not in q):
+            q.write(lines['Short Host'] + '\n')
     # lines = f.readlines()
     # for line in lines:
     #     if("Tunnel to" not in line):
@@ -479,7 +483,7 @@ def getStats():
     # with open('ghostery_json.json') as r:
     #     trackingList = json.loads(r.read())
     # with open('newBraveTest.csv') as j:
-    #     reader = csv.DictReader(j)
+        # reader = csv.DictReader(j)
     #     for row in reader:
             #For number of requests and narrowing down their domains
             # if(row['Privacy Info'] != ""):
@@ -524,7 +528,7 @@ def getStats():
     #                     print(l)
 
     # For getting the categories of the domains found from each browser; uncomment the arrow!
-    # for keys in list(dict.fromkeys(domains)):
+    # for keys in list(dict.fromkeys(read)):
     #     returnList.append(keys)
     # print(returnList)
     # for doms in returnList:
