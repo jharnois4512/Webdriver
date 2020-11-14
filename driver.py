@@ -386,8 +386,22 @@ def __main__(input):
         #     driver.get(site) 
         driver.quit()
 
+def helper(start, domains, dumbArrOne):
+    with open('newChromeTest.csv', 'r') as r:
+        with open('topSites.txt', 'r') as f:
+            reader = csv.reader(r)
+            count = 0
+            for row in reader:
+                if(row[4] == '/' and row[3] in domains):
+                    count = count + 1 
+                if(row[4] != '/'):
+                    if(row[0] > start):
+                        dumbArrOne[count - 1].append(row)
+            return(dumbArrOne)
+
 def getStats():
     count = 0 
+    start = 0
     domainTrackers = ['Advertising', 'Site Analytics', 'Customer Interaction', 'Social', 'Essential', 'Audio/Video Player', 'Adult Advertising', 'Comments', 'First Party', 'Extension', 'Unknown']
     domainNumbers = [0,0,0,0,0,0,0,0,0,0,0]
     interactions = ['html', 'gif', 'css', 'png', 'plain', 'json', 'jpeg', 'javascript', 'webm', 'x-mpegURL', 'webp', 'octet-stream', 'x-m4v' ,'binary', 'x-javascript', 'xml', 'svg+xml', 'mp4', 'js', 'x-icon', 'MP2T', 'wasm']
@@ -400,7 +414,45 @@ def getStats():
     test = []
     dummy = []
     catList = []
+    domainArr = ['rubiconproject.com']
+    domainArrCount = [0,0,0]
+    dumbArrOne = []
 
+    # Lol I dont know what this is but 
+    # with open('uniqueDomains.txt', 'r') as r:
+    #     lines = r.readlines()
+    #     for line in lines:
+    #         line = line.split('\n')[0]
+    #         print(line)
+    # Starting here maybe lol idk
+    # with open('newChromeTest.csv', 'r') as r:
+    #     with open('topSites.txt', 'r') as f:
+    #         reader = csv.reader(r)
+    #         readerTwo = csv.reader(r)
+    #         siteLines = f.readlines()
+    #         for site in siteLines:
+    #             domains.append(site.split('\n')[0].split('//')[1].lower())
+    #         for lines in reader:
+    #             # print(siteLines)
+    #             if(lines[4] == '/' and 'www.google.com' in lines[3]):
+    #                 start = lines[0]
+    #             if(lines[4] == '/' and lines[3] in domains):
+    #                 count = count + 1
+    #                 arrInside = []
+    #                 dumbArrOne.append(arrInside)
+    #     f.close()
+    # r.close()
+    # bigAssArr = helper(start, domains, dumbArrOne)
+    #   #count by
+    # for i in range(len(bigAssArr)):
+    #     #see if domainArr is inside 
+    #     for j in range(len(bigAssArr[i])):
+    #         if((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]) in domainArr):
+    #             index = domainArr.index((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]))
+    #             domainArrCount[index] = domainArrCount[index] + 1
+    #             print(bigAssArr[i][j])
+    #             break
+    # print(domainArrCount)
 
     # Real stats 
     # TODO: add counter to see if it returns all false for extra testing in the future to account for the falses in the for loops - for unknowns, not in database
@@ -451,30 +503,30 @@ def getStats():
 
                 
 
-    # r = open("writing_host.txt", "w")
-    # with open('hosts_combind.txt', 'r') as f:
-        # lines = f.readlines()
-        # join = ""
-        # count = 0
-        # for line in lines:
-        #     line = line.split('\n')[0]
-        #     print(line)
-        #     join = join + line.split('\n')[0].split(".")[-2]
-        #     join = join + '.' + line.split('\n')[0].split(".")[-1]
-        #     count = count + 1
-        #     print(count)
-        #     print(join)
-        #     r.write(join + "," + line.split('\n')[0] + '\n')
-        #     join = ""
-        # print(lines)
+    r = open("finalHosts.txt", "w")
+    with open('FinalDatabase.txt', 'r') as f:
+        lines = f.readlines()
+        join = ""
+        count = 0
+        for line in lines:
+            line = line.split('\n')[0]
+            print(line)
+            join = join + line.split('\n')[0].split(".")[-2]
+            join = join + '.' + line.split('\n')[0].split(".")[-1]
+            count = count + 1
+            print(count)
+            print(join)
+            r.write(join + '\n')
+            join = ""
+        print(lines)
 
     # For elimination of tunneling    
-    f = open('manualDatabase.csv', 'r')
-    q = open('uniqueDomains.csv', 'w+')
-    reader = csv.DictReader(f)
-    for lines in reader:
-        if(lines['Short Host'] not in q):
-            q.write(lines['Short Host'] + '\n')
+    # f = open('manualDatabase.csv', 'r')
+    # q = open('uniqueDomains.csv', 'w+')
+    # reader = csv.DictReader(f)
+    # for lines in reader:
+    #     if(lines['Short Host'] not in q):
+    #         q.write(lines['Short Host'] + '\n')
     # lines = f.readlines()
     # for line in lines:
     #     if("Tunnel to" not in line):
