@@ -5453,3 +5453,241 @@ GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:1196:23
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1605461631387	geckodriver	INFO	Listening on 127.0.0.1:49239
+1605461634589	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileL0QES2"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1605461654290	Marionette	INFO	Listening on port 49252
+1605461654766	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605461700827	Marionette	INFO	Stopped listening on port 49252
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605461730459	geckodriver	INFO	Listening on 127.0.0.1:49343
+1605461733521	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilequhNTS"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1605461751349	Marionette	INFO	Listening on port 49353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605461751662	Marionette	WARN	TLS certificate errors will be ignored for this session
+ConvertWinError received an unrecognized WinError: 0x7b
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1605461758358	Marionette	INFO	Stopped listening on port 49353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605461791118	geckodriver	INFO	Listening on 127.0.0.1:49469
+1605461794234	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileDDKVgz"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605461809770	Marionette	INFO	Listening on port 49479
+1605461809957	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 0: Successfully compiled asm.js code (total compilation time 37ms)
+JavaScript warning: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 0: Successfully compiled asm.js code (total compilation time 9ms)
+JavaScript warning: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript warning: https://dnt.abine.com/assets/application-065287e70493ee8896a0b7c7230cd11853905e4bccecf72c27111145d57da41e.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+JavaScript warning: https://dnt.abine.com/assets/application-065287e70493ee8896a0b7c7230cd11853905e4bccecf72c27111145d57da41e.js, line 0: Successfully compiled asm.js code (total compilation time 33ms)
+JavaScript warning: https://dnt.abine.com/assets/application-065287e70493ee8896a0b7c7230cd11853905e4bccecf72c27111145d57da41e.js, line 0: Successfully compiled asm.js code (total compilation time 16ms)
+JavaScript warning: https://dnt.abine.com/assets/application-065287e70493ee8896a0b7c7230cd11853905e4bccecf72c27111145d57da41e.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94110/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94110/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94110/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94110/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: https://www.redditstatic.com/desktop2x/runtime~Reddit.33e8f148bd3d88350f86.js, line 1: ChunkLoadError: Loading chunk PushNotifications failed.
+(error: https://www.redditstatic.com/desktop2x/PushNotifications.ec23d5b1a9b6cba9a11e.js)
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 9: Error: Livechat is turned off for this URL
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.5.0/otBannerSdk.js, line 1: TypeError: o is undefined
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 123: TypeError: this.c.getBody() is null
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html, line 416: SyntaxError: expected expression, got ','
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=15, line 1: WebGL context was lost.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: https://www.okta.com/sites/default/files/js/js_r2vE7nkB_u7WrEk91OHBTevepx_gFlSWpvfgecQ4PW0.js, line 25: ReferenceError: Munchkin is not defined
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: , line 0: TypeError: error loading dynamically imported module
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.1/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: https://m.media-amazon.com/images/I/31827uXCh4L.js, line 8: Error: Request aborted
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: https://static-global-s-msn-com.akamaized.net/hp-eus/en-us/homepage/_sc/js/d7cb56b9-495bc5c2/direction=ltr.locales=en-us.themes=start.dpi=resolution1x/97-9a8c47-68ddb2ab/b2-162ed5-c9b3a3c3/7a-2f26b5-d38aa68d/e4-0588d3-68ddb2ab/64-4c5ce6-5599dabd/9e-a7a255-68ddb2ab/a9-ac9b58-68ddb2ab/f1-d0c6aa-cae48929/c7-47822a-f41d9e92/b8-a3b844-f9c98504/ac-376157-5ba9496a/80-771f27-68ddb2ab/df-6c8e66-68ddb2ab/d2-05c949-243aa040/5e-c51c87-53568de/12-94937c-3e76eb4d/8f-505610-a7d95428/9e-639daf-68ddb2ab/dd-a09dd5-86e27032/85-0f8009-68ddb2ab?ver=20201106_28703143&fdhead=msnallexpusers,muidflt11cf,muidflt13cf,muidflt16cf,muidflt28cf,1s-brsageura,muidflt118cf,muidflt301cf,mmxios1cf,audexedge2cf,complianceedge1cf,starthp3cf,tokenblockac,bingcollabhp2cf,artgly2cf,article4cf,gallery2cf,1s-bing-news,vebudumu04302020,revc-spar-us,revc-view-us,revc-hp-us,bbh20200521msn,shophp1cf,mgidrtbus&csopd=20201027191700&csopdb=20201103062952, line 1: TypeError: nt is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: https://static.foxnews.com/static/isa/core-app.js?v=20201111_1742, line 4: Error: Error loading script: //static.criteo.net/js/ld/ld.js
+JavaScript error: https://static.foxnews.com/static/orion/scripts/core/ag.core.js?cb=20201112170543, line 158: Error: [Modulr] error loading script: https://static.foxnews.com/static/orion/scripts/core/base/app/utils/css.loader.js
+JavaScript error: https://my.foxnews.com/js/modulr.min.js, line 7: Error: [Modulr] error loading script: https://my.foxnews.com/js/app/components/request.js
+JavaScript error: https://static.foxnews.com/static/orion/scripts/core/ag.core.js, line 158: Error: [Modulr] error loading script: https://static.foxnews.com/static/orion/scripts/core/base/app/modules/referral.js
+JavaScript error: https://static.foxnews.com/static/orion/scripts/core/ag.core.js, line 158: Error: [Modulr] error loading script: https://static.foxnews.com/static/orion/scripts/core/base/app/modules/elections.2020.js
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://1b484873-ae7d-44b3-ae82-e0a25ff56a07/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+1605462330796	Marionette	INFO	Stopped listening on port 49479
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: pinning/pins sync interrupted by shutdown
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

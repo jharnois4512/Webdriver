@@ -98,7 +98,7 @@ def __main__(input):
         if(11 in input):
              driver.install_addon(absPath + "uBlockOrigin.xpi")
         if(12 in input):
-            driver.install_addon(absPath + "blur.xpi")
+            driver.install_addon(absPath + "Extensions\\Firefox\\blur.xpi")
         # driver.close()
         # driver.switch_to_window(driver.window_handles[0])
         p = psutil.Process(driver.service.process.pid)
@@ -635,8 +635,9 @@ def getStats():
 
 # __main__(["u"])
 # __main__(["p"])
-# __main__(["i"])
-getStats()
+# __main__(["c", 13])
+__main__(["f", 12])
+# getStats()
 
 ######## Stats description - 
 # Brave - 6999, 3470
