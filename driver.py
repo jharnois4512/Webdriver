@@ -455,7 +455,7 @@ def getStats():
                             break
                 # print(line)
                 # print(domainArrCount)
-                # print(str(domainArrCount[0]))
+                print(str(domainArrCount[0]))
                 t.write(str(domainArrCount[0]) + '\n')
                 domainArrCount[0] = 0
 
