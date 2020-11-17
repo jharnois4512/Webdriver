@@ -419,71 +419,70 @@ def getStats():
     dumbArrOne = []
 
     # Lol I dont know what this is but 
-    with open('finalHosts.txt', 'r') as r:
-        with open('numberOfTrackers.txt', 'w') as t:
-            lines = r.readlines()
-            for line in lines:
-                line = line.split('\n')[0]
-                domainArr[0] = line
-                # Starting here maybe lol idk
-                with open('newChromeTest.csv', 'r') as r:
-                    with open('topSites.txt', 'r') as f:
-                        reader = csv.reader(r)
-                        readerTwo = csv.reader(r)
-                        siteLines = f.readlines()
-                        for site in siteLines:
-                            domains.append(site.split('\n')[0].split('//')[1].lower())
-                        for lines in reader:
-                            # print(siteLines)
-                            if(lines[4] == '/' and 'www.google.com' in lines[3]):
-                                start = lines[0]
-                            if(lines[4] == '/' and lines[3] in domains):
-                                count = count + 1
-                                arrInside = []
-                                dumbArrOne.append(arrInside)
-                    f.close()
-                r.close()
-                bigAssArr = helper(start, domains, dumbArrOne)
-                #count by
-                for i in range(len(bigAssArr)):
-                    #see if domainArr is inside 
-                    for j in range(len(bigAssArr[i])):
-                        if((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]) in domainArr):
-                            index = domainArr.index((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]))
-                            domainArrCount[index] = domainArrCount[index] + 1
-                            # print(bigAssArr[i][j])
-                            break
-                # print(line)
-                # print(domainArrCount)
-                print(str(domainArrCount[0]))
-                t.write(str(domainArrCount[0]) + '\n')
-                domainArrCount[0] = 0
+    # with open('finalHosts.txt', 'r') as r:
+    #     with open('numberOfTrackers.txt', 'w') as t:
+    #         lines = r.readlines()
+    #         for line in lines:
+    #             line = line.split('\n')[0]
+    #             domainArr[0] = line
+    #             # Starting here maybe lol idk
+    #             with open('newChromeTest.csv', 'r') as r:
+    #                 with open('topSites.txt', 'r') as f:
+    #                     reader = csv.reader(r)
+    #                     readerTwo = csv.reader(r)
+    #                     siteLines = f.readlines()
+    #                     for site in siteLines:
+    #                         domains.append(site.split('\n')[0].split('//')[1].lower())
+    #                     for lines in reader:
+    #                         # print(siteLines)
+    #                         if(lines[4] == '/' and 'www.google.com' in lines[3]):
+    #                             start = lines[0]
+    #                         if(lines[4] == '/' and lines[3] in domains):
+    #                             count = count + 1
+    #                             arrInside = []
+    #                             dumbArrOne.append(arrInside)
+    #                 f.close()
+    #             r.close()
+    #             bigAssArr = helper(start, domains, dumbArrOne)
+    #             #count by
+    #             for i in range(len(bigAssArr)):
+    #                 #see if domainArr is inside 
+    #                 for j in range(len(bigAssArr[i])):
+    #                     if((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]) in domainArr):
+    #                         index = domainArr.index((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]))
+    #                         domainArrCount[index] = domainArrCount[index] + 1
+    #                         # print(bigAssArr[i][j])
+    #                         break
+    #             # print(line)
+    #             # print(domainArrCount)
+    #             print(str(domainArrCount[0]))
+    #             t.write(str(domainArrCount[0]) + '\n')
+    #             domainArrCount[0] = 0
 
     # Real stats 
     # TODO: add counter to see if it returns all false for extra testing in the future to account for the falses in the for loops - for unknowns, not in database
-    # 
-    # r = open('manualDatabase.csv', 'r')
-    # t = open('newUngoogledTest.csv', 'r')
-    # readerTwo = csv.reader(r)
-    # reader = csv.reader(t)
-    # for row in reader:
-    #     if(row[11] != ""): # for cookies
-    #         if(row[3] != 'Host'):
-    #             if(row[3] not in dummy):
-    #                 dummy.append(row[3])
-    # for line in readerTwo:
-    #     if(line[1] != 'Full Host with Comma'):
-    #         test.append([line[1], line[2]])
-    # for one in test:
-    #     for two in dummy:
-    #         # print(two, one[0])
-    #         if(two == one[0]):
-    #             # if(one[1] == "Extension"):
-    #             #     print(two, one[0])
-    #             # print(two, one[0])
-    #             domainNumbers[domainTrackers.index(one[1])] = domainNumbers[domainTrackers.index(one[1])] + 1
-    #             break
-    # print(domainNumbers)
+    r = open('CSVs\manualDatabase.csv', 'r')
+    t = open('CSVs\\Browsers\\Brave_Vanilla.csv', 'r')
+    readerTwo = csv.reader(r)
+    reader = csv.reader(t)
+    #remove duplicates based on full host
+    for row in reader:
+        if(row[11] != "" or row[11] == ""): # for cookies
+            if(row[3] != 'Host'):
+                if(row[3] not in dummy):
+                    dummy.append(row[3])
+    for line in readerTwo:
+        if(line[1] != 'Full Host with Comma'):
+            test.append([line[1].split(".")[-2] + "." + line[1].split(".")[-1], line[2]])
+    for one in test:
+        for two in dummy:
+            if(two.split(".")[-2] + "." + two.split(".")[-1] == one[0]):
+                # if(one[1] == "Extension"):
+                #     print(two, one[0])
+                # print(two, one[0])
+                domainNumbers[domainTrackers.index(one[1])] = domainNumbers[domainTrackers.index(one[1])] + 1
+                break
+    print(domainNumbers)
            
             # if(row[3] == line[1]):
             #     print(row, line)
@@ -636,8 +635,8 @@ def getStats():
 # __main__(["u"])
 # __main__(["p"])
 # __main__(["c", 13])
-__main__(["f", 12])
-# getStats()
+# __main__(["f", 12])
+getStats()
 
 ######## Stats description - 
 # Brave - 6999, 3470
@@ -732,3 +731,6 @@ __main__(["f", 12])
 # Edge
 # FireFox
 # Opera
+
+
+# 1125 based on category fml
