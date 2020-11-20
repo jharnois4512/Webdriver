@@ -44,7 +44,7 @@ def __main__(input):
         if(4 in input):
             opts.add_extension("disconnect.crx")
         if(5 in input):
-            opts.add_extension("duckduckgoEss.crx")
+            opts.add_extension("Extensions\Chrome\duckduckgoEss.crx")
         if(6 in input):
             opts.add_extension("ghostery.crx")
         if(7 in input):
@@ -526,12 +526,13 @@ def getStats():
     #     print(lines)
 
     # For elimination of tunneling    
-    # f = open('manualDatabase.csv', 'r')
-    # q = open('uniqueDomains.csv', 'w+')
+    
+    # f = open('CSVs\BrowsersExtensions\Chrome_DuckDuckGo1.csv', 'r')
+    # q = open('CSVs\BrowsersExtensions\Chrome_DuckDuckGo.csv', 'w+')
     # reader = csv.DictReader(f)
-    # for lines in reader:
-    #     if(lines['Short Host'] not in q):
-    #         q.write(lines['Short Host'] + '\n')
+    # # for lines in reader:
+    # #     if(lines['Short Host'] not in q):
+    # #         q.write(lines['Short Host'] + '\n')
     # lines = f.readlines()
     # for line in lines:
     #     if("Tunnel to" not in line):
@@ -621,7 +622,7 @@ def getStats():
 # __main__(["f", 1])
 # __main__(["e", 1])
 # __main__(["f", 2])
-# __main__(["c", 3])
+# __main__(["c", 5])
 # __main__(["f", 4])
 # __main__(["f", 5])
 # __main__(["f", 6])
