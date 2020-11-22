@@ -419,46 +419,46 @@ def getStats():
     dumbArrOne = []
 
     # Lol I dont know what this is but 
-    with open('FinalUniqueDomains.txt', 'r') as r:
-        with open('How many times does x show up/Chrome_DuckDuckGo.txt', 'w') as t:
-            lines = r.readlines()
-            # For each host that we have 
-            for line in lines:
-                line = line.split('\n')[0]
-                domainArr[0] = line
-                # Starting here maybe lol idk
-                with open('CSVs/BrowsersExtensions/Chrome_DuckDuckGo.csv', 'r') as r:
-                    with open('topSites.txt', 'r') as f:
-                        reader = csv.reader(r)
-                        readerTwo = csv.reader(r)
-                        siteLines = f.readlines()
-                        for site in siteLines:
-                            domains.append(site.split('\n')[0].split('//')[1].lower())
-                        for lines in reader:
-                            # print(siteLines)
-                            if(lines[4] == '/' and 'www.google.com' in lines[3]):
-                                start = lines[0]
-                            if(lines[4] == '/' and lines[3] in domains):
-                                count = count + 1
-                                arrInside = []
-                                dumbArrOne.append(arrInside)
-                    f.close()
-                r.close()
-                # print(dumbArrOne)
-                bigAssArr = helper(start, domains, dumbArrOne)
-                #count by
-                for i in range(len(bigAssArr)):
-                    #see if domainArr is inside 
-                    for j in range(len(bigAssArr[i])):
-                        if((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]) in domainArr):
-                            index = domainArr.index((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]))
-                            domainArrCount[index] = domainArrCount[index] + 1                            
-                            break
-                # print(line)
-                # print(domainArrCount)
-                # print(str(domainArrCount[0]))
-                t.write(str(domainArrCount[0]) + '\n')
-                domainArrCount[0] = 0
+    # with open('FinalUniqueDomains.txt', 'r') as r:
+    #     with open('How many times does x show up/Chrome_DuckDuckGo.txt', 'w') as t:
+    #         lines = r.readlines()
+    #         # For each host that we have 
+    #         for line in lines:
+    #             line = line.split('\n')[0]
+    #             domainArr[0] = line
+    #             # Starting here maybe lol idk
+    #             with open('CSVs/BrowsersExtensions/Chrome_DuckDuckGo.csv', 'r') as r:
+    #                 with open('topSites.txt', 'r') as f:
+    #                     reader = csv.reader(r)
+    #                     readerTwo = csv.reader(r)
+    #                     siteLines = f.readlines()
+    #                     for site in siteLines:
+    #                         domains.append(site.split('\n')[0].split('//')[1].lower())
+    #                     for lines in reader:
+    #                         # print(siteLines)
+    #                         if(lines[4] == '/' and 'www.google.com' in lines[3]):
+    #                             start = lines[0]
+    #                         if(lines[4] == '/' and lines[3] in domains):
+    #                             count = count + 1
+    #                             arrInside = []
+    #                             dumbArrOne.append(arrInside)
+    #                 f.close()
+    #             r.close()
+    #             # print(dumbArrOne)
+    #             bigAssArr = helper(start, domains, dumbArrOne)
+    #             #count by
+    #             for i in range(len(bigAssArr)):
+    #                 #see if domainArr is inside 
+    #                 for j in range(len(bigAssArr[i])):
+    #                     if((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]) in domainArr):
+    #                         index = domainArr.index((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]))
+    #                         domainArrCount[index] = domainArrCount[index] + 1                            
+    #                         break
+    #             # print(line)
+    #             # print(domainArrCount)
+    #             # print(str(domainArrCount[0]))
+    #             t.write(str(domainArrCount[0]) + '\n')
+    #             domainArrCount[0] = 0
 
     # Real stats 
     # TODO: add counter to see if it returns all false for extra testing in the future to account for the falses in the for loops - for unknowns, not in database
@@ -527,17 +527,17 @@ def getStats():
 
     # For elimination of tunneling    
     
-    # f = open('CSVs\BrowsersExtensions\Chrome_DuckDuckGo1.csv', 'r')
-    # q = open('CSVs\BrowsersExtensions\Chrome_DuckDuckGo.csv', 'w+')
-    # reader = csv.DictReader(f)
-    # # for lines in reader:
-    # #     if(lines['Short Host'] not in q):
-    # #         q.write(lines['Short Host'] + '\n')
-    # lines = f.readlines()
-    # for line in lines:
-    #     if("Tunnel to" not in line):
-    #         q.write(line)
-    # q.close()
+    f = open('CSVs\BrowsersExtensions\haha.csv', 'r')
+    q = open('CSVs\BrowsersExtensions\Chrome_Blur.csv', 'w+')
+    reader = csv.DictReader(f)
+    # for lines in reader:
+    #     if(lines['Short Host'] not in q):
+    #         q.write(lines['Short Host'] + '\n')
+    lines = f.readlines()
+    for line in lines:
+        if("Tunnel to" not in line):
+            q.write(line)
+    q.close()
     # with open('ghostery_json.json') as r:
     #     trackingList = json.loads(r.read())
     # with open('newBraveTest.csv') as j:

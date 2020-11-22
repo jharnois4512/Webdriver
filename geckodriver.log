@@ -5692,3 +5692,95 @@ console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1605562543542	geckodriver	INFO	Listening on 127.0.0.1:51441
+1606059486225	geckodriver	INFO	Listening on 127.0.0.1:54786
+1606059489476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilekZjgoQ"
+1606059697121	geckodriver	INFO	Listening on 127.0.0.1:55115
+1606059700308	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileQzlhco"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+1606059712569	Marionette	INFO	Listening on port 55123
+1606059712929	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: moz-extension://dd169df0-0cff-41e4-bb70-6f31861fa34b/background.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: moz-extension://dd169df0-0cff-41e4-bb70-6f31861fa34b/background.js, line 0: Successfully compiled asm.js code (total compilation time 27ms)
+JavaScript warning: moz-extension://dd169df0-0cff-41e4-bb70-6f31861fa34b/background.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+JavaScript warning: moz-extension://dd169df0-0cff-41e4-bb70-6f31861fa34b/background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: moz-extension://dd169df0-0cff-41e4-bb70-6f31861fa34b/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://dd169df0-0cff-41e4-bb70-6f31861fa34b/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://dd169df0-0cff-41e4-bb70-6f31861fa34b/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://dd169df0-0cff-41e4-bb70-6f31861fa34b/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+Marionette threw an error: TypeError: this.curBrowser.messageManager is null
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:361:5
+send/<@chrome://marionette/content/proxy.js:190:12
+send@chrome://marionette/content/proxy.js:124:12
+get/<@chrome://marionette/content/proxy.js:37:29
+GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:1194:23
+
+1606059728355	Marionette	INFO	Stopped listening on port 55123
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606059736052	geckodriver	INFO	Listening on 127.0.0.1:55455
+1606059739220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilelJTt23"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606059752428	Marionette	INFO	Listening on port 55464
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606059752644	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://6c937d68-1b3b-4945-9965-a12f6f9eb8a6/background.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: moz-extension://6c937d68-1b3b-4945-9965-a12f6f9eb8a6/background.js, line 0: Successfully compiled asm.js code (total compilation time 31ms)
+JavaScript warning: moz-extension://6c937d68-1b3b-4945-9965-a12f6f9eb8a6/background.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
+JavaScript warning: moz-extension://6c937d68-1b3b-4945-9965-a12f6f9eb8a6/background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: moz-extension://6c937d68-1b3b-4945-9965-a12f6f9eb8a6/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://6c937d68-1b3b-4945-9965-a12f6f9eb8a6/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://6c937d68-1b3b-4945-9965-a12f6f9eb8a6/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://6c937d68-1b3b-4945-9965-a12f6f9eb8a6/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://6c937d68-1b3b-4945-9965-a12f6f9eb8a6/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://6c937d68-1b3b-4945-9965-a12f6f9eb8a6/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+JavaScript warning: https://dnt.abine.com/assets/application-065287e70493ee8896a0b7c7230cd11853905e4bccecf72c27111145d57da41e.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript warning: https://dnt.abine.com/assets/application-065287e70493ee8896a0b7c7230cd11853905e4bccecf72c27111145d57da41e.js, line 0: Successfully compiled asm.js code (total compilation time 40ms)
+JavaScript warning: https://dnt.abine.com/assets/application-065287e70493ee8896a0b7c7230cd11853905e4bccecf72c27111145d57da41e.js, line 0: Successfully compiled asm.js code (total compilation time 10ms)
+JavaScript warning: https://dnt.abine.com/assets/application-065287e70493ee8896a0b7c7230cd11853905e4bccecf72c27111145d57da41e.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94118/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94118/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94118/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94118/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript error: https://www.redditstatic.com/desktop2x/runtime~Reddit.3714115919f046bac937.js, line 1: ChunkLoadError: Loading chunk PushNotifications failed.
+(error: https://www.redditstatic.com/desktop2x/PushNotifications.a742e6cdf5d87ee6fc65.js)
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.instructure.com/sites/blog.instructure/files/js/js_9EYQMuDs13voGd0zSSdldf1O6_GEfS8YJyijSErivxE.js, line 1: TypeError: e(...)[0].slick is undefined
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: Livechat is turned off for this URL
+JavaScript error: moz-extension://6c937d68-1b3b-4945-9965-a12f6f9eb8a6/background.js, line 45: Error: Could not establish connection. Receiving end does not exist.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606059884882	Marionette	INFO	Stopped listening on port 55464
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
