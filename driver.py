@@ -387,7 +387,7 @@ def __main__(input):
         driver.quit()
 
 def helper(start, domains, dumbArrOne):
-    with open('CSVs/BrowsersExtensions/Chrome_DuckDuckGo.csv', 'r') as r:
+    with open('CSVs/BrowsersExtensions/Firefox_ublockOrigin.csv', 'r') as r:
         with open('topSites.txt', 'r') as f:
             reader = csv.reader(r)
             count = 0
@@ -420,14 +420,14 @@ def getStats():
 
     # Lol I dont know what this is but 
     with open('FinalUniqueDomains.txt', 'r') as r:
-        with open('How many times does x show up/Chrome_DuckDuckGoNew.txt', 'w') as t:
+        with open('How many times does x show up/Firefox_ublockOriginNew.txt', 'w') as t:
             lines = r.readlines()
             # For each host that we have 
             for line in lines:
                 line = line.split('\n')[0]
                 domainArr[0] = line
                 # Starting here maybe lol idk
-                with open('CSVs/BrowsersExtensions/Chrome_DuckDuckGo.csv', 'r') as r:
+                with open('CSVs/BrowsersExtensions/Firefox_ublockOrigin.csv', 'r') as r:
                     with open('topSites.txt', 'r') as f:
                         reader = csv.reader(r)
                         readerTwo = csv.reader(r)
