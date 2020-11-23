@@ -30,35 +30,34 @@ def openTopSites():
 
 # main driving function
 def __main__(input):
-    print("Starting process: " + str(os.getpid()))
     sites = openTopSites()
     if("c" in input):
         from selenium.webdriver.chrome.options import Options
         opts = Options()
         if(1 in input):
-            opts.add_extension("adblock.crx")
+            opts.add_extension("Extensions\\Chrome\\adblock.crx")
         if(2 in input):
             opts.add_extension("adblockPlus.crx")
         if(3 in input):
-            opts.add_extension("adGuard.crx")
+            opts.add_extension("Extensions\\Chrome\\adGuard.crx")
         if(4 in input):
             opts.add_extension("disconnect.crx")
         if(5 in input):
-            opts.add_extension("Extensions\Chrome\duckduckgoEss.crx")
+            opts.add_extension("Extensions\\Chrome\\duckduckgoEss.crx")
         if(6 in input):
-            opts.add_extension("ghostery.crx")
+            opts.add_extension("Extensions\\Chrome\\ghostery.crx")
         if(7 in input):
             opts.add_extension("httpsEverywhere.crx")
         if(8 in input):
             opts.add_extension("myTrackingChoices.crx")
         if(9 in input):
-            opts.add_extension("noScript.crx")
+            opts.add_extension("Extensions\\Chrome\\noScript.crx")
         if(10 in input):
             opts.add_extension("privBadger.crx")
         if(11 in input):
             opts.add_extension("ublock.crx")  
         if(12 in input):
-            opts.add_extension("uBlockOrigin.crx")   
+            opts.add_extension("Extensions\\Chrome\\uBlockOrigin.crx")   
         if(13 in input):
             opts.add_extension("blur.crx") 
         driver = webdriver.Chrome(options=opts)
@@ -66,12 +65,12 @@ def __main__(input):
         print(p.children(recursive=True)[3])
         # driver.close()
         # driver.switch_to_window(driver.window_handles[0])
-        for site in sites:
-            driver.get(site)
-        # driver.get("https://www.google.com")
+        # for site in sites:
+        #     driver.get(site)
+        driver.start("https://www.google.com")
         # driver.find_element_by_name("q").send_keys("test")
         # driver.find_elements_by_name("btnK")[1].click()
-        driver.quit()
+        # driver.quit()
 
     elif("f" in input):
         driver = webdriver.Firefox()
@@ -96,18 +95,19 @@ def __main__(input):
         if(10 in input):
              driver.install_addon(absPath + "httpsEverywhere.xpi")
         if(11 in input):
-             driver.install_addon(absPath + "uBlockOrigin.xpi")
+             driver.install_addon(absPath + "Extensions\\Firefox\\uBlockOrigin.xpi")
         if(12 in input):
             driver.install_addon(absPath + "Extensions\\Firefox\\blur.xpi")
         # driver.close()
         # driver.switch_to_window(driver.window_handles[0])
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[1])
+        driver.start()
         # driver.get("https://www.yahoo.com") 
         # driver.get("https://www.cnn.com")
-        for site in sites:
-            driver.get(site)        
-        driver.quit()
+        # for site in sites:
+        #     driver.get(site)        
+        # driver.quit()
 
     elif("e" in input):
         from msedge.selenium_tools import Edge, EdgeOptions
@@ -387,7 +387,7 @@ def __main__(input):
         driver.quit()
 
 def helper(start, domains, dumbArrOne):
-    with open('CSVs/BrowsersExtensions/Chrome_DuckDuckGo.csv', 'r') as r:
+    with open('CSVs/BrowsersExtensions/Firefox_AdBlockPlus.csv', 'r') as r:
         with open('topSites.txt', 'r') as f:
             reader = csv.reader(r)
             count = 0
@@ -419,46 +419,47 @@ def getStats():
     dumbArrOne = []
 
     # Lol I dont know what this is but 
-    # with open('FinalUniqueDomains.txt', 'r') as r:
-    #     with open('How many times does x show up/Chrome_DuckDuckGo.txt', 'w') as t:
-    #         lines = r.readlines()
-    #         # For each host that we have 
-    #         for line in lines:
-    #             line = line.split('\n')[0]
-    #             domainArr[0] = line
-    #             # Starting here maybe lol idk
-    #             with open('CSVs/BrowsersExtensions/Chrome_DuckDuckGo.csv', 'r') as r:
-    #                 with open('topSites.txt', 'r') as f:
-    #                     reader = csv.reader(r)
-    #                     readerTwo = csv.reader(r)
-    #                     siteLines = f.readlines()
-    #                     for site in siteLines:
-    #                         domains.append(site.split('\n')[0].split('//')[1].lower())
-    #                     for lines in reader:
-    #                         # print(siteLines)
-    #                         if(lines[4] == '/' and 'www.google.com' in lines[3]):
-    #                             start = lines[0]
-    #                         if(lines[4] == '/' and lines[3] in domains):
-    #                             count = count + 1
-    #                             arrInside = []
-    #                             dumbArrOne.append(arrInside)
-    #                 f.close()
-    #             r.close()
-    #             # print(dumbArrOne)
-    #             bigAssArr = helper(start, domains, dumbArrOne)
-    #             #count by
-    #             for i in range(len(bigAssArr)):
-    #                 #see if domainArr is inside 
-    #                 for j in range(len(bigAssArr[i])):
-    #                     if((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]) in domainArr):
-    #                         index = domainArr.index((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]))
-    #                         domainArrCount[index] = domainArrCount[index] + 1                            
-    #                         break
-    #             # print(line)
-    #             # print(domainArrCount)
-    #             # print(str(domainArrCount[0]))
-    #             t.write(str(domainArrCount[0]) + '\n')
-    #             domainArrCount[0] = 0
+    with open('FinalUniqueDomains.txt', 'r') as r:
+        with open('How many times does x show up/Firefox_AdBlockPlusNew.txt', 'w') as t:
+            lines = r.readlines()
+            # For each host that we have 
+            for line in lines:
+                line = line.split('\n')[0]
+                domainArr[0] = line
+                # Starting here maybe lol idk
+                with open('CSVs/BrowsersExtensions/Firefox_AdBlockPlus.csv', 'r') as r:
+                    with open('topSites.txt', 'r') as f:
+                        reader = csv.reader(r)
+                        readerTwo = csv.reader(r)
+                        siteLines = f.readlines()
+                        for site in siteLines:
+                            domains.append(site.split('\n')[0].split('//')[1].lower())
+                        for lines in reader:
+                            # print(siteLines)
+                            if(lines[4] == '/' and 'www.google.com' in lines[3]):
+                                start = lines[0]
+                            if(lines[4] == '/' and lines[3] in domains):
+                                count = count + 1
+                                arrInside = []
+                                dumbArrOne.append(arrInside)
+                    f.close()
+                r.close()
+                # print(dumbArrOne)
+                bigAssArr = helper(start, domains, dumbArrOne)
+                #count by
+                for i in range(len(bigAssArr)):   
+                    #see if domainArr is inside 
+                    for j in range(len(bigAssArr[i])):
+                        if((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]) in domainArr):
+                            index = domainArr.index((bigAssArr[i][j][3].split('.')[-2]+ '.' + bigAssArr[i][j][3].split('.')[-1]))
+                            domainArrCount[index] = domainArrCount[index] + 1                            
+                            break
+                # print(line)
+                # print(domainArrCount)
+                # print(str(domainArrCount[0]))
+                t.write(str(domainArrCount[0]) + '\n')
+                domainArrCount[0] = 0
+    
 
     # Real stats 
     # TODO: add counter to see if it returns all false for extra testing in the future to account for the falses in the for loops - for unknowns, not in database
@@ -527,17 +528,17 @@ def getStats():
 
     # For elimination of tunneling    
     
-    f = open('CSVs\BrowsersExtensions\haha.csv', 'r')
-    q = open('CSVs\BrowsersExtensions\Chrome_Blur.csv', 'w+')
-    reader = csv.DictReader(f)
-    # for lines in reader:
-    #     if(lines['Short Host'] not in q):
-    #         q.write(lines['Short Host'] + '\n')
-    lines = f.readlines()
-    for line in lines:
-        if("Tunnel to" not in line):
-            q.write(line)
-    q.close()
+    # f = open('CSVs\Firefox_ublockOrigin_Manual.csv', 'r')
+    # q = open('CSVs\BrowsersExtensions\Firefox_ublockOrigin.csv', 'w+')
+    # reader = csv.DictReader(f)
+    # # for lines in reader:
+    # #     if(lines['Short Host'] not in q):
+    # #         q.write(lines['Short Host'] + '\n')
+    # lines = f.readlines()
+    # for line in lines:
+    #     if("Tunnel to" not in line):
+    #         q.write(line)
+    # q.close()
     # with open('ghostery_json.json') as r:
     #     trackingList = json.loads(r.read())
     # with open('newBraveTest.csv') as j:
@@ -638,6 +639,7 @@ def getStats():
 # __main__(["p"])
 # __main__(["c", 13])
 # __main__(["f", 12])
+# __main__(["c", 12])
 getStats()
 
 ######## Stats description - 
@@ -734,5 +736,12 @@ getStats()
 # FireFox
 # Opera
 
-
-# 1125 based on category fml
+# captchas (?) videos turnoff extensions
+# yahoo - captchas on login
+# reddit - front page click stories
+# facebook - request couldnt be processed
+# zoom - signup no work
+# myshopify - wont login (enable js)
+# twitch - just wont load at all haha
+# twitter - goes to legacy because of no js
+# 
