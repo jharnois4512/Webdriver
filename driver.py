@@ -57,7 +57,7 @@ def __main__(input):
         if(9 in input):
             opts.add_extension("Extensions\\Chrome\\noScript.crx")
         if(10 in input):
-            opts.add_extension("privBadger.crx")
+            opts.add_extension("Extensions\\Chrome\\privBadger.crx")
         if(11 in input):
             opts.add_extension("ublock.crx")  
         if(12 in input):
@@ -69,11 +69,13 @@ def __main__(input):
         print(p.children(recursive=True)[3])
         # driver.close()
         # driver.switch_to_window(driver.window_handles[0])
-        # for site in sites:
-        #     driver.get(site)
+        for site in sites:
+            driver.get(site)
+        for site in sites:
+            driver.get(site)
         # driver.get("https://www.foxnews.com")
-        driver.get("https://www.cbs.com/shows/all-rise/video/HWypMj8VYUT5NPsNTzhiZIfSI_VX2ySe/all-rise-keep-ya-head-up/")
-        driver.save_screenshot("BreakageImages/test.jpg")
+        # driver.get("https://www.cbs.com/shows/all-rise/video/HWypMj8VYUT5NPsNTzhiZIfSI_VX2ySe/all-rise-keep-ya-head-up/")
+        # driver.save_screenshot("BreakageImages/test.jpg")
         # login test
         # driver.get("https://login.microsoftonline.com/589c76f5-ca15-41f9-884b-55ec15a0672a/saml2?SAMLRequest=fZJBb9swDIXv%2BxWG7rItz3JsIQmQJRgWoN2CJtthl0GR6UaALbmi1K7%2FfordYe1hvVJ8%2FPgetUQ59KPYBH8xd%2FAQAH3ye%2BgNiulhRYIzwkrUKIwcAIVX4ri5vRFFmovRWW%2BV7ckryfsKiQjOa2tIst%2BtyK8FqzmrCk6bRjW0zJuanlt%2Bph%2BhKhdFqaqSK5L8AIdRsyJxRBQiBtgb9NL4WMqLnDJGi%2FLEuOCF4OwnSXbRhzbST6qL9yOKLOvtvTbpoJWzaDtvTa8NpMoOGa8btag6TpVknJasa2hdl2fKOSjGZV4tCpld3RUk2fy1sLUGwwDuCO5RK%2Fh%2Bd%2FMPpaR5lJg%2BjTqFNszkaQBJDi%2BhfdKm1eb%2B%2FbzOcxOKL6fTgR6%2BHU9kvbzOEVMKbn0FRt4VpGMkLigf3Gxq2neZve5eztf%2BGjn73cH2Wj0nn60bpP%2F%2FGixlU0W3tJtaRTA4gtKdhjbG0ff2aetAeliRyAeSrWfo21%2B1%2FvAH&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=qlUPznFbYqWTA5yQAy4uPO3O%2F39cWkG6Sn9pS8CBmBH3VJMf2JmOwFgft6hYHywGJ%2FJUKdJ47Bl4gin1yU6z0Jp%2B5Lb70TMxihDvKXSe%2BKipNbD03HRTMEE%2FhDHQy2gl7Jy05eqiNAZzKTqhR9Y%2FetJD5MYygKYqvRlZdqJQL38nhOXnAQRrYZM5iwa5E4FPxtZOVjSKOcTMC9tJzBInfhPDrxfPwvKPKTHfHWafCunGZzdOrCRCy0cjiC83Ldrtqub9MYgb%2FeuR4Vkjww1ge0iE1H08WlckmXLMFIX95ywNkGcUiyVDsCi7zuuS3tEDWykNPUE7TO3vSe%2B6F1bsZA%3D%3D&sso_reload=true")
         # driver.implicitly_wait(10)
@@ -94,11 +96,11 @@ def __main__(input):
         # driver.switch_to.frame(firstFrame)
         # print(driver.find_element_by_tag_name("button"))
         # .contentWindow.frames
-        driver.start("test")
+        # driver.start("test")
         # test = driver.find_element_by_class_name("fc-dialog-container")
         # driver.find_element_by_class_name("fc-dialog-container").send_keys("test")
         # driver.find_elements_by_name("btnK")[1].click()
-        # driver.quit()
+        driver.quit()
 
     elif("f" in input):
         driver = webdriver.Firefox()
@@ -447,7 +449,7 @@ def __main__(input):
         driver.quit()
 
 def helper(start, domains, dumbArrOne):
-    with open('CSVs/cheese2.csv', 'r') as r:
+    with open('CSVs/Chrome_privBadTrained.csv', 'r') as r:
         with open('topSites.txt', 'r') as f:
             reader = csv.reader(r)
             count = 0
@@ -480,14 +482,14 @@ def getStats():
 
     # Lol I dont know what this is but 
     with open('FinalUniqueDomains.txt', 'r') as r:
-        with open('How many times does x show up/cheese.txt', 'w') as t:
+        with open('How many times does x show up/Chrome_privBadTrained.txt', 'w') as t:
             lines = r.readlines()
             # For each host that we have 
             for line in lines:
                 line = line.split('\n')[0]
                 domainArr[0] = line
                 # Starting here maybe lol idk
-                with open('CSVs/cheese2.csv', 'r') as r:
+                with open('CSVs/Chrome_privBadTrained.csv', 'r') as r:
                     with open('topSites.txt', 'r') as f:
                         reader = csv.reader(r)
                         readerTwo = csv.reader(r)
@@ -588,8 +590,8 @@ def getStats():
 
     # For elimination of tunneling    
     
-    # f = open('CSVs\cheese.csv', 'r')
-    # q = open('CSVs\cheese2.csv', 'w+')
+    # f = open('CSVs\\banana.csv', 'r')
+    # q = open('CSVs\Chrome_privBadTrained.csv', 'w+')
     # reader = csv.DictReader(f)
     # # for lines in reader:
     # #     if(lines['Short Host'] not in q):
@@ -699,7 +701,7 @@ def getStats():
 # __main__(["p"])
 # __main__(["c", 13])
 # __main__(["f", 12])
-# __main__(["f", 6])
+# __main__(["c", 10])
 getStats()
 
 ######## Stats description - 
