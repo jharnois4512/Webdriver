@@ -5986,3 +5986,960 @@ http://requirejs.org/docs/errors.html#scripterror
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1606673249679	geckodriver	INFO	Listening on 127.0.0.1:65254
+1606673253559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile3OGBZi"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606673300469	Marionette	INFO	Listening on port 65263
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606673301489	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 18276, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1606673386260	Marionette	INFO	Stopped listening on port 65263
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606673389889	geckodriver	INFO	Listening on 127.0.0.1:65341
+1606673393736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile3JWPNF"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606673449999	Marionette	INFO	Listening on port 65351
+1606673450062	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+[Parent 10456, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 10456, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1606673497060	Marionette	INFO	Stopped listening on port 65351
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606673516882	geckodriver	INFO	Listening on 127.0.0.1:65420
+1606673521023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileQRPD72"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606673567732	Marionette	INFO	Listening on port 65428
+1606673568953	Marionette	WARN	TLS certificate errors will be ignored for this session
+Extension error: TypeError: r.patterns is undefined moz-extension://42976273-c502-4d63-a47e-c68a74dc11c6/dist/background.js 302
+[[Exception stack
+A@moz-extension://42976273-c502-4d63-a47e-c68a74dc11c6/dist/background.js:302:1856
+onBeforeRequest@moz-extension://42976273-c502-4d63-a47e-c68a74dc11c6/dist/background.js:1286:39051
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 474: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 474: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: https://aadcdn.msftauth.net/shared/1.0/content/js/ConvergedLogin_PCore_7FOrbkodEq5Y0IAj8ZfQtw2.js, line 13: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: chrome://marionette/content/proxy.js, line 283: NS_ERROR_NOT_INITIALIZED
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1606673615085	Marionette	INFO	Stopped listening on port 65428
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606837267060	geckodriver	INFO	Listening on 127.0.0.1:64645
+1606837270189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileiHvzal"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606837283571	Marionette	INFO	Listening on port 64653
+1606837284012	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606837292028	Marionette	INFO	Stopped listening on port 64653
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606837313195	geckodriver	INFO	Listening on 127.0.0.1:64716
+1606837316242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilePHdTdi"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606837326950	Marionette	INFO	Listening on port 64729
+1606837327665	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606837343694	Marionette	INFO	Stopped listening on port 64729
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606837372584	geckodriver	INFO	Listening on 127.0.0.1:64915
+1606837375668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileQAG3Hw"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606837386234	Marionette	INFO	Listening on port 64925
+1606837386269	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: moz-extension://b4997be7-dec5-4ada-90a4-c3edc96d994b/dist/background.js, line 620: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://b4997be7-dec5-4ada-90a4-c3edc96d994b/dist/background.js, line 620: Error: Promised response from onMessage listener went out of scope
+1606837432564	Marionette	INFO	Stopped listening on port 64925
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606837487635	geckodriver	INFO	Listening on 127.0.0.1:65097
+1606837490721	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileYJJtPR"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606837501032	Marionette	INFO	Listening on port 65107
+1606837501284	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606837510116	Marionette	INFO	Stopped listening on port 65107
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606837533128	geckodriver	INFO	Listening on 127.0.0.1:58930
+1606837536159	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile09r647"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606837547456	Marionette	INFO	Listening on port 58938
+1606837547952	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+Extension error: TypeError: r.patterns is undefined moz-extension://d4deecc4-ad91-4886-9ce8-f0880f7f1087/dist/background.js 302
+[[Exception stack
+A@moz-extension://d4deecc4-ad91-4886-9ce8-f0880f7f1087/dist/background.js:302:1856
+onBeforeRequest@moz-extension://d4deecc4-ad91-4886-9ce8-f0880f7f1087/dist/background.js:1286:39051
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:619:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:169:20
+run@resource://gre/modules/ConduitsChild.jsm:160:30
+receiveMessage/<@resource://gre/modules/ConduitsChild.jsm:161:46
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:161:31
+]]
+JavaScript error: https://www.washingtonpost.com/news/federal-eye/wp/2014/09/04/reporters-deaths-point-to-dangers-of-working-in-hotspots-abroad/?arc404=true, line 15: TypeError: window._adp is undefined
+1606841340139	Marionette	INFO	Stopped listening on port 58938
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606881655298	geckodriver	INFO	Listening on 127.0.0.1:62832
+1606881658568	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilejQu7qI"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606881673153	Marionette	INFO	Listening on port 62841
+1606881673632	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606881683400	Marionette	INFO	Stopped listening on port 62841
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606882048811	geckodriver	INFO	Listening on 127.0.0.1:62985
+1606882051880	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile8PGeIE"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606882064703	Marionette	INFO	Listening on port 62993
+1606882065115	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: moz-extension://acba773c-895c-4d6b-baac-b2ae4273c3ad/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 74"  data: no] undefined 74
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:74:12
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:526:36
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:80:9
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:526:36
+]]
+JavaScript error: https://widgets.outbrain.com/widgetOBUserSync/obUserSync.html#pid=45&dmpenabled=false&filterDMP=&csenabled=true&d=i7gjl81AtDG9vqgDgZ8ysiLwntLt_aUCdv13wQ4jxCobs_huuPP97pASYU0ph_1j&gdpr=0&cmpNeeded=false&gdprVer=null&ccpa=1---&country=US, line 3: SecurityError: The operation is insecure.
+JavaScript error: https://www.washingtonpost.com/_next/static/chunks/c8f7fe3b0e41be846d5687592cf2018ff6e22687.0a6431d93740d1226241.module.js, line 1: TypeError: p is not a function
+1606882657725	Marionette	INFO	Stopped listening on port 62993
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606884670285	geckodriver	INFO	Listening on 127.0.0.1:50200
+1606884673385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilelfzEHj"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606884687935	Marionette	INFO	Listening on port 50208
+1606884688421	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://16019c3f-ceac-43bf-8d4d-be6ce15316f7/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+1606884708177	Marionette	INFO	Stopped listening on port 50208
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606884725264	geckodriver	INFO	Listening on 127.0.0.1:50343
+1606884728435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile3AO01h"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606884753252	Marionette	INFO	Listening on port 50360
+1606884753423	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://776b318d-eeef-4ce0-ba4b-499d3917d464/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 414: SecurityError: Permission denied to access property "removeEventListener" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: moz-extension://776b318d-eeef-4ce0-ba4b-499d3917d464/polyfill.js, line 254: InvalidStateError: An exception was thrown
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1606884768084	Marionette	ERROR	[24] No reply from Marionette:Register
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+1606884780555	Marionette	INFO	Stopped listening on port 50360
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606885555948	geckodriver	INFO	Listening on 127.0.0.1:50642
+1606885559158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile58cKyN"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606885575381	Marionette	INFO	Listening on port 50650
+1606885576092	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: moz-extension://4e6b78a3-5472-4000-9a3f-c9e62c3b8fb5/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://c.go-mpulse.net/boomerang/W8234-EWWKH-SQWJU-EAC6K-7AE5Z, line 10: SecurityError: Permission denied to access property "chrome" on cross-origin object
+JavaScript warning: https://www.nbcnews.com/, line 26: unreachable code after return statement
+JavaScript warning: https://www.nbcnews.com/ line 2 > injectedScript, line 26: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606917212070	Marionette	INFO	Stopped listening on port 50650
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606920777603	geckodriver	INFO	Listening on 127.0.0.1:54467
+1606920781020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilebBtKs9"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606920813564	Marionette	INFO	Listening on port 54477
+1606920813799	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://b7024f62-ca1f-4429-93eb-7950dd73630b/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 50ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+console.warn: services.settings: main/public-suffix-list sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: pinning/pins sync interrupted by shutdown
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606920824242	Marionette	INFO	Stopped listening on port 54477
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606920847617	geckodriver	INFO	Listening on 127.0.0.1:54560
+1606920850845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileetf0n8"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606920892755	Marionette	INFO	Listening on port 54569
+1606920892934	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://cbf61c55-dcc0-4a1e-9906-b887c358ae0d/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+1606920910259	Marionette	ERROR	[24] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 568: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606920916466	Marionette	INFO	Stopped listening on port 54569
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 426: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 446: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606920950145	geckodriver	INFO	Listening on 127.0.0.1:54694
+1606920953365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilet2HwO5"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606920978836	Marionette	INFO	Listening on port 54702
+1606920978979	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://be3c82c0-c0ff-41e4-bbbf-2dbd654b2e70/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+1606920996360	Marionette	ERROR	[24] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 414: SecurityError: Permission denied to access property "removeEventListener" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: moz-extension://be3c82c0-c0ff-41e4-bbbf-2dbd654b2e70/polyfill.js, line 254: InvalidStateError: An exception was thrown
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606921029805	Marionette	INFO	Stopped listening on port 54702
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606921031025	geckodriver	INFO	Listening on 127.0.0.1:54827
+1606921034355	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofile5GrTBW"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606921057888	Marionette	INFO	Listening on port 54835
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606921058265	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://8d30f52e-b0f1-4bae-9c20-e0b171f28287/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606921091735	Marionette	INFO	Stopped listening on port 54835
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606921092370	geckodriver	INFO	Listening on 127.0.0.1:54960
+1606921095655	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileiL7QYl"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606921125557	Marionette	INFO	Listening on port 54968
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606921125903	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://affa0447-3cc6-4e51-a84c-723a8fca6f3a/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 414: SecurityError: Permission denied to access property "removeEventListener" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: moz-extension://affa0447-3cc6-4e51-a84c-723a8fca6f3a/polyfill.js, line 254: InvalidStateError: An exception was thrown
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 74"  data: no] undefined 74
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:74:12
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:526:36
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:80:9
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:526:36
+]]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606921148599	Marionette	INFO	Stopped listening on port 54968
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606921193181	geckodriver	INFO	Listening on 127.0.0.1:55076
+1606921196351	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilehtn0Wp"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606921224644	Marionette	INFO	Listening on port 55087
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606921224909	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://b3c485a7-91f6-48bb-9ef5-fc45eed61ad6/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 414: SecurityError: Permission denied to access property "removeEventListener" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: moz-extension://b3c485a7-91f6-48bb-9ef5-fc45eed61ad6/polyfill.js, line 254: InvalidStateError: An exception was thrown
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606921274266	Marionette	INFO	Stopped listening on port 55087
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606921308253	geckodriver	INFO	Listening on 127.0.0.1:55264
+1606921311615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileHXbHzW"
+1606921337535	geckodriver	INFO	Listening on 127.0.0.1:55279
+1606921341071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilep04FgL"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606921365848	Marionette	INFO	Listening on port 55292
+1606921366070	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A011C,name=PContent::Msg_RecordDiscardedData) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: moz-extension://4d56e250-a6a0-4f07-9605-9dd2482919f5/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 414: SecurityError: Permission denied to access property "removeEventListener" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: moz-extension://4d56e250-a6a0-4f07-9605-9dd2482919f5/polyfill.js, line 254: InvalidStateError: An exception was thrown
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+1606921404256	Marionette	INFO	Stopped listening on port 55292
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 426: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 446: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606921461645	geckodriver	INFO	Listening on 127.0.0.1:55483
+1606921464986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileprCNvV"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606921504494	Marionette	INFO	Listening on port 55491
+1606921504590	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: moz-extension://fe754a8b-6bd7-40f5-8e63-40484a855bb7/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+1606921568024	Marionette	ERROR	[24] No reply from Marionette:Register
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+JavaScript error: , line 0: uncaught exception: Unable to load script: moz-extension://fe754a8b-6bd7-40f5-8e63-40484a855bb7/polyfill.js
+JavaScript error: , line 0: uncaught exception: Unable to load script: moz-extension://fe754a8b-6bd7-40f5-8e63-40484a855bb7/polyfill.js
+JavaScript error: , line 0: uncaught exception: Unable to load script: moz-extension://fe754a8b-6bd7-40f5-8e63-40484a855bb7/polyfill.js
+JavaScript error: , line 0: uncaught exception: Unable to load script: moz-extension://fe754a8b-6bd7-40f5-8e63-40484a855bb7/ext/common.js
+JavaScript error: , line 0: uncaught exception: Unable to load script: moz-extension://fe754a8b-6bd7-40f5-8e63-40484a855bb7/ext/content.js
+JavaScript error: , line 0: uncaught exception: Unable to load script: moz-extension://fe754a8b-6bd7-40f5-8e63-40484a855bb7/include.preload.js
+JavaScript error: , line 0: uncaught exception: Unable to load script: moz-extension://fe754a8b-6bd7-40f5-8e63-40484a855bb7/include.postload.js
+1606921570478	Marionette	INFO	Stopped listening on port 55491
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606921576934	geckodriver	INFO	Listening on 127.0.0.1:55666
+1606921580294	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilePiu9Ys"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606921619250	Marionette	INFO	Listening on port 55675
+1606921619387	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://53f39043-a361-4393-8476-49e9cc1be013/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+1606921641621	Marionette	ERROR	[24] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 568: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1606921661703	Marionette	INFO	Stopped listening on port 55675
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606921670453	geckodriver	INFO	Listening on 127.0.0.1:55820
+1606921673904	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilegpwBNl"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606921710327	Marionette	INFO	Listening on port 55829
+1606921710399	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: moz-extension://f678d98b-8480-42bc-a155-1abb9694eff8/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 414: SecurityError: Permission denied to access property "removeEventListener" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: moz-extension://f678d98b-8480-42bc-a155-1abb9694eff8/polyfill.js, line 254: InvalidStateError: An exception was thrown
+JavaScript error: https://sb.scorecardresearch.com/c2/3005086/cs.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+1606921744523	Marionette	INFO	Stopped listening on port 55829
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606921801012	geckodriver	INFO	Listening on 127.0.0.1:55993
+1606921804342	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilee50So3"
+1606921810509	geckodriver	INFO	Listening on 127.0.0.1:56004
+1606921813836	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileC5O8ZK"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606921840195	Marionette	INFO	Listening on port 56012
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606921840281	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://edc944a1-982d-42e8-8a60-50c31dd26734/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 414: SecurityError: Permission denied to access property "removeEventListener" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: moz-extension://edc944a1-982d-42e8-8a60-50c31dd26734/polyfill.js, line 254: InvalidStateError: An exception was thrown
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+JavaScript error: chrome://marionette/content/proxy.js, line 283: NS_ERROR_NOT_INITIALIZED
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 17276, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1606921864441	Marionette	INFO	Stopped listening on port 56012
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606921873142	geckodriver	INFO	Listening on 127.0.0.1:51550
+1606921876462	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileZqBcZH"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606921911999	Marionette	INFO	Listening on port 51558
+1606921912236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://ed9b0429-c0bb-46d2-a791-e076d06db2cb/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 414: SecurityError: Permission denied to access property "removeEventListener" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: moz-extension://ed9b0429-c0bb-46d2-a791-e076d06db2cb/polyfill.js, line 254: InvalidStateError: An exception was thrown
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606921956081	Marionette	INFO	Stopped listening on port 51558
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child]Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606921987425	Marionette	INFO	Listening on port 51744
+1606921987862	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A011C,name=PContent::Msg_RecordDiscardedData) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: moz-extension://6f23cb73-b593-44bb-8777-5764b1c27c58/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionUtils.jsm, line 114: SecurityError: Permission denied to access property "windowGlobalChild" on cross-origin object
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 414: SecurityError: Permission denied to access property "removeEventListener" on cross-origin object
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+1606922050625	Marionette	INFO	Stopped listening on port 51744
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606932051168	geckodriver	INFO	Listening on 127.0.0.1:59409
+1606932054314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileNrPzzI"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606932071845	Marionette	INFO	Listening on port 59417
+1606932072515	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://5271b571-b357-48ab-bd2f-798cde0666b8/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+1606932086231	Marionette	ERROR	[46] No reply from Marionette:Register
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://sb.scorecardresearch.com/c2/3005086/cs.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://sb.scorecardresearch.com/c2/3005086/cs.js, line 1: SyntaxError: expected expression, got '<'
+1606932125431	Marionette	ERROR	[48] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/proxy.js, line 283: NS_ERROR_NOT_INITIALIZED
+1606932128292	Marionette	INFO	Stopped listening on port 59417
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606932325560	geckodriver	INFO	Listening on 127.0.0.1:59755
+1606932328648	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileDAEgzV"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606932341472	Marionette	INFO	Listening on port 59763
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606932341778	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript error: https://outlook.live.com/owa/prefetch.aspx, line 18: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.instructure.com/sites/blog.instructure/files/js/js_dQlrewywHv0YYVWI0hgeEjKGSEAzFOmHLwzdJXZChmM.js, line 1: TypeError: e(...)[0].slick is undefined
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: Livechat is turned off for this URL
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=2, line 1: WebGL context was lost.
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/??page/home.js,source/pages/global.js, line 1: ChunkLoadError: Loading chunk 16 failed.
+(error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/vendors~index-TbYbF.js)
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/??page/home.js,source/pages/global.js, line 1: Error: Loading CSS chunk 15 failed.
+(//assets.alicdn.com/g/ae-fe/home-ui/0.0.49/vendors~components-5ZrkD.css)
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/??page/home.js,source/pages/global.js, line 1: ChunkLoadError: Loading chunk 14 failed.
+(error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/vendors~aem-hJVLi.js)
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.1/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.1/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+[Parent 6252, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Child 18304, MediaDecoderStateMachine #1] WARNING: Decoder=227498ac800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:376
+[Child 18304, MediaDecoderStateMachine #1] WARNING: Decoder=227498ac800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.1/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript error: https://oa.openxcdn.net/oa.js, line 6: TypeError: t is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://m.media-amazon.com/images/I/31827uXCh4L.js, line 8: Error: Request aborted
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://my.foxnews.com/js/modulr.min.js, line 7: Error: [Modulr] error loading script: https://my.foxnews.com/js/app/components/token.js
+JavaScript error: https://static.foxnews.com/static/orion/scripts/core/ag.core.js, line 158: Error: [Modulr] error loading script: https://static.foxnews.com/static/orion/scripts/core/base/app/modules/legal-text-swap.js
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript error: https://www.redditstatic.com/desktop2x/runtime~Reddit.5ca2afcf892ed81b4a36.js, line 1: ChunkLoadError: Loading chunk PushNotifications failed.
+(error: https://www.redditstatic.com/desktop2x/PushNotifications.a742e6cdf5d87ee6fc65.js)
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: Livechat is turned off for this URL
+JavaScript error: https://d10lpsik1i8c69.cloudfront.net/js/clickstream.js?v=34f6965, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.1/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.76.2/um.js?d=2, line 1: WebGL context was lost.
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/??page/home.js,source/pages/global.js, line 1: ChunkLoadError: Loading chunk 2 failed.
+(error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.49/vendors~batman-dD6ut~components-5ZrkD.js)
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.1/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript error: https://oa.openxcdn.net/oa.js, line 6: TypeError: t is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://m.media-amazon.com/images/I/31827uXCh4L.js, line 8: Error: Request aborted
+JavaScript error: https://static-global-s-msn-com.akamaized.net/hp-eus/en-us/homepage/_sc/js/d7cb56b9-1e71311b/direction=ltr.locales=en-us.themes=start.dpi=resolution1x/97-9a8c47-68ddb2ab/64-8fec46-7a0ea564/d1-ef3d96-d24de298/e4-0588d3-68ddb2ab/64-4c5ce6-5599dabd/9e-a7a255-68ddb2ab/a9-ac9b58-68ddb2ab/f1-d0c6aa-cae48929/c7-47822a-f41d9e92/b8-a3b844-f9c98504/ac-376157-5ba9496a/80-771f27-68ddb2ab/df-6c8e66-68ddb2ab/d2-05c949-243aa040/5e-c51c87-53568de/12-94937c-3e76eb4d/8f-505610-a7d95428/9e-639daf-68ddb2ab/dd-a09dd5-86e27032/85-0f8009-68ddb2ab?ver=20201119_29074614&fdhead=msnallexpusers,muidflt27cf,pneedge1cf,bingcollabedge1cf,starthp3cf,platagyhp1cf,platagyhp2cf,tokenblockc,platagyhz3cf,moneyhz2cf,moneyhz3cf,article3cf,1s-bing-news,vebudumu04302020,revc-spar-us,revc-view-us,revc-hp-us,bbh20200521msncf,strsl-spar-noc,weather3cf,mgidrtbus,crnobid,wfprong1t&csopd=20201123234311&csopdb=20201120233253, line 1: TypeError: nt is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://static.foxnews.com/static/orion/scripts/core/ag.core.js, line 158: Error: [Modulr] error loading script: https://static.foxnews.com/static/orion/scripts/core/base/app/modules/referral.js
+JavaScript error: https://static.foxnews.com/static/orion/scripts/core/ag.core.js, line 158: Error: [Modulr] error loading script: https://static.foxnews.com/static/orion/scripts/core/base/app/modules/elections.2020.js
+1606932950828	Marionette	INFO	Stopped listening on port 59763
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

@@ -2,8 +2,12 @@ import os
 import psutil
 import csv
 import json
+import time
 import numpy as np
 from selenium import webdriver
+from selenium.webdriver.support.ui import  WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.proxy import *
 
@@ -37,7 +41,7 @@ def __main__(input):
         if(1 in input):
             opts.add_extension("Extensions\\Chrome\\adblock.crx")
         if(2 in input):
-            opts.add_extension("adblockPlus.crx")
+            opts.add_extension("Extensions\\Chrome\\adblockPlus.crx")
         if(3 in input):
             opts.add_extension("Extensions\\Chrome\\adGuard.crx")
         if(4 in input):
@@ -67,15 +71,39 @@ def __main__(input):
         # driver.switch_to_window(driver.window_handles[0])
         # for site in sites:
         #     driver.get(site)
-        driver.start("https://www.google.com")
-        # driver.find_element_by_name("q").send_keys("test")
+        # driver.get("https://www.foxnews.com")
+        driver.get("https://www.cbs.com/shows/all-rise/video/HWypMj8VYUT5NPsNTzhiZIfSI_VX2ySe/all-rise-keep-ya-head-up/")
+        driver.save_screenshot("BreakageImages/test.jpg")
+        # login test
+        # driver.get("https://login.microsoftonline.com/589c76f5-ca15-41f9-884b-55ec15a0672a/saml2?SAMLRequest=fZJBb9swDIXv%2BxWG7rItz3JsIQmQJRgWoN2CJtthl0GR6UaALbmi1K7%2FfordYe1hvVJ8%2FPgetUQ59KPYBH8xd%2FAQAH3ye%2BgNiulhRYIzwkrUKIwcAIVX4ri5vRFFmovRWW%2BV7ckryfsKiQjOa2tIst%2BtyK8FqzmrCk6bRjW0zJuanlt%2Bph%2BhKhdFqaqSK5L8AIdRsyJxRBQiBtgb9NL4WMqLnDJGi%2FLEuOCF4OwnSXbRhzbST6qL9yOKLOvtvTbpoJWzaDtvTa8NpMoOGa8btag6TpVknJasa2hdl2fKOSjGZV4tCpld3RUk2fy1sLUGwwDuCO5RK%2Fh%2Bd%2FMPpaR5lJg%2BjTqFNszkaQBJDi%2BhfdKm1eb%2B%2FbzOcxOKL6fTgR6%2BHU9kvbzOEVMKbn0FRt4VpGMkLigf3Gxq2neZve5eztf%2BGjn73cH2Wj0nn60bpP%2F%2FGixlU0W3tJtaRTA4gtKdhjbG0ff2aetAeliRyAeSrWfo21%2B1%2FvAH&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=qlUPznFbYqWTA5yQAy4uPO3O%2F39cWkG6Sn9pS8CBmBH3VJMf2JmOwFgft6hYHywGJ%2FJUKdJ47Bl4gin1yU6z0Jp%2B5Lb70TMxihDvKXSe%2BKipNbD03HRTMEE%2FhDHQy2gl7Jy05eqiNAZzKTqhR9Y%2FetJD5MYygKYqvRlZdqJQL38nhOXnAQRrYZM5iwa5E4FPxtZOVjSKOcTMC9tJzBInfhPDrxfPwvKPKTHfHWafCunGZzdOrCRCy0cjiC83Ldrtqub9MYgb%2FeuR4Vkjww1ge0iE1H08WlckmXLMFIX95ywNkGcUiyVDsCi7zuuS3tEDWykNPUE7TO3vSe%2B6F1bsZA%3D%3D&sso_reload=true")
+        # driver.implicitly_wait(10)
+        # WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.NAME, 'loginfmt')))
+        # driver.find_element_by_id("i0116").send_keys("jharnois@wpi.edu")
+        # driver.find_element_by_id('idSIButton9').click()
+        # WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, 'i0118')))
+        # test = os.getenv("Testpass")
+        # driver.implicitly_wait(10)
+        # driver.find_element_by_id('i0118').send_keys(test)
+        # driver.implicitly_wait(10)
+        # time.sleep(3)
+        # driver.find_element_by_id('idSIButton9').click()
+        # WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, 'ic-DashboardCard')))
+        # driver.get("https://canvas.wpi.edu/courses/22560/external_tools/1771")
+        # time.sleep(3)
+        # firstFrame = driver.find_element_by_id('tool_content')
+        # driver.switch_to.frame(firstFrame)
+        # print(driver.find_element_by_tag_name("button"))
+        # .contentWindow.frames
+        driver.start("test")
+        # test = driver.find_element_by_class_name("fc-dialog-container")
+        # driver.find_element_by_class_name("fc-dialog-container").send_keys("test")
         # driver.find_elements_by_name("btnK")[1].click()
         # driver.quit()
 
     elif("f" in input):
         driver = webdriver.Firefox()
         if(1 in input):
-            driver.install_addon(absPath + "adblock.xpi")
+            driver.install_addon(absPath + "Extensions\\Firefox\\adblock.xpi")
         if(2 in input):
              driver.install_addon(absPath + "adblockPlus.xpi")
         if(3 in input):
@@ -83,9 +111,9 @@ def __main__(input):
         if(4 in input):
              driver.install_addon(absPath + "duckduckgoEss.xpi")
         if(5 in input):
-             driver.install_addon(absPath + "ghostery.xpi")
+             driver.install_addon(absPath + "Extensions\\Firefox\\ghostery.xpi")
         if(6 in input):
-             driver.install_addon(absPath + "privBadger.xpi")
+             driver.install_addon(absPath + "Extensions\\Firefox\\privBadger.xpi")
         if(7 in input):
              driver.install_addon(absPath + "ublock.xpi")
         if(8 in input):
@@ -102,12 +130,44 @@ def __main__(input):
         # driver.switch_to_window(driver.window_handles[0])
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[1])
-        driver.start()
+        # driver.get("https://www.cnn.com/audio/podcasts/corona-virus?episodeguid=e044092c-7766-49cf-9e71-ac84017a61d4")
+        # time.sleep(3)
+        # driver.find_element_by_id("play-button-circle-0").click()
+        # time.sleep(8)
+        # driver.save_screenshot("BreakageImages/test.png")
+        # driver.get("https://www.washingtonpost.com/news/federal-eye/wp/2014/09/04/reporters-deaths-point-to-dangers-of-working-in-hotspots-abroad/?arc404=true")
+        # driver.save_screenshot("BreakageImages/test2.png")
+        # driver.get("https://www.cbs.com/shows/all-rise/video/HWypMj8VYUT5NPsNTzhiZIfSI_VX2ySe/all-rise-keep-ya-head-up/")
+        # time.sleep(15)
+        # driver.save_screenshot("BreakageImages/test3.png")
+        # driver.get("https://login.microsoftonline.com/589c76f5-ca15-41f9-884b-55ec15a0672a/saml2?SAMLRequest=fZJBb9swDIXv%2BxWG7rItz3JsIQmQJRgWoN2CJtthl0GR6UaALbmi1K7%2FfordYe1hvVJ8%2FPgetUQ59KPYBH8xd%2FAQAH3ye%2BgNiulhRYIzwkrUKIwcAIVX4ri5vRFFmovRWW%2BV7ckryfsKiQjOa2tIst%2BtyK8FqzmrCk6bRjW0zJuanlt%2Bph%2BhKhdFqaqSK5L8AIdRsyJxRBQiBtgb9NL4WMqLnDJGi%2FLEuOCF4OwnSXbRhzbST6qL9yOKLOvtvTbpoJWzaDtvTa8NpMoOGa8btag6TpVknJasa2hdl2fKOSjGZV4tCpld3RUk2fy1sLUGwwDuCO5RK%2Fh%2Bd%2FMPpaR5lJg%2BjTqFNszkaQBJDi%2BhfdKm1eb%2B%2FbzOcxOKL6fTgR6%2BHU9kvbzOEVMKbn0FRt4VpGMkLigf3Gxq2neZve5eztf%2BGjn73cH2Wj0nn60bpP%2F%2FGixlU0W3tJtaRTA4gtKdhjbG0ff2aetAeliRyAeSrWfo21%2B1%2FvAH&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=qlUPznFbYqWTA5yQAy4uPO3O%2F39cWkG6Sn9pS8CBmBH3VJMf2JmOwFgft6hYHywGJ%2FJUKdJ47Bl4gin1yU6z0Jp%2B5Lb70TMxihDvKXSe%2BKipNbD03HRTMEE%2FhDHQy2gl7Jy05eqiNAZzKTqhR9Y%2FetJD5MYygKYqvRlZdqJQL38nhOXnAQRrYZM5iwa5E4FPxtZOVjSKOcTMC9tJzBInfhPDrxfPwvKPKTHfHWafCunGZzdOrCRCy0cjiC83Ldrtqub9MYgb%2FeuR4Vkjww1ge0iE1H08WlckmXLMFIX95ywNkGcUiyVDsCi7zuuS3tEDWykNPUE7TO3vSe%2B6F1bsZA%3D%3D&sso_reload=true")
+        # driver.implicitly_wait(10)
+        # WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.NAME, 'loginfmt')))
+        # driver.find_element_by_id("i0116").send_keys("jharnois@wpi.edu")
+        # driver.find_element_by_id('idSIButton9').click()
+        # WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, 'i0118')))
+        # test = os.getenv("Testpass")
+        # driver.implicitly_wait(10)
+        # driver.find_element_by_id('i0118').send_keys(test)
+        # driver.implicitly_wait(10)
+        # time.sleep(3)
+        # driver.find_element_by_id('idSIButton9').click()
+        # WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, 'ic-DashboardCard')))
+        # driver.get("https://canvas.wpi.edu/courses/22560/external_tools/1771")
+        # time.sleep(3)
+        # driver.save_screenshot("BreakageImages/test4.png")
+        # driver.get("https://www.twitch.tv/")
+        # time.sleep(3)
+        # driver.save_screenshot("BreakageImages/test5.png")
+
+        # driver.start("test")
         # driver.get("https://www.yahoo.com") 
         # driver.get("https://www.cnn.com")
-        # for site in sites:
-        #     driver.get(site)        
-        # driver.quit()
+        for site in sites:
+            driver.get(site)     
+        for site in sites:
+            driver.get(site)   
+        driver.quit()
 
     elif("e" in input):
         from msedge.selenium_tools import Edge, EdgeOptions
@@ -387,7 +447,7 @@ def __main__(input):
         driver.quit()
 
 def helper(start, domains, dumbArrOne):
-    with open('CSVs/BrowsersExtensions/Firefox_AdBlockPlus.csv', 'r') as r:
+    with open('CSVs/cheese2.csv', 'r') as r:
         with open('topSites.txt', 'r') as f:
             reader = csv.reader(r)
             count = 0
@@ -420,14 +480,14 @@ def getStats():
 
     # Lol I dont know what this is but 
     with open('FinalUniqueDomains.txt', 'r') as r:
-        with open('How many times does x show up/Firefox_AdBlockPlusNew.txt', 'w') as t:
+        with open('How many times does x show up/cheese.txt', 'w') as t:
             lines = r.readlines()
             # For each host that we have 
             for line in lines:
                 line = line.split('\n')[0]
                 domainArr[0] = line
                 # Starting here maybe lol idk
-                with open('CSVs/BrowsersExtensions/Firefox_AdBlockPlus.csv', 'r') as r:
+                with open('CSVs/cheese2.csv', 'r') as r:
                     with open('topSites.txt', 'r') as f:
                         reader = csv.reader(r)
                         readerTwo = csv.reader(r)
@@ -528,8 +588,8 @@ def getStats():
 
     # For elimination of tunneling    
     
-    # f = open('CSVs\Firefox_ublockOrigin_Manual.csv', 'r')
-    # q = open('CSVs\BrowsersExtensions\Firefox_ublockOrigin.csv', 'w+')
+    # f = open('CSVs\cheese.csv', 'r')
+    # q = open('CSVs\cheese2.csv', 'w+')
     # reader = csv.DictReader(f)
     # # for lines in reader:
     # #     if(lines['Short Host'] not in q):
@@ -639,7 +699,7 @@ def getStats():
 # __main__(["p"])
 # __main__(["c", 13])
 # __main__(["f", 12])
-# __main__(["c", 12])
+# __main__(["f", 6])
 getStats()
 
 ######## Stats description - 
