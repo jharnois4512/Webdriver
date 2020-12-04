@@ -6943,3 +6943,390 @@ JavaScript error: https://static.foxnews.com/static/orion/scripts/core/ag.core.j
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1607039498025	geckodriver	INFO	Listening on 127.0.0.1:58482
+1607039501313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileYdej8Z"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607039524859	Marionette	INFO	Listening on port 58490
+1607039525023	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://www.google.com/xjs/_/js/k=xjs.s.en_US.xxRoSUii21Q.O/ck=xjs.s.oVZc5kO0iQU.L.F4.O/am=ABAAAAAAUAEAYAAAAACwBOYGCM5_EIC74BIHAAAAABKgJUGjpAAJCQEgAAAAWRZKAAAABAAg/d=1/exm=ZyRBae,cdos,cr,csi,d,dpf,hsm,jsa,pfd/ed=1/dg=2/ct=zgms/rs=ACT90oGijHOY9Gd9UukElVEbHTOTaTURBA/m=NBZ7u,OG6ZHd,T7XTS,TxZWcc,URQPYc,UTxq6e,aCZVp,aa,abd,async,bgd,dvl,eN4qad,foot,iD8Yk,kyn,lli,lu,m,mUpTid,mu,o02Jie,pB6Zqd,qik19b,sb_wiz,sf,tl,vs,wft,xz7cCd,zbML3c?xjs=s1, line 79: Script terminated by timeout at:
+s_rpg@https://www.google.com/xjs/_/js/k=xjs.s.en_US.xxRoSUii21Q.O/ck=xjs.s.oVZc5kO0iQU.L.F4.O/am=ABAAAAAAUAEAYAAAAACwBOYGCM5_EIC74BIHAAAAABKgJUGjpAAJCQEgAAAAWRZKAAAABAAg/d=1/exm=ZyRBae,cdos,cr,csi,d,dpf,hsm,jsa,pfd/ed=1/dg=2/ct=zgms/rs=ACT90oGijHOY9Gd9UukElVEbHTOTaTURBA/m=NBZ7u,OG6ZHd,T7XTS,TxZWcc,URQPYc,UTxq6e,aCZVp,aa,abd,async,bgd,dvl,eN4qad,foot,iD8Yk,kyn,lli,lu,m,mUpTid,mu,o02Jie,pB6Zqd,qik19b,sb_wiz,sf,tl,vs,wft,xz7cCd,zbML3c?xjs=s1:79:128
+s_xpg@https://www.google.com/xjs/_/js/k=xjs.s.en_US.xxRoSUii21Q.O/ck=xjs.s.oVZc5kO0iQU.L.F4.O/am=ABAAAAAAUAEAYAAAAACwBOYGCM5_EIC74BIHAAAAABKgJUGjpAAJCQEgAAAAWRZKAAAABAAg/d=1/exm=ZyRBae,cdos,cr,csi,d,dpf,hsm,jsa,pfd/ed=1/dg=2/ct=zgms/rs=ACT90oGijHOY9Gd9UukElVEbHTOTaTURBA/m=NBZ7u,OG6ZHd,T7XTS,TxZWcc,URQPYc,UTxq6e,aCZVp,aa,abd,async,bgd,dvl,eN4qad,foot,iD8Yk,kyn,lli,lu,m,mUpTid,mu,o02Jie,pB6Zqd,qik19b,sb_wiz,sf,tl,vs,wft,xz7cCd,zbML3c?xjs=s1:81:51
+s_jP@https://www.google.com/xjs/_/js/k=xjs.s.en_US.xxRoSUii21Q.O/ck=xjs.s.oVZc5kO0iQU.L.F4.O/am=ABAAAAAAUAEAYAAAAACwBOYGCM5_EIC74BIHAAAAABKgJUGjpAAJCQEgAAAAWRZKAAAABAAg/d=1/exm=ZyRBae,cdos,cr,csi,d,dpf,hsm,jsa,pfd/ed=1/dg=2/ct=zgms/rs=ACT90oGijHOY9Gd9UukElVEbHTOTaTURBA/m=NBZ7u,OG6ZHd,T7XTS,TxZWcc,URQPYc,UTxq6e,aCZVp,aa,abd,async,bgd,dvl,eN4qad,foot,iD8Yk,kyn,lli,lu,m,mUpTid,mu,o02Jie,pB6Zqd,qik19b,sb_wiz,sf,tl,vs,wft,xz7cCd,zbML3c?xjs=s1:88:94
+s_eqg/<@https://www.google.com/xjs/_/js/k=xjs.s.en_US.xxRoSUii21Q.O/ck=xjs.s.oVZc5kO0iQU.L.F4.O/am=ABAAAAAAUAEAYAAAAACwBOYGCM5_EIC74BIHAAAAABKgJUGjpAAJCQEgAAAAWRZKAAAABAAg/d=1/exm=ZyRBae,cdos,cr,csi,d,dpf,hsm,jsa,pfd/ed=1/dg=2/ct=zgms/rs=ACT90oGijHOY9Gd9UukElVEbHTOTaTURBA/m=NBZ7u,OG6ZHd,T7XTS,TxZWcc,URQPYc,UTxq6e,aCZVp,aa,abd,async,bgd,dvl,eN4qad,foot,iD8Yk,kyn,lli,lu,m,mUpTid,mu,o02Jie,pB6Zqd,qik19b,sb_wiz,sf,tl,vs,wft,xz7cCd,zbML3c?xjs=s1:127:322
+s_Uia@https://www.google.com/xjs/_/js/k=xjs.s.en_US.xxRoSUii21Q.O/ck=xjs.s.oVZc5kO0iQU.L.F4.O/m=ZyRBae,cdos,cr,dpf,hsm,jsa,pfd,d,csi/am=ABAAAAAAUAEAYAAAAACwBOYGCM5_EIC74BIHAAAAABKgJUGjpAAJCQEgAAAAWRZKAAAABAAg/d=1/dg=2/ct=zgms/rs=ACT90oGijHOY9Gd9UukElVEbHTOTaTURBA:307:265
+s_Ria@https://www.google.com/xjs/_/js/k=xjs.s.en_US.xxRoSUii21Q.O/ck=xjs.s.oVZc5kO0iQU.L.F4.O/m=ZyRBae,cdos,cr,dpf,hsm,jsa,pfd,d,csi/am=ABAAAAAAUAEAYAAAAACwBOYGCM5_EIC74BIHAAAAABKgJUGjpAAJCQEgAAAAWRZKAAAABAAg/d=1/dg=2/ct=zgms/rs=ACT90oGijHOY9Gd9UukElVEbHTOTaTURBA:308:285
+s_Pia/b<@https://www.google.com/xjs/_/js/k=xjs.s.en_US.xxRoSUii21Q.O/ck=xjs.s.oVZc5kO0iQU.L.F4.O/m=ZyRBae,cdos,cr,dpf,hsm,jsa,pfd,d,csi/am=ABAAAAAAUAEAYAAAAACwBOYGCM5_EIC74BIHAAAAABKgJUGjpAAJCQEgAAAAWRZKAAAABAAg/d=1/dg=2/ct=zgms/rs=ACT90oGijHOY9Gd9UukElVEbHTOTaTURBA:304:277
+
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval line 2872 > eval, line 1: Script terminated by timeout at:
+f@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval line 2872 > eval:1:22
+@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval line 2872 > eval line 1 > eval:1:43
+h5@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval:2872:977
+N.prototype.W</<@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval:2872:10495
+c@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval:2872:188
+qw<@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval:2872:12371
+L@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval:2872:12045
+J5<@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval:2872:7860
+N@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval:2872:726
+@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval:2872:12775
+@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620:1:14241
+Q/<@https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620:1:161
+c@/accounts/static/_/js/k=gaia.gaiafe_glif.en.nCpM_7VaNzo.O/am=LwAAdiABNeAHAALMAwAAAAAAAAANABPKMkJ9rfD-JQ/d=1/ct=zgms/rs=ABkqax1oqwL85TWIbiyONHjV0N5aJUbv5g/m=glifb,identifier_view,unknownerror_view:622:253
+
+JavaScript warning: https://www.youtube.com/s/desktop/19da7d5c/jsbin/webcomponents-hi-sd.vflset/webcomponents-hi-sd.js, line 101: Script terminated by timeout at:
+get assignedSlot@https://www.youtube.com/s/desktop/19da7d5c/jsbin/webcomponents-hi-sd.vflset/webcomponents-hi-sd.js:101:1
+sb@https://www.youtube.com/s/desktop/19da7d5c/jsbin/webcomponents-hi-sd.vflset/webcomponents-hi-sd.js:73:56
+ub@https://www.youtube.com/s/desktop/19da7d5c/jsbin/webcomponents-hi-sd.vflset/webcomponents-hi-sd.js:73:369
+zb/c<@https://www.youtube.com/s/desktop/19da7d5c/jsbin/webcomponents-hi-sd.vflset/webcomponents-hi-sd.js:75:66
+zb@https://www.youtube.com/s/desktop/19da7d5c/jsbin/webcomponents-hi-sd.vflset/webcomponents-hi-sd.js:75:43
+Fb/<@https://www.youtube.com/s/desktop/19da7d5c/jsbin/webcomponents-hi-sd.vflset/webcomponents-hi-sd.js:82:103
+
+JavaScript error: https://s.yimg.com/aaq/wf/wf-autocomplete-1.18.8-modern.js, line 1: Error: Loading chunk 0 failed.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://s.yimg.com/ss/rapid-3.53.21.js, line 1: Script terminated by timeout at:
+rand@https://s.yimg.com/ss/rapid-3.53.21.js:1:49172
+H@https://s.yimg.com/ss/rapid-3.53.21.js:1:15539
+sendULTEvent@https://s.yimg.com/ss/rapid-3.53.21.js:1:9881
+sendEvents@https://s.yimg.com/ss/rapid-3.53.21.js:1:9980
+X@https://s.yimg.com/ss/rapid-3.53.21.js:1:22879
+t@https://s.yimg.com/ss/rapid-3.53.21.js:1:27269
+
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607040669349	Marionette	INFO	Stopped listening on port 58490
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607040710248	geckodriver	INFO	Listening on 127.0.0.1:59020
+1607040713473	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileiW4Qj7"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1607040729996	Marionette	INFO	Listening on port 59028
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607040730148	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+[Child 16416, MediaDecoderStateMachine #1] WARNING: Decoder=1add380cc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+[Child 16416, MediaDecoderStateMachine #1] WARNING: Decoder=1add380cc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3471
+JavaScript error: resource://gre/actors/AudioPlaybackParent.jsm, line 24: TypeError: browser is null
+JavaScript error: https://www.youtube.com/yts/jsbin/scheduler-vflLY_s6n/scheduler.js, line 35: NS_ERROR_NOT_INITIALIZED: 
+1607042032272	Marionette	INFO	Stopped listening on port 59028
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607046418003	geckodriver	INFO	Listening on 127.0.0.1:59686
+1607046421071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileDoarbh"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1607046436680	Marionette	INFO	Listening on port 59694
+1607046437010	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://a11a5edb-3686-48d4-b9f2-ca24c798eedb/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript warning: https://www.google.com/?gws_rd=ssl, line 13: Script terminated by timeout at:
+p@https://www.google.com/?gws_rd=ssl:13:1
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cdn.livexlive.com/s=3.1.154.10/js/concat.js, line 655: unreachable code after return statement
+JavaScript warning: https://cdn.livexlive.com/s=3.1.154.10/js/concat.js, line 660: unreachable code after return statement
+JavaScript warning: https://cdn.livexlive.com/s=3.1.154.10/js/concat.js, line 661: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://yep.video.yahoo.com/oath/js/1/oath-player.js?lang=en-US, line 3: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to open media
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript error: https://zoom.us/ line 3375 > injectedScript, line 1: TypeError: document.querySelector(...) is null
+JavaScript error: https://zoom.us/ line 3375 > injectedScript, line 1: TypeError: document.querySelector(...) is null
+JavaScript error: https://cdn.shopify.com/shopifycloud/brochure/bundles/latest/vendor-a6f1388648b3093fb6c29d16dd015406e7380a9e8a0d325370d10f646c445832.js, line 2: Error: Error completing request. A network failure may have prevented the request from completing. Error: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://shopify-assets.shopifycdn.com/shopifycloud/identity/packs/shared-82a5547c8c33f61b1e19.js, line 1: Script terminated by timeout at:
+K@https://shopify-assets.shopifycdn.com/shopifycloud/identity/packs/shared-82a5547c8c33f61b1e19.js:1:162787
+get@https://shopify-assets.shopifycdn.com/shopifycloud/identity/packs/shared-82a5547c8c33f61b1e19.js:1:163328
+trigger@https://shopify-assets.shopifycdn.com/shopifycloud/identity/packs/shared-82a5547c8c33f61b1e19.js:1:201667
+simulate@https://shopify-assets.shopifycdn.com/shopifycloud/identity/packs/shared-82a5547c8c33f61b1e19.js:1:202239
+n@https://shopify-assets.shopifycdn.com/shopifycloud/identity/packs/shared-82a5547c8c33f61b1e19.js:1:202528
+h/t.bugsnag@https://shopify-assets.shopifycdn.com/shopifycloud/identity/packs/shared-82a5547c8c33f61b1e19.js:1:219801
+
+JavaScript error: https://adservice.google.com/adsid/integrator.js?domain=www.cnn.com&upapi=true, line 1: ReferenceError: processGoogleToken is not defined
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+JavaScript error: https://widgets.outbrain.com/widgetOBUserSync/obUserSync.html#pid=185&dmpenabled=false&filterDMP=OEN&csenabled=true&d=1uNI-YoYOshIzzOVUJt9uTgtriHNd-LIECimwViAhhvkm7Hc_lydWJiojBoQApUH&gdpr=0&cmpNeeded=false&gdprVer=null&ccpa=1YNN&country=US, line 3: SecurityError: The operation is insecure.
+JavaScript error: https://widgets.outbrain.com/widgetOBUserSync/obUserSync.html#pid=185&dmpenabled=false&filterDMP=OEN&csenabled=true&d=1uNI-YoYOshIzzOVUJt9uTgtriHNd-LIECimwViAhhvkm7Hc_lydWJiojBoQApUH&gdpr=0&cmpNeeded=false&gdprVer=null&ccpa=1YNN&country=US, line 3: SecurityError: The operation is insecure.
+Unable to read VR Path Registry from C:\Users\Owner\AppData\Local\openvr\openvrpaths.vrpath
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://adservice.google.com/adsid/integrator.js?domain=www.cnn.com&upapi=true, line 1: ReferenceError: processGoogleToken is not defined
+JavaScript warning: https://static.chartbeat.com/js/chartbeat_video.js, line 13: Script terminated by timeout at:
+t@https://static.chartbeat.com/js/chartbeat_video.js:13:332
+wb.prototype.Ka@https://static.chartbeat.com/js/chartbeat_video.js:25:412
+A.$c@https://static.chartbeat.com/js/chartbeat_video.js:28:376
+A.Bb@https://static.chartbeat.com/js/chartbeat_video.js:28:264
+A.da/<@https://static.chartbeat.com/js/chartbeat_video.js:27:352
+wb.prototype.Ka/<@https://static.chartbeat.com/js/chartbeat_video.js:25:476
+t@https://static.chartbeat.com/js/chartbeat_video.js:13:359
+wb.prototype.Ka@https://static.chartbeat.com/js/chartbeat_video.js:25:412
+Gb@https://static.chartbeat.com/js/chartbeat_video.js:29:593
+
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 474: TypeError: this._nodeActorsMap is null
+JavaScript warning: https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/4729e9b/indeedapply-compiled.js, line 212: Script terminated by timeout at:
+g.Hg@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/4729e9b/indeedapply-compiled.js:212:365
+af@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/4729e9b/indeedapply-compiled.js:96:449
+g.dispatchEvent@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/4729e9b/indeedapply-compiled.js:95:354
+Sh.prototype.handleEvent@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/4729e9b/indeedapply-compiled.js:204:412
+lc/a[yc]@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/4729e9b/indeedapply-compiled.js:35:175
+xc@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/4729e9b/indeedapply-compiled.js:33:379
+qc@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/4729e9b/indeedapply-compiled.js:34:473
+oc/b<@https://d3fw5vlhllyvee.cloudfront.net/indeedapply/s/4729e9b/indeedapply-compiled.js:31:50
+e@https://d3fw5vlhllyvee.cloudfront.net/frontend-sentry-bundle/v1.1.2/js/sentry.js:1:45635
+
+JavaScript warning: https://www.etsy.com/ac/primary/js/en-US/core-libs.9eadd94949f8c57d6428.js, line 2: Script terminated by timeout at:
+e@https://www.etsy.com/ac/primary/js/en-US/core-libs.9eadd94949f8c57d6428.js:2:28699
+e@https://www.etsy.com/ac/primary/js/en-US/core-libs.9eadd94949f8c57d6428.js:2:65631
+e/m.handle@https://www.etsy.com/ac/primary/js/en-US/core-libs.9eadd94949f8c57d6428.js:2:63652
+
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x, line 1: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://dd.nytimes.com/tags.js, line 2: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.error: "Error sending event: serverWebSocketClosed"
+console.error: (new Error("undefined passed where a value is required", "resource://devtools/shared/protocol/types.js", 115))
+Error: undefined passed where a value is required: identityWrite@resource://devtools/shared/protocol/types.js:115:11
+write@resource://devtools/shared/protocol/Request.js:117:22
+write@resource://devtools/shared/protocol/Request.js:43:26
+_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+webSocketClosed@resource://devtools/server/actors/network-monitor/websocket-actor.js:96:10
+
+console.error: "Error sending event: serverWebSocketClosed"
+console.error: (new Error("undefined passed where a value is required", "resource://devtools/shared/protocol/types.js", 115))
+Error: undefined passed where a value is required: identityWrite@resource://devtools/shared/protocol/types.js:115:11
+write@resource://devtools/shared/protocol/Request.js:117:22
+write@resource://devtools/shared/protocol/Request.js:43:26
+_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+webSocketClosed@resource://devtools/server/actors/network-monitor/websocket-actor.js:96:10
+
+console.error: "Task cancelled"
+console.error: "Task cancelled"
+JavaScript warning: https://static.wellsfargo.com/tracking/gb/detector-dom.min.js, line 6: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript warning: https://static.wellsfargo.com/tracking/gb/detector-dom.min.js, line 6: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript warning: https://static.wellsfargo.com/tracking/gb/detector-dom.min.js, line 6: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript warning: https://connect.secure.wellsfargo.com/AIDO/trx.js, line 1: Script terminated by timeout at:
+v@https://connect.secure.wellsfargo.com/AIDO/trx.js:1:16426
+cx@https://connect.secure.wellsfargo.com/AIDO/trx.js:1:38421
+bG@https://connect.secure.wellsfargo.com/AIDO/trx.js:1:39186
+t@https://connect.secure.wellsfargo.com/AIDO/trx.js:1:57514
+s@https://connect.secure.wellsfargo.com/AIDO/trx.js:1:57593
+g@https://connect.secure.wellsfargo.com/AIDO/trx.js:1:40225
+
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1907: TypeError: can't access dead object
+1607049367860	Marionette	INFO	Stopped listening on port 59694
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607093560352	geckodriver	INFO	Listening on 127.0.0.1:63418
+1607093563485	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileWKtE12"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+[Parent 12824, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
