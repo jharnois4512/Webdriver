@@ -71,8 +71,8 @@ def __main__(input):
         # driver.switch_to_window(driver.window_handles[0])
         for site in sites:
             driver.get(site)
-        for site in sites:
-            driver.get(site)
+            time.sleep(5)
+            driver.save_screenshot("BreakageImages/" + "Chrome" + str(input[1]) + site.split(".")[1] + ".png")
         # driver.get("https://www.foxnews.com")
         # driver.get("https://www.cbs.com/shows/all-rise/video/HWypMj8VYUT5NPsNTzhiZIfSI_VX2ySe/all-rise-keep-ya-head-up/")
         # driver.save_screenshot("BreakageImages/test.jpg")
@@ -161,13 +161,15 @@ def __main__(input):
         # driver.get("https://www.twitch.tv/")
         # time.sleep(3)
         # driver.save_screenshot("BreakageImages/test5.png")
-        driver.start("test")
+        # driver.start("test")
         # driver.get("https://www.yahoo.com") 
         # driver.get("https://www.cnn.com")
-        for site in sites:
-            driver.get(site)     
-        for site in sites:
-            driver.get(site)   
+        # for site in sites:
+        #     driver.get(site)
+        #     time.sleep(5)
+        #     driver.save_screenshot("BreakageImages/test" + str(input[1]) + site.split(".")[1] + ".png")     
+        # for site in sites:
+        #     driver.get(site)   
         driver.quit()
 
     elif("e" in input):
@@ -251,7 +253,7 @@ def __main__(input):
         braveOpts = Options()
         bravePath = 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\Brave.exe'
         braveOpts.binary_location = bravePath
-        driverPath = 'chromedriver.exe'
+        driverPath = 'CD_87.exe'
         if(1 in input):
             braveOpts.add_extension("adblock.crx")
         if(2 in input):
@@ -283,7 +285,9 @@ def __main__(input):
         # driver.get("https://www.yahoo.com") 
         # driver.get("https://www.cnn.com")
         for site in sites:
-            driver.get(site) 
+            driver.get(site)
+            time.sleep(5)
+            driver.save_screenshot("BreakageImages/" + "Brave" + site.split(".")[1] + ".png")
         driver.quit()
 
     elif("v" in input):
@@ -703,9 +707,18 @@ def getStats():
 # __main__(["u"])
 # __main__(["p"])
 # __main__(["c", 13])
-# __main__(["f", 1])
+# __main__(["c", 9])
+__main__(["b"])
 # __main__(["c", 8])
-getStats()
+# getStats()
+
+#AdBlock +
+#ublockOrigin
+#Ghostery
+#privBad
+#noScript
+#brave
+
 
 # NoScript
 # Youtube - 2

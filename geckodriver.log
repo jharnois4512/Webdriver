@@ -7330,3 +7330,100 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "res
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1607113267192	geckodriver	INFO	Listening on 127.0.0.1:56849
+1607113270308	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileMWQsyE"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1607113286231	Marionette	INFO	Listening on port 56857
+1607113286810	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://19d1a824-42e8-414b-a5ac-7cefcf14df58/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too lat1607113339468	mozrunner::runner	INFO	Runn1607113340287	Marionette	INFO	Stopped listening on port 56857
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child]Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607113351431	Marionette	INFO	Listening on port 56929
+1607113351814	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://6689793e-2dc0-49e2-a479-6743dcaa8657/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 568: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: undefined, line 0: Error: sender.page is undefined
+JavaScript error: undefined, line 0: Error: page is undefined
+[GFX1-]: Updating unknown shared surface: 34359738381
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PWebRenderBridge::Msg_UpdateResources Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+Marionette threw an error: TypeError: driver.dialogObserver is null
+waitForNavigationCompleted/<@chrome://marionette/content/navigate.js:364:5
+
+1607113396009	Marionette	INFO	Stopped listening on port 56929
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607174798751	geckodriver	INFO	Listening on 127.0.0.1:61668
+1607174801879	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilezGjc10"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1607174817227	Marionette	INFO	Listening on port 61677
+1607174817764	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://45bbea48-9b21-428b-b7ef-7e2a6448b9ee/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://d24cgw3uvb9a9h.cloudfront.net/static/94119/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: https://www.ebay.com/nkfytkqtoxtljvzb.js, line 1: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.bing.com/rp/LC7_g-4Qqnp6iB4rEf28TUzB9m4.br.js, line 1: TypeError: f is null
+JavaScript error: https://cdn.livechatinc.com/tracking.js, line 1: Error: Livechat is turned off for this URL
+JavaScript error: https://www.instructure.com/sites/blog.instructure/files/js/js_0zDJwHl3uBgZqzTPEAxYbnVrzDEb-NMlVixz50ncbA8.js, line 1: TypeError: e(...)[0].slick is undefined
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+JavaScript error: https://adservice.google.com/adsid/integrator.js?domain=www.cnn.com&upapi=true, line 1: ReferenceError: processGoogleToken is not defined
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://widgets.outbrain.com/widgetOBUserSync/obUserSync.html#pid=185&dmpenabled=false&filterDMP=OEN&csenabled=true&d=EOJzQzrdmV_iQXHaq7fwoUyxuCCqrY3AKlPcFJ2Kx7FAAWbjP1_lkS1z49aLHxkp&gdpr=0&cmpNeeded=false&gdprVer=null&ccpa=1YNN&country=US, line 3: SecurityError: The operation is insecure.
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://z.moatads.com/turner763610601596/moatad.js#moatClientLevel1=4907547008&moatClientLevel2=2733659754&moatClientLevel3=5450809380&moatClientLevel4=138320428668&moatClientSlicer1=/8663477/blockthrough/CNN/homepage&moatClientSlicer2=21961215189&zMoatTEAM=&zMoatPS=&zMoatWD=728&zMoatHT=90&zMoatPG=&zMoatST=&zMoatAPP=&zMoatISAPP=&zMoatBUZ=&zMoatSOC=&zMoatMGV=&zMoatMMV=&zMoatMData=&zMoatMSafety=, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://sb.scorecardresearch.com/beacon.js, line 1: SyntaxError: expected expression, got '<'
+1607175054241	Marionette	INFO	Stopped listening on port 61677
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
