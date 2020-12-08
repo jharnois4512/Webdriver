@@ -1,0 +1,8 @@
+https://facebook.com
+https://www.zoom.us/signin
+https://www.office.com/?auth=2
+https://www.Linkedin.com
+https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1607458397&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26RpsCsrfState%3d90818f2d-1c35-2fc3-a75c-c50c1494d2a1&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwldhttps://www.instructure.com/canvas/login/free-for-teacher
+https://www.instagram.com
+https://www.Microsoft.com
+

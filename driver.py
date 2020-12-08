@@ -32,12 +32,25 @@ def openTopSites():
             build.append(line)
     return build
 
+def openTopSitesTwo():
+    file = open('sites2.txt', 'r')
+    lines = file.readlines()
+    build = []
+    for line in lines:
+        if(line != lines[-1]):
+            build.append(line[:-1])
+        else:
+            build.append(line)
+    return build
+
 # main driving function
 def __main__(input):
     sites = openTopSites()
+    sitesTwo = openTopSitesTwo()
     if("c" in input):
         from selenium.webdriver.chrome.options import Options
         opts = Options()
+        driverPath = "CD_87.exe"
         if(1 in input):
             opts.add_extension("Extensions\\Chrome\\adblock.crx")
         if(2 in input):
@@ -64,15 +77,75 @@ def __main__(input):
             opts.add_extension("Extensions\\Chrome\\uBlockOrigin.crx")   
         if(13 in input):
             opts.add_extension("blur.crx") 
-        driver = webdriver.Chrome(options=opts)
+        driver = webdriver.Chrome(options=opts, executable_path=driverPath)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
         # driver.close()
         # driver.switch_to_window(driver.window_handles[0])
-        for site in sites:
+        # for site in sites:
+        #     driver.get(site)
+        #     time.sleep(5)
+        #     driver.save_screenshot("BreakageImages/" + "Chrome" + str(input[1]) + site.split(".")[1] + ".png")
+        for site in sitesTwo:
             driver.get(site)
+            # print(site)
+            # if("facebook" in site):
+            #     WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, 'email')))
+            #     num = os.getenv("num")
+            #     fb = os.getenv("facebook")
+            #     driver.find_element_by_id("email").send_keys(num)
+            #     print("here")
+            #     driver.find_element_by_id("pass").send_keys(fb)
+            #     print("here")
+            #     driver.find_element_by_id('u_0_f').click()
+            # if("office" in site):
+            #     WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, 'mectrl_headertext mectrl_truncate x-hidden-focus')))
+            #     driver.find_element_by_id('mectrl_headertext mectrl_truncate x-hidden-focus').click()
+            #     driver.find_element_by_id("i0116").send_keys("jharnois@wpi.edu")
+            #     driver.find_element_by_id('idSIButton9').click()
+            #     WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, 'i0118')))
+            #     test = os.getenv("Testpass")
+            #     driver.implicitly_wait(10)
+            #     driver.find_element_by_id('i0118').send_keys(test)
+            #     driver.implicitly_wait(10)
+            #     time.sleep(3)
+            #     driver.find_element_by_id('idSIButton9').click()
+            # if("live" in site):
+            #     WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, 'i0116')))
+            #     driver.find_element_by_id("i0116").send_keys("jharnois@wpi.edu")
+            #     test = os.getenv("Testpass")
+            #     driver.find_element_by_id('i0118').send_keys(test)
+            #     driver.implicitly_wait(10)
+            #     time.sleep(3)
+            #     driver.find_element_by_id('idSIButton9').click()
+            #     time.sleep(3)
+            # if("microsoft" in site):
+            #     WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, 'mectrl_headertext mectrl_truncate x-hidden-focus')))
+            #     driver.find_element_by_id('mectrl_headertext mectrl_truncate x-hidden-focus').click()
+            #     driver.find_element_by_id("i0116").send_keys("jharnois@wpi.edu")
+            #     driver.find_element_by_id('idSIButton9').click()
+            #     WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, 'i0118')))
+            #     test = os.getenv("Testpass")
+            #     driver.implicitly_wait(10)
+            #     driver.find_element_by_id('i0118').send_keys(test)
+            #     driver.implicitly_wait(10)
+            #     time.sleep(3)
+            #     driver.find_element_by_id('idSIButton9').click()
+            #     time.sleep(3)
+            # if("instagram" in site):
+            #     WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, 'KPnG0')))
+            #     driver.find_element_by_id('KPnG0').click()
+            #     WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, 'email')))
+            #     driver.find_element_by_id("email").send_keys(os.getenv("num"))
+            #     driver.find_element_by_id("pass").send_keys(os.getenv("facebook"))
+            #     driver.find_element_by_id('loginbutton').click()
+            # if("linkedin" in site):
+            #     WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, 'session_key')))
+            #     driver.find_element_by_id("session_key").send_keys("jharnois4512@gmail.com")
+            #     driver.find_element_by_id("session_password").send_keys(os.getenv("linkedin"))
+            #     driver.find_element_by_class_name('btn__primary--large from__button--floating').click()
             time.sleep(5)
-            driver.save_screenshot("BreakageImages/" + "Chrome" + str(input[1]) + site.split(".")[1] + ".png")
+            driver.save_screenshot("BreakageImages/" + "ChromeTwo" + str(input[1]) + site.split(".")[1] + ".png")
         # driver.get("https://www.foxnews.com")
         # driver.get("https://www.cbs.com/shows/all-rise/video/HWypMj8VYUT5NPsNTzhiZIfSI_VX2ySe/all-rise-keep-ya-head-up/")
         # driver.save_screenshot("BreakageImages/test.jpg")
@@ -254,6 +327,7 @@ def __main__(input):
         bravePath = 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\Brave.exe'
         braveOpts.binary_location = bravePath
         driverPath = 'CD_87.exe'
+        sitesTwo = openTopSitesTwo()
         if(1 in input):
             braveOpts.add_extension("adblock.crx")
         if(2 in input):
@@ -284,10 +358,10 @@ def __main__(input):
         print('here')
         # driver.get("https://www.yahoo.com") 
         # driver.get("https://www.cnn.com")
-        for site in sites:
+        for site in sitesTwo:
             driver.get(site)
             time.sleep(5)
-            driver.save_screenshot("BreakageImages/" + "Brave" + site.split(".")[1] + ".png")
+            driver.save_screenshot("BreakageImages/" + "BraveTwo" + site.split(".")[1] + ".png")
         driver.quit()
 
     elif("v" in input):
@@ -688,29 +762,16 @@ def getStats():
     #                 part = str(row['Host'].split('.')[-2])
     #         #     if(part in things):
             #         print(things)
-                        
-# __main__(["f", 1])
-# __main__(["e", 1])
-# __main__(["f", 2])
-# __main__(["c", 5])
-# __main__(["f", 4])
-# __main__(["f", 5])
-# __main__(["f", 6])
-# __main__(["f", 7])#////////////////////////////////////<- fix
-# __main__(["f", 8])
-# __main__(["f", 9])
-# __main__(["f", 10])
-# __main__(["f", 11])
-# __main__(["f", 12])
 
-
-# __main__(["u"])
-# __main__(["p"])
-# __main__(["c", 13])
+# __main__(["c", 1])
+# __main__(["c", 2])
+# __main__(["c", 3])
+# __main__(["c", 6])
 # __main__(["c", 9])
-__main__(["c", 1])
-__main__(["c", 3])
-# __main__(["c", 8])
+# __main__(["c", 10])
+# __main__(["c", 12])
+__main__(["b"])
+
 # getStats()
 
 #AdBlock +
