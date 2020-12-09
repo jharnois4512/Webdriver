@@ -86,6 +86,7 @@ def __main__(input):
         #     driver.get(site)
         #     time.sleep(5)
         #     driver.save_screenshot("BreakageImages/" + "Chrome" + str(input[1]) + site.split(".")[1] + ".png")
+        driver.start()
         for site in sitesTwo:
             driver.get(site)
             # print(site)
@@ -355,7 +356,7 @@ def __main__(input):
         driver = webdriver.Chrome(options=braveOpts, executable_path=driverPath)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
-        print('here')
+        driver.start()
         # driver.get("https://www.yahoo.com") 
         # driver.get("https://www.cnn.com")
         for site in sitesTwo:
@@ -769,33 +770,16 @@ def getStats():
 # __main__(["c", 6])
 # __main__(["c", 9])
 # __main__(["c", 10])
-# __main__(["c", 12])
-__main__(["b"])
-
+__main__(["c", 12])
+# __main__(["b"])
 # getStats()
 
-#AdBlock +
-#ublockOrigin
-#Ghostery
-#privBad
-#noScript
-#brave
-
-
-# NoScript
-# Youtube - 2
-# Reddit - 1
-# Amazon - 2
-# Zoom - 1
-# Shopify login - 2
-# Ebay login - 2
-# 
-# 
-# 
-# 
-
-# AdBlock
-# CNN - 2
-# Office - 2
-# Fox News - 1
-# 
+# Breakage interaction
+# Brave {0,0,0,0,0,0,0}
+# AdBlock {0,0,0,0,0,0,0}
+# ABP {0,0,0,0,0,0,0}
+# AdGuard {0,0,0,0,0,0,0}
+# Ghostery {0,0,0,0,0,0,0}
+# NoScript {1,1,1,1,1,1,1}
+# PB {0,0,0,0,0,0,0}
+# UBO {0,0,0,0,0,0,0}
