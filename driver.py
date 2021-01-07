@@ -156,8 +156,8 @@ def __main__(input):
             #     driver.find_element_by_id("session_key").send_keys("jharnois4512@gmail.com")
             #     driver.find_element_by_id("session_password").send_keys(os.getenv("linkedin"))
             #     driver.find_element_by_class_name('btn__primary--large from__button--floating').click()
-            # time.sleep(5)
-            # driver.save_screenshot("BreakageImages/" + "ChromeTwo" + str(input[1]) + site.split(".")[1] + ".png")
+            time.sleep(5)
+            driver.save_screenshot("Next50/BreakageImages/uBlock Origin/" + "Chrome" + str(input[1]) + site.split(".")[1] + ".png")
         # driver.get("https://www.foxnews.com")
         # driver.get("https://www.cbs.com/shows/all-rise/video/HWypMj8VYUT5NPsNTzhiZIfSI_VX2ySe/all-rise-keep-ya-head-up/")
         # driver.save_screenshot("BreakageImages/test.jpg")
@@ -370,8 +370,8 @@ def __main__(input):
         print(p.children(recursive=True)[3])
         for site in sitesNext:
             driver.get(site)
-            # time.sleep(5)
-            # driver.save_screenshot("BreakageImages/" + "BraveTwo" + site.split(".")[1] + ".png")
+            time.sleep(5)
+            driver.save_screenshot("Next50/BreakageImages/Brave/" + "Brave" + site.split(".")[1] + ".png")
         driver.quit()
 
     elif("v" in input):
@@ -672,17 +672,17 @@ def getStats():
 
     # For elimination of tunneling    
     
-    f = open('Next50\\CSVsPre\\f13.csv', 'r')
-    q = open('Next50\\CSVs\\BrowsersExtensions\\firefox13.csv', 'w+')
-    reader = csv.DictReader(f)
-    # for lines in reader:
-    #     if(lines['Short Host'] not in q):
-    #         q.write(lines['Short Host'] + '\n')
-    lines = f.readlines()
-    for line in lines:
-        if("Tunnel to" not in line):
-            q.write(line)
-    q.close()
+    # f = open('Next50\\CSVsPre\\f13.csv', 'r')
+    # q = open('Next50\\CSVs\\BrowsersExtensions\\firefox13.csv', 'w+')
+    # reader = csv.DictReader(f)
+    # # for lines in reader:
+    # #     if(lines['Short Host'] not in q):
+    # #         q.write(lines['Short Host'] + '\n')
+    # lines = f.readlines()
+    # for line in lines:
+    #     if("Tunnel to" not in line):
+    #         q.write(line)
+    # q.close()
     # with open('ghostery_json.json') as r:
     #     trackingList = json.loads(r.read())
     # with open('newBraveTest.csv') as j:
@@ -764,5 +764,5 @@ def getStats():
     #         #     if(part in things):
             #         print(things)
 
-# __main__(["c", 3])
-getStats()
+__main__(["b"])
+# getStats()
