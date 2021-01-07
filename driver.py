@@ -43,10 +43,22 @@ def openTopSitesTwo():
             build.append(line)
     return build
 
+def openTopSitesNext():
+    file = open('topsites2.txt', 'r')
+    lines = file.readlines()
+    build = []
+    for line in lines:
+        if(line != lines[-1]):
+            build.append(line[:-1])
+        else:
+            build.append(line)
+    return build
+
 # main driving function
 def __main__(input):
-    sites = openTopSites()
-    sitesTwo = openTopSitesTwo()
+    # sites = openTopSites()
+    # sitesTwo = openTopSitesTwo()
+    sitesNext = openTopSitesNext()
     if("c" in input):
         from selenium.webdriver.chrome.options import Options
         opts = Options()
@@ -58,13 +70,13 @@ def __main__(input):
         if(3 in input):
             opts.add_extension("Extensions\\Chrome\\adGuard.crx")
         if(4 in input):
-            opts.add_extension("disconnect.crx")
+            opts.add_extension("Extensions\\Chrome\\disconnect.crx")
         if(5 in input):
             opts.add_extension("Extensions\\Chrome\\duckduckgoEss.crx")
         if(6 in input):
             opts.add_extension("Extensions\\Chrome\\ghostery.crx")
         if(7 in input):
-            opts.add_extension("httpsEverywhere.crx")
+            opts.add_extension("Extensions\\Chrome\\httpsEverywhere.crx")
         if(8 in input):
             opts.add_extension("Extensions\\Chrome\\myTrackingChoices.crx")
         if(9 in input):
@@ -72,11 +84,11 @@ def __main__(input):
         if(10 in input):
             opts.add_extension("Extensions\\Chrome\\privBadger.crx")
         if(11 in input):
-            opts.add_extension("ublock.crx")  
+            opts.add_extension("Extensions\\Chrome\\ublock.crx")  
         if(12 in input):
             opts.add_extension("Extensions\\Chrome\\uBlockOrigin.crx")   
         if(13 in input):
-            opts.add_extension("blur.crx") 
+            opts.add_extension("Extensions\\Chrome\\blur.crx") 
         driver = webdriver.Chrome(options=opts, executable_path=driverPath)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
@@ -86,8 +98,7 @@ def __main__(input):
         #     driver.get(site)
         #     time.sleep(5)
         #     driver.save_screenshot("BreakageImages/" + "Chrome" + str(input[1]) + site.split(".")[1] + ".png")
-        driver.start()
-        for site in sitesTwo:
+        for site in sitesNext:
             driver.get(site)
             # print(site)
             # if("facebook" in site):
@@ -145,8 +156,8 @@ def __main__(input):
             #     driver.find_element_by_id("session_key").send_keys("jharnois4512@gmail.com")
             #     driver.find_element_by_id("session_password").send_keys(os.getenv("linkedin"))
             #     driver.find_element_by_class_name('btn__primary--large from__button--floating').click()
-            time.sleep(5)
-            driver.save_screenshot("BreakageImages/" + "ChromeTwo" + str(input[1]) + site.split(".")[1] + ".png")
+            # time.sleep(5)
+            # driver.save_screenshot("BreakageImages/" + "ChromeTwo" + str(input[1]) + site.split(".")[1] + ".png")
         # driver.get("https://www.foxnews.com")
         # driver.get("https://www.cbs.com/shows/all-rise/video/HWypMj8VYUT5NPsNTzhiZIfSI_VX2ySe/all-rise-keep-ya-head-up/")
         # driver.save_screenshot("BreakageImages/test.jpg")
@@ -181,23 +192,23 @@ def __main__(input):
         if(1 in input):
             driver.install_addon(absPath + "Extensions\\Firefox\\adblock.xpi")
         if(2 in input):
-             driver.install_addon(absPath + "adblockPlus.xpi")
+             driver.install_addon(absPath + "Extensions\\Firefox\\adblockPlus.xpi")
         if(3 in input):
-            driver.install_addon(absPath + "disconnect.xpi")
+            driver.install_addon(absPath + "Extensions\\Firefox\\disconnect.xpi")
         if(4 in input):
-             driver.install_addon(absPath + "duckduckgoEss.xpi")
+             driver.install_addon(absPath + "Extensions\\Firefox\\duckduckgoEss.xpi")
         if(5 in input):
              driver.install_addon(absPath + "Extensions\\Firefox\\ghostery.xpi")
         if(6 in input):
              driver.install_addon(absPath + "Extensions\\Firefox\\privBadger.xpi")
         if(7 in input):
-             driver.install_addon(absPath + "ublock.xpi")
+             driver.install_addon(absPath + "Extensions\\Firefox\\ublock.xpi")
         if(8 in input):
-             driver.install_addon(absPath + "adGuard.xpi")
+             driver.install_addon(absPath + "Extensions\\Firefox\\adGuard.xpi")
         if(9 in input):
              driver.install_addon(absPath + "Extensions\\Firefox\\noScript.xpi")
         if(10 in input):
-             driver.install_addon(absPath + "httpsEverywhere.xpi")
+             driver.install_addon(absPath + "Extensions\\Firefox\\httpsEverywhere.xpi")
         if(11 in input):
              driver.install_addon(absPath + "Extensions\\Firefox\\uBlockOrigin.xpi")
         if(12 in input):
@@ -242,83 +253,85 @@ def __main__(input):
         #     driver.get(site)
         #     time.sleep(5)
         #     driver.save_screenshot("BreakageImages/test" + str(input[1]) + site.split(".")[1] + ".png")     
-        # for site in sites:
-        #     driver.get(site)   
+        for site in sitesNext:
+            driver.get(site)   
         driver.quit()
 
     elif("e" in input):
         from msedge.selenium_tools import Edge, EdgeOptions
         # from selenium.webdriver import Edge
         from selenium.webdriver.edge.options import Options
+        from webdriver_manager.chrome import ChromeDriverManager
         opts = EdgeOptions()
+        # edgePath = 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\87.0.664.66\\msedge.exe'
+        # opts.binary_location = edgePath
+        # driverPath = "CD_87.exe"
         opts.use_chromium = True
-        if(1 in input):
-            opts.add_extension("adblock.crx")
-        if(2 in input):
-            opts.add_extension("adblockPlus.crx")
-        if(3 in input):
-            opts.add_extension("adGuard.crx")
-        if(4 in input):
-            opts.add_extension("disconnect.crx")
-        if(5 in input):
-            opts.add_extension("duckduckgoEss.crx")
-        if(6 in input):
-            opts.add_extension("ghostery.crx")
-        if(7 in input):
-            opts.add_extension("httpsEverywhere.crx")
-        if(8 in input):
-            opts.add_extension("myTrackingChoices.crx")
-        if(9 in input):
-            opts.add_extension("noScript.crx")
-        if(10 in input):
-            opts.add_extension("privBadger.crx")
-        if(11 in input):
-            opts.add_extension("ublock.crx")  
-        if(12 in input):
-            opts.add_extension("uBlockOrigin.crx") 
+        # if(1 in input):
+        #     opts.add_extension("adblock.crx")
+        # if(2 in input):
+        #     opts.add_extension("adblockPlus.crx")
+        # if(3 in input):
+        #     opts.add_extension("adGuard.crx")
+        # if(4 in input):
+        #     opts.add_extension("disconnect.crx")
+        # if(5 in input):
+        #     opts.add_extension("duckduckgoEss.crx")
+        # if(6 in input):
+        #     opts.add_extension("ghostery.crx")
+        # if(7 in input):
+        #     opts.add_extension("httpsEverywhere.crx")
+        # if(8 in input):
+        #     opts.add_extension("myTrackingChoices.crx")
+        # if(9 in input):
+        #     opts.add_extension("noScript.crx")
+        # if(10 in input):
+        #     opts.add_extension("privBadger.crx")
+        # if(11 in input):
+        #     opts.add_extension("ublock.crx")  
+        # if(12 in input):
+        #     opts.add_extension("uBlockOrigin.crx") 
         driver = Edge(options=opts)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
-        for site in sites:
+        for site in sitesNext:
             driver.get(site)
-        # driver.get("https://www.yahoo.com") 
-        # driver.get("https://www.cnn.com")
         driver.quit()
 
     elif("o" in input):
         from selenium.webdriver.opera import options
         Oopts = options.ChromeOptions()
         Oopts.use_chromium = True
-        if(1 in input):
-            Oopts.add_extension("adblock.crx")
-        if(2 in input):
-            Oopts.add_extension("adblockPlus.crx")
-        if(3 in input):
-            Oopts.add_extension("adGuard.crx")
-        if(4 in input):
-            Oopts.add_extension("disconnect.crx")
-        if(5 in input):
-            Oopts.add_extension("duckduckgoEss.crx")
-        if(6 in input):
-            Oopts.add_extension("ghostery.crx")
-        if(7 in input):
-            Oopts.add_extension("httpsEverywhere.crx")
-        if(8 in input):
-            Oopts.add_extension("myTrackingChoices.crx")
-        if(9 in input):
-            Oopts.add_extension("noScript.crx")
-        if(10 in input):
-            Oopts.add_extension("privBadger.crx")
-        if(11 in input):
-            Oopts.add_extension("ublock.crx")  
-        if(12 in input):
-            Oopts.add_extension("uBlockOrigin.crx") 
+        Oopts.binary_location = 'C:\\Users\\Owner\\AppData\\Local\\Programs\\\Opera\\72.0.3815.400\\opera.exe'
+        driverPath = 'CD_87.exe'
+        # if(1 in input):
+        #     Oopts.add_extension("adblock.crx")
+        # if(2 in input):
+        #     Oopts.add_extension("adblockPlus.crx")
+        # if(3 in input):
+        #     Oopts.add_extension("adGuard.crx")
+        # if(4 in input):
+        #     Oopts.add_extension("disconnect.crx")
+        # if(5 in input):
+        #     Oopts.add_extension("duckduckgoEss.crx")
+        # if(6 in input):
+        #     Oopts.add_extension("ghostery.crx")
+        # if(7 in input):
+        #     Oopts.add_extension("httpsEverywhere.crx")
+        # if(8 in input):
+        #     Oopts.add_extension("myTrackingChoices.crx")
+        # if(9 in input):
+        #     Oopts.add_extension("noScript.crx")
+        # if(10 in input):
+        #     Oopts.add_extension("privBadger.crx")
+        # if(11 in input):
+        #     Oopts.add_extension("ublock.crx")  
+        # if(12 in input):
+        #     Oopts.add_extension("uBlockOrigin.crx") 
         driver = webdriver.Opera(options=Oopts)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
-        # driver.get("https://www.yahoo.com") 
-        # driver.get("https://www.cnn.com")
-        for site in sites:
+        for site in sitesNext:
             driver.get(site)
         driver.quit()
 
@@ -328,53 +341,49 @@ def __main__(input):
         bravePath = 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\Brave.exe'
         braveOpts.binary_location = bravePath
         driverPath = 'CD_87.exe'
-        sitesTwo = openTopSitesTwo()
-        if(1 in input):
-            braveOpts.add_extension("adblock.crx")
-        if(2 in input):
-            braveOpts.add_extension("adblockPlus.crx")
-        if(3 in input):
-            braveOpts.add_extension("adGuard.crx")
-        if(4 in input):
-            braveOpts.add_extension("disconnect.crx")
-        if(5 in input):
-            braveOpts.add_extension("duckduckgoEss.crx")
-        if(6 in input):
-            braveOpts.add_extension("ghostery.crx")
-        if(7 in input):
-            braveOpts.add_extension("httpsEverywhere.crx")
-        if(8 in input):
-            braveOpts.add_extension("myTrackingChoices.crx")
-        if(9 in input):
-            braveOpts.add_extension("noScript.crx")
-        if(10 in input):
-            braveOpts.add_extension("privBadger.crx")
-        if(11 in input):
-            braveOpts.add_extension("ublock.crx")  
-        if(12 in input):
-            braveOpts.add_extension("uBlockOrigin.crx")   
+        # if(1 in input):
+        #     braveOpts.add_extension("adblock.crx")
+        # if(2 in input):
+        #     braveOpts.add_extension("adblockPlus.crx")
+        # if(3 in input):
+        #     braveOpts.add_extension("adGuard.crx")
+        # if(4 in input):
+        #     braveOpts.add_extension("disconnect.crx")
+        # if(5 in input):
+        #     braveOpts.add_extension("duckduckgoEss.crx")
+        # if(6 in input):
+        #     braveOpts.add_extension("ghostery.crx")
+        # if(7 in input):
+        #     braveOpts.add_extension("httpsEverywhere.crx")
+        # if(8 in input):
+        #     braveOpts.add_extension("myTrackingChoices.crx")
+        # if(9 in input):
+        #     braveOpts.add_extension("noScript.crx")
+        # if(10 in input):
+        #     braveOpts.add_extension("privBadger.crx")
+        # if(11 in input):
+        #     braveOpts.add_extension("ublock.crx")  
+        # if(12 in input):
+        #     braveOpts.add_extension("uBlockOrigin.crx")   
         driver = webdriver.Chrome(options=braveOpts, executable_path=driverPath)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
-        driver.start()
-        # driver.get("https://www.yahoo.com") 
-        # driver.get("https://www.cnn.com")
-        for site in sitesTwo:
+        for site in sitesNext:
             driver.get(site)
-            time.sleep(5)
-            driver.save_screenshot("BreakageImages/" + "BraveTwo" + site.split(".")[1] + ".png")
+            # time.sleep(5)
+            # driver.save_screenshot("BreakageImages/" + "BraveTwo" + site.split(".")[1] + ".png")
         driver.quit()
 
     elif("v" in input):
         from selenium.webdriver.chrome.options import Options
         vivOpts = Options()
-        vivOpts.add_argument('--no-sandbox')
-        vivOpts.add_argument('--disable-web-security')
+        # vivOpts.add_argument('--no-sandbox')
+        # vivOpts.add_argument('--disable-web-security')
         vivPath = 'C:\\Users\\Owner\\AppData\\Local\\Vivaldi\\Application\\vivaldi.exe'
         vivOpts.binary_location = vivPath
-        driverPath = 'chromedriver.exe'
-        if(1 in input):
-            vivOpts.add_extension("adblock.crx")
+        driverPath = 'CD_87.exe'
+        # if(1 in input):
+        #     vivOpts.add_extension("adblock.crx")
         # if(2 in input):
         #     vivOpts.add_extension("adblockPlus.crx")
         # if(3 in input):
@@ -397,16 +406,11 @@ def __main__(input):
         #     vivOpts.add_extension("ublock.crx")  
         # if(12 in input):
         #     vivOpts.add_extension("uBlockOrigin.crx")   
-        print('here')
         driver = webdriver.Chrome(options=vivOpts, executable_path=driverPath)
-        print('here')
-        # p = psutil.Process(driver.service.process.pid)
-        # print(p.children(recursive=True))
-        print('here')
-        driver.get("https://www.yahoo.com") 
-        driver.get("https://www.cnn.com")
-        # for site in sites:
-        #     driver.get(site) 
+        p = psutil.Process(driver.service.process.pid)
+        print(p.children(recursive=True))
+        for site in sitesNext:
+            driver.get(site) 
         driver.quit()
 
     elif("i" in input):
@@ -415,8 +419,8 @@ def __main__(input):
         iriPath = 'C:\\Program Files\\Iridium\\iridium.exe'
         iriOpts.binary_location = iriPath
         driverPath = 'CD_80.exe'
-        if(1 in input):
-            iriOpts.add_extension("adblock.crx")
+        # if(1 in input):
+        #     iriOpts.add_extension("adblock.crx")
         # if(2 in input):
         #     iriOpts.add_extension("adblockPlus.crx")
         # if(3 in input):
@@ -442,10 +446,8 @@ def __main__(input):
         driver = webdriver.Chrome(options=iriOpts, executable_path=driverPath)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
-        driver.get("https://www.yahoo.com") 
-        driver.get("https://www.cnn.com")
-        # for site in sites:
-        #     driver.get(site) 
+        for site in sitesNext:
+            driver.get(site) 
         driver.quit()
 
     elif("u" in input):
@@ -483,7 +485,7 @@ def __main__(input):
         print(p.children(recursive=True)[3])
         # driver.get("https://www.yahoo.com") 
         # driver.get("https://www.cnn.com")
-        for site in sites:
+        for site in sitesNext:
             driver.get(site) 
         driver.quit()
 
@@ -520,10 +522,8 @@ def __main__(input):
         driver = webdriver.Chrome(options=epicOpts, executable_path=driverPath)
         p = psutil.Process(driver.service.process.pid)
         print(p.children(recursive=True)[3])
-        driver.get("https://www.yahoo.com") 
-        driver.get("https://www.cnn.com")
-        # for site in sites:
-        #     driver.get(site) 
+        for site in sitesNext:
+            driver.get(site) 
         driver.quit()
 
 def helper(start, domains, dumbArrOne):
@@ -563,46 +563,46 @@ def getStats():
     dumbArrOne = []
 
     # Lol I dont know what this is but 
-    with open('FinalUniqueDomains.txt', 'r') as r:
-        with open('Domains_per_site/Firefox_ublockOrigin.txt', 'w') as t:
-            lines = r.readlines()
-            # For each host that we have 
-            for line in lines:
-                line = line.split('\n')[0]
-                domainArr[0] = line
-                # Starting here maybe lol idk
-                with open('CSVs/BrowsersExtensions/Firefox_ublockOrigin.csv', 'r') as r:
-                    with open('topSites.txt', 'r') as f:
-                        reader = csv.reader(r)
-                        readerTwo = csv.reader(r)
-                        siteLines = f.readlines()
-                        for site in siteLines:
-                            domains.append(site.split('\n')[0].split('//')[1].lower())
-                        for lines in reader:
-                            lineBuild = []
-                            lineBuild.append(lines[0])
-                            lineBuild.append(lines[3])
-                            lineBuild.append(lines[4])
-                            if(lineBuild[2] == '/' and 'www.google.com' in lines[3]):
-                                start = lineBuild[0]
-                            if(lineBuild[2] == '/' and lineBuild[1] in domains):
-                                count = count + 1
-                                arrInside = []
-                                dumbArrOne.append(arrInside)
-                    f.close()
-                r.close()
-                bigAssArr = helper(start, domains, dumbArrOne)
-                #count by
-                for i in range(len(bigAssArr)): 
-                    #see if domainArr is inside 
-                    for j in range(len(bigAssArr[i])): 
-                        if((bigAssArr[i][j][1].split('.')[-2]+ '.' + bigAssArr[i][j][1].split('.')[-1]) in domainArr):
-                            index = domainArr.index((bigAssArr[i][j][1].split('.')[-2]+ '.' + bigAssArr[i][j][1].split('.')[-1]))
-                            domainArrCount[index] = domainArrCount[index] + 1                            
-                            break
-                t.write(str(domainArrCount[0]) + '\n')
-                domainArrCount[0] = 0
-                dumbArrOne = []
+    # with open('FinalUniqueDomains.txt', 'r') as r:
+    #     with open('Domains_per_site/Firefox_ublockOrigin.txt', 'w') as t:
+    #         lines = r.readlines()
+    #         # For each host that we have 
+    #         for line in lines:
+    #             line = line.split('\n')[0]
+    #             domainArr[0] = line
+    #             # Starting here maybe lol idk
+    #             with open('CSVs/BrowsersExtensions/Firefox_ublockOrigin.csv', 'r') as r:
+    #                 with open('topSites.txt', 'r') as f:
+    #                     reader = csv.reader(r)
+    #                     readerTwo = csv.reader(r)
+    #                     siteLines = f.readlines()
+    #                     for site in siteLines:
+    #                         domains.append(site.split('\n')[0].split('//')[1].lower())
+    #                     for lines in reader:
+    #                         lineBuild = []
+    #                         lineBuild.append(lines[0])
+    #                         lineBuild.append(lines[3])
+    #                         lineBuild.append(lines[4])
+    #                         if(lineBuild[2] == '/' and 'www.google.com' in lines[3]):
+    #                             start = lineBuild[0]
+    #                         if(lineBuild[2] == '/' and lineBuild[1] in domains):
+    #                             count = count + 1
+    #                             arrInside = []
+    #                             dumbArrOne.append(arrInside)
+    #                 f.close()
+    #             r.close()
+    #             bigAssArr = helper(start, domains, dumbArrOne)
+    #             #count by
+    #             for i in range(len(bigAssArr)): 
+    #                 #see if domainArr is inside 
+    #                 for j in range(len(bigAssArr[i])): 
+    #                     if((bigAssArr[i][j][1].split('.')[-2]+ '.' + bigAssArr[i][j][1].split('.')[-1]) in domainArr):
+    #                         index = domainArr.index((bigAssArr[i][j][1].split('.')[-2]+ '.' + bigAssArr[i][j][1].split('.')[-1]))
+    #                         domainArrCount[index] = domainArrCount[index] + 1                            
+    #                         break
+    #             t.write(str(domainArrCount[0]) + '\n')
+    #             domainArrCount[0] = 0
+    #             dumbArrOne = []
     
 
     # Real stats 
@@ -672,17 +672,17 @@ def getStats():
 
     # For elimination of tunneling    
     
-    # f = open('CSVs\\banana.csv', 'r')
-    # q = open('CSVs\\trackingChoicesTrained.csv', 'w+')
-    # reader = csv.DictReader(f)
-    # # for lines in reader:
-    # #     if(lines['Short Host'] not in q):
-    # #         q.write(lines['Short Host'] + '\n')
-    # lines = f.readlines()
-    # for line in lines:
-    #     if("Tunnel to" not in line):
-    #         q.write(line)
-    # q.close()
+    f = open('Next50\\CSVsPre\\f13.csv', 'r')
+    q = open('Next50\\CSVs\\BrowsersExtensions\\firefox13.csv', 'w+')
+    reader = csv.DictReader(f)
+    # for lines in reader:
+    #     if(lines['Short Host'] not in q):
+    #         q.write(lines['Short Host'] + '\n')
+    lines = f.readlines()
+    for line in lines:
+        if("Tunnel to" not in line):
+            q.write(line)
+    q.close()
     # with open('ghostery_json.json') as r:
     #     trackingList = json.loads(r.read())
     # with open('newBraveTest.csv') as j:
@@ -764,22 +764,5 @@ def getStats():
     #         #     if(part in things):
             #         print(things)
 
-# __main__(["c", 1])
-# __main__(["c", 2])
 # __main__(["c", 3])
-# __main__(["c", 6])
-# __main__(["c", 9])
-# __main__(["c", 10])
-__main__(["c", 12])
-# __main__(["b"])
-# getStats()
-
-# Breakage interaction
-# Brave {0,0,0,0,0,0,0}
-# AdBlock {0,0,0,0,0,0,0}
-# ABP {0,0,0,0,0,0,0}
-# AdGuard {0,0,0,0,0,0,0}
-# Ghostery {0,0,0,0,0,0,0}
-# NoScript {2,2,2,2,2,2,2}
-# PB {0,0,0,0,0,0,0}
-# UBO {0,0,0,0,0,0,0}
+getStats()
