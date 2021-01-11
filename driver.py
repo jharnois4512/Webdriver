@@ -527,7 +527,7 @@ def __main__(input):
         driver.quit()
 
 def helper(start, domains, dumbArrOne):
-    with open('Next50/CSVs/Browsers/firefox.csv', 'r') as r:
+    with open('Next50\\CSVs\\Browsers\\firefoxStrict.csv', 'r') as r:
         with open('topSites2.txt', 'r') as f:
             reader = csv.reader(r)
             count = 0
@@ -565,14 +565,14 @@ def getStats():
 
     # Lol I dont know what this is but 
     with open('FinalUniqueDomains.txt', 'r') as r:
-        with open('Next50/Domains_per_site/browsers/firefox.txt', 'w') as t:
+        with open('Next50\\Domains_per_site\\browsers\\firefoxStrict.txt', 'w') as t:
             lines = r.readlines()
             # For each host that we have 
             for line in lines:
                 line = line.split('\n')[0]
                 domainArr[0] = line
                 # Starting here maybe lol idk
-                with open('Next50/CSVs/Browsers/firefox.csv', 'r') as r:
+                with open('Next50\\CSVs\\Browsers\\firefoxStrict.csv', 'r') as r:
                     with open('topSites2.txt', 'r') as f:
                         reader = csv.reader(r)
                         readerTwo = csv.reader(r)
@@ -671,8 +671,8 @@ def getStats():
 
     # For elimination of tunneling    
     
-    # f = open('Next50\\CSVsPre\\f.csv', 'r')
-    # q = open('Next50\\CSVs\\Browsers\\firefox.csv', 'w+')
+    # f = open('Next50\\CSVsPre\\ffS.csv', 'r')
+    # q = open('Next50\\CSVs\\Browsers\\firefoxStrict.csv', 'w+')
     # reader = csv.DictReader(f)
     # # for lines in reader:
     # #     if(lines['Short Host'] not in q):
