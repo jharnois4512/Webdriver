@@ -156,8 +156,8 @@ def __main__(input):
             #     driver.find_element_by_id("session_key").send_keys("jharnois4512@gmail.com")
             #     driver.find_element_by_id("session_password").send_keys(os.getenv("linkedin"))
             #     driver.find_element_by_class_name('btn__primary--large from__button--floating').click()
-            time.sleep(5)
-            driver.save_screenshot("Next50/BreakageImages/uBlock Origin/" + "Chrome" + str(input[1]) + site.split(".")[1] + ".png")
+            # time.sleep(5)
+            # driver.save_screenshot("Next50/BreakageImages/uBlock Origin/" + "Chrome" + str(input[1]) + site.split(".")[1] + ".png")
         # driver.get("https://www.foxnews.com")
         # driver.get("https://www.cbs.com/shows/all-rise/video/HWypMj8VYUT5NPsNTzhiZIfSI_VX2ySe/all-rise-keep-ya-head-up/")
         # driver.save_screenshot("BreakageImages/test.jpg")
@@ -527,8 +527,8 @@ def __main__(input):
         driver.quit()
 
 def helper(start, domains, dumbArrOne):
-    with open('CSVs/BrowsersExtensions/Firefox_ublockOrigin.csv', 'r') as r:
-        with open('topSites.txt', 'r') as f:
+    with open('Next50/CSVs/Browsers/firefox.csv', 'r') as r:
+        with open('topSites2.txt', 'r') as f:
             reader = csv.reader(r)
             count = 0
             for row in reader:
@@ -536,6 +536,7 @@ def helper(start, domains, dumbArrOne):
                 lineBuild.append(row[0])
                 lineBuild.append(row[3])
                 lineBuild.append(row[4])
+                # print(lineBuild[2], start, lineBuild[1] in domains, lineBuild[1]) FF opera and chrome
                 if(lineBuild[2] == '/' and lineBuild[1] in domains):
                     count = count + 1 
                 if(lineBuild[2] != '/' and lineBuild[0] != '#'):
@@ -563,46 +564,47 @@ def getStats():
     dumbArrOne = []
 
     # Lol I dont know what this is but 
-    # with open('FinalUniqueDomains.txt', 'r') as r:
-    #     with open('Domains_per_site/Firefox_ublockOrigin.txt', 'w') as t:
-    #         lines = r.readlines()
-    #         # For each host that we have 
-    #         for line in lines:
-    #             line = line.split('\n')[0]
-    #             domainArr[0] = line
-    #             # Starting here maybe lol idk
-    #             with open('CSVs/BrowsersExtensions/Firefox_ublockOrigin.csv', 'r') as r:
-    #                 with open('topSites.txt', 'r') as f:
-    #                     reader = csv.reader(r)
-    #                     readerTwo = csv.reader(r)
-    #                     siteLines = f.readlines()
-    #                     for site in siteLines:
-    #                         domains.append(site.split('\n')[0].split('//')[1].lower())
-    #                     for lines in reader:
-    #                         lineBuild = []
-    #                         lineBuild.append(lines[0])
-    #                         lineBuild.append(lines[3])
-    #                         lineBuild.append(lines[4])
-    #                         if(lineBuild[2] == '/' and 'www.google.com' in lines[3]):
-    #                             start = lineBuild[0]
-    #                         if(lineBuild[2] == '/' and lineBuild[1] in domains):
-    #                             count = count + 1
-    #                             arrInside = []
-    #                             dumbArrOne.append(arrInside)
-    #                 f.close()
-    #             r.close()
-    #             bigAssArr = helper(start, domains, dumbArrOne)
-    #             #count by
-    #             for i in range(len(bigAssArr)): 
-    #                 #see if domainArr is inside 
-    #                 for j in range(len(bigAssArr[i])): 
-    #                     if((bigAssArr[i][j][1].split('.')[-2]+ '.' + bigAssArr[i][j][1].split('.')[-1]) in domainArr):
-    #                         index = domainArr.index((bigAssArr[i][j][1].split('.')[-2]+ '.' + bigAssArr[i][j][1].split('.')[-1]))
-    #                         domainArrCount[index] = domainArrCount[index] + 1                            
-    #                         break
-    #             t.write(str(domainArrCount[0]) + '\n')
-    #             domainArrCount[0] = 0
-    #             dumbArrOne = []
+    with open('FinalUniqueDomains.txt', 'r') as r:
+        with open('Next50/Domains_per_site/browsers/firefox.txt', 'w') as t:
+            lines = r.readlines()
+            # For each host that we have 
+            for line in lines:
+                line = line.split('\n')[0]
+                domainArr[0] = line
+                # Starting here maybe lol idk
+                with open('Next50/CSVs/Browsers/firefox.csv', 'r') as r:
+                    with open('topSites2.txt', 'r') as f:
+                        reader = csv.reader(r)
+                        readerTwo = csv.reader(r)
+                        siteLines = f.readlines()
+                        for site in siteLines:
+                            domains.append(site.split('\n')[0].split('//')[1].lower())
+                        for lines in reader:
+                            lineBuild = []
+                            lineBuild.append(lines[0])
+                            lineBuild.append(lines[3])
+                            lineBuild.append(lines[4])
+                            if(lineBuild[2] == '/' and 'www.target.com' in lines[3]):
+                                start = lineBuild[0]
+                                # print(start)
+                            if(lineBuild[2] == '/' and lineBuild[1] in domains):
+                                count = count + 1
+                                arrInside = []
+                                dumbArrOne.append(arrInside)
+                    f.close()
+                r.close()
+                bigAssArr = helper(start, domains, dumbArrOne)
+                #count by
+                for i in range(len(bigAssArr)): 
+                    #see if domainArr is inside 
+                    for j in range(len(bigAssArr[i])): 
+                        if((bigAssArr[i][j][1].split('.')[-2]+ '.' + bigAssArr[i][j][1].split('.')[-1]) in domainArr):
+                            index = domainArr.index((bigAssArr[i][j][1].split('.')[-2]+ '.' + bigAssArr[i][j][1].split('.')[-1]))
+                            domainArrCount[index] = domainArrCount[index] + 1                            
+                            break
+                t.write(str(domainArrCount[0]) + '\n')
+                domainArrCount[0] = 0
+                dumbArrOne = []
     
 
     # Real stats 
@@ -629,7 +631,6 @@ def getStats():
     #             domainNumbers[domainTrackers.index(one[1])] = domainNumbers[domainTrackers.index(one[1])] + 1
     #             break
     # print(domainNumbers)
-           
             # if(row[3] == line[1]):
             #     print(row, line)
     #     test.append(row[3])
@@ -641,12 +642,10 @@ def getStats():
     #         if(things == moreThings):
     #             catList.append(things)
     # for hosts in catList:
-
                 # for row in readerTwo:
                 #     print(row['Full Host with Comma'], things)
                     # if(row['Full Host with Comma'] == things):
                     #     print(row['Category'])
-            
             # print(lines['Full Host with Comma'] , "...In Database")
         #     if(lines['Full Host with Comma'] != row['Host']):
         #         # print(row['Host'], lines['Full Host with Comma'])
@@ -672,8 +671,8 @@ def getStats():
 
     # For elimination of tunneling    
     
-    # f = open('Next50\\CSVsPre\\f13.csv', 'r')
-    # q = open('Next50\\CSVs\\BrowsersExtensions\\firefox13.csv', 'w+')
+    # f = open('Next50\\CSVsPre\\f.csv', 'r')
+    # q = open('Next50\\CSVs\\Browsers\\firefox.csv', 'w+')
     # reader = csv.DictReader(f)
     # # for lines in reader:
     # #     if(lines['Short Host'] not in q):
@@ -764,5 +763,5 @@ def getStats():
     #         #     if(part in things):
             #         print(things)
 
-__main__(["b"])
-# getStats()
+# __main__(["o"])
+getStats()

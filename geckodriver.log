@@ -9409,3 +9409,95 @@ JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: Inv
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1610298934264	geckodriver	INFO	Listening on 127.0.0.1:62366
+1610298937493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileg8PsOL"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+1610298960484	Marionette	INFO	Listening on port 62381
+1610298961559	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.10.0/otBannerSdk.js, line 7: TypeError: s is undefined
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: https://ups.inq.com/tagserver/js/ads-blocking-detector.js, line 149: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: https://s.alicdn.com/@g/sc/aisn/0.0.62/??sc-aisn/hashmap.js,sc-aisn/home2019/common.js,sc-aisn/home2019/home.js line 3 > Function, line 6: ReferenceError: rightData is not defined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://aeis.alicdn.com/AWSC/WebUMID/1.87.0/um.js, line 7: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.5/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript error: https://s.alicdn.com/@g/sc/home-aisn/0.0.15/pages/index.js, line 1: Error: Not Found
+JavaScript error: https://s.alicdn.com/@g/sc/home-aisn/0.0.15/pages/index.js, line 1: Error: Not Found
+JavaScript error: https://buyercentral.alibaba.com/buyer/umid/getUmid.do?token=T2gAMaHgkwsEWAjiBNaVOYDuti2XKyicmg5eDGBJM9OBlqixVEysjN_FhQyBbTzsqpU=&channel=aplus&args=-&callback=__umid_tiny_jsonp_callback__, line 1: TypeError: __umid_tiny_jsonp_callback__ is not a function
+JavaScript error: https://www.washingtonpost.com/zeus/main.js, line 2: TypeError: t is null
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://www.ca.gov/, line 1035: TypeError: document.getElementsByClassName(...).css is not a function
+JavaScript warning: https://www.fidelity.com/bin-public/060_www_fidelity_com/js/nav-07.18.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript warning: https://i.bcicdn.com/js-min/1KXRnD/chunks/57.8ca70df8b89d24bdc3e9.js, line 1: WebGL context was lost.
+JavaScript warning: https://i.bcicdn.com/js-min/1KXRnD/chunks/57.8ca70df8b89d24bdc3e9.js, line 1: WebGL context was lost.
+JavaScript warning: https://i.bcicdn.com/js-min/1KXRnD/chunks/57.8ca70df8b89d24bdc3e9.js, line 1: WebGL context was lost.
+JavaScript warning: https://i.bcicdn.com/js-min/1KXRnD/chunks/57.8ca70df8b89d24bdc3e9.js, line 1: WebGL context was lost.
+JavaScript error: https://g.alicdn.com/??kissy/k/1.4.14/seed-min.js,mui/kissy-polyfill/4.0.16/index.js,mui/zepto/4.0.9/zepto.js,mui/zepto/4.0.9/event.js,mui/zepto/4.0.9/touch.js,mui/mtb-windvane/4.0.3/index.js,mui/babel-polyfill/6.2.7/index.js,mui/mtop/4.1.9/index.js,mui/zebra-dynamic/4.2.12/io.js,mui/zebra-dynamic/4.2.12/ald-bottom.js,mui/fetch/4.1.12/tool.js,mui/zebra-dynamic/4.2.12/request.js,mui/cookie/4.1.0/index.js,mui/zebra-dynamic/4.2.12/plugins/region/index.js,mui/zebra-dynamic/4.2.12/plugins/chaoshi/index.js,mui/zebra-dynamic/4.2.12/plugins/userId/index.js,mui/zebra-dynamic/4.2.12/plugin.js,mui/zebra-dynamic/4.2.12/index.js,mui/common/4.0.105/js/mod-config.js,mui/common/4.0.105/js/event.js,mui/custom-event/4.0.3/index.js,mui/common/4.0.105/js/tm.js,mui/common/4.0.105/js/tool.js,mui/common/4.0.105/js/site-nav.js,mui/common/4.0.105/js/plugin-pc.js,mui/common/4.0.105/index-pc.js,mui/location/4.1.0/get-user-location-by-ip.js,mui/zebra-loader/4.4.15/index.js,mui/bat/5.0.11/index.js,mui/tes/5.0.14/index.js,mui/zebra-oversea-header-pc/4.1.4/index-pc.js, line 106: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+JavaScript error: https://g.alicdn.com/??kissy/k/1.4.14/seed-min.js,mui/kissy-polyfill/4.0.16/index.js,mui/zepto/4.0.9/zepto.js,mui/zepto/4.0.9/event.js,mui/zepto/4.0.9/touch.js,mui/mtb-windvane/4.0.3/index.js,mui/babel-polyfill/6.2.7/index.js,mui/mtop/4.1.9/index.js,mui/zebra-dynamic/4.2.12/io.js,mui/zebra-dynamic/4.2.12/ald-bottom.js,mui/fetch/4.1.12/tool.js,mui/zebra-dynamic/4.2.12/request.js,mui/cookie/4.1.0/index.js,mui/zebra-dynamic/4.2.12/plugins/region/index.js,mui/zebra-dynamic/4.2.12/plugins/chaoshi/index.js,mui/zebra-dynamic/4.2.12/plugins/userId/index.js,mui/zebra-dynamic/4.2.12/plugin.js,mui/zebra-dynamic/4.2.12/index.js,mui/common/4.0.105/js/mod-config.js,mui/common/4.0.105/js/event.js,mui/custom-event/4.0.3/index.js,mui/common/4.0.105/js/tm.js,mui/common/4.0.105/js/tool.js,mui/common/4.0.105/js/site-nav.js,mui/common/4.0.105/js/plugin-pc.js,mui/common/4.0.105/index-pc.js,mui/location/4.1.0/get-user-location-by-ip.js,mui/zebra-loader/4.4.15/index.js,mui/bat/5.0.11/index.js,mui/tes/5.0.14/index.js,mui/zebra-oversea-header-pc/4.1.4/index-pc.js, line 106: TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.5/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript error: https://ald.taobao.com/recommend2.htm?smAreaId=228&isbackup=true&backupParams=smAreaId&appId=lb-zebra-241046-2077501&terminalType=1&_pvuuid=1610299216731&callback=jsonp_16798725, line 2: ReferenceError: jsonp_16798725 is not defined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: https://static.files.bbci.co.uk/orbit/7ba98e3db9d415f8cbdb0978bf084f9e/js/require.min.js, line 1: Error: Script error for "jquery-1.9", needed by: lib/core, lib/module/manager
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.macys.com/, line 3141: ChunkLoadError: Loading chunk initRadicalHeader failed.
+(error: https://assets.macys.com/page/home-page/static/js/home-page.initRadicalHeader.a9640a09c851894acf99.js)
+JavaScript error: https://assets.macysassets.com/page/home-page/static/js/home-page.mcom.41c6220e15dc5f137b08.js, line 1: Error: Unable to load tag manager library
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://www.macys.com/akam-sw.js for scope https://www.macys.com/ encountered an error during installation.
+JavaScript error: https://a-v2.sndcdn.com/assets/47-1b8214ca-3.js, line 121: TypeError: e.detail is undefined
+JavaScript error: , line 0: uncaught exception: false
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://www.realtor.com/assets/rdc-home/prod/59ca657/_next/static/chunks/webpack-527dd970512b2a94e993.js, line 1: ChunkLoadError: Loading chunk 5 failed.
+(error: https://www.realtor.com/assets/rdc-home/prod/59ca657/_next/static/chunks/raasmodule.8832dd51b2d6ef9bb393.js)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn.permutive.com/3aba5292-ba75-422b-8715-bd21146f7836-web.js, line 1: Error: TypeError: Network request timed out
+1610299332209	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 568: TypeError: this.contentWindow is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.9.0/otBannerSdk.js, line 7: TypeError: n is undefined
+1610299504770	Marionette	INFO	Stopped listening on port 62381
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 298: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
